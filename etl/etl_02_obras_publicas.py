@@ -15,7 +15,7 @@ BASE_URL = "http://dados.recife.pe.gov.br/api/3/action"
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# ─── EXTRAÇÃO ────────────────────────────────────────────────────────────────
+
 
 def extrair_licenciamentos():
     """Busca datasets de licenciamento urbanístico via API CKAN."""
@@ -82,7 +82,7 @@ def gerar_dados_simulados_obras():
     return pd.DataFrame(registros)
 
 
-# ─── TRANSFORMAÇÃO ────────────────────────────────────────────────────────────
+
 
 def transformar(df: pd.DataFrame) -> dict:
     print("[TRANSFORMAÇÃO] Processando dados de obras e licenciamento...")
@@ -96,7 +96,7 @@ def transformar(df: pd.DataFrame) -> dict:
         axis=1,
     )
 
-    # KPIs
+    
     total = len(df)
     concluidas = (df["status"] == "Concluída").sum()
     paralisadas = (df["status"] == "Paralisada").sum()
@@ -156,7 +156,7 @@ def transformar(df: pd.DataFrame) -> dict:
     }
 
 
-# ─── CARGA ────────────────────────────────────────────────────────────────────
+
 
 def carregar(resultado: dict):
     print("[CARGA] Salvando dados de obras públicas...")
@@ -170,7 +170,7 @@ def carregar(resultado: dict):
     print(f"  → Arquivos salvos em: {OUTPUT_DIR}")
 
 
-# ─── PIPELINE PRINCIPAL ───────────────────────────────────────────────────────
+
 
 def run():
     print("=" * 60)
