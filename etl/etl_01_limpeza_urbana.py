@@ -10,12 +10,12 @@ import json
 import os
 from datetime import datetime
 
-# ─── CONFIGURAÇÕES ───────────────────────────────────────────────────────────
+
 BASE_URL = "http://dados.recife.pe.gov.br/api/3/action"
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# ─── EXTRAÇÃO ────────────────────────────────────────────────────────────────
+
 
 def extrair_datasets_emlurb():
     """Busca todos os datasets relacionados à EMLURB via API CKAN."""
@@ -92,7 +92,7 @@ def gerar_dados_simulados_limpeza():
     return pd.DataFrame(registros)
 
 
-# ─── TRANSFORMAÇÃO ────────────────────────────────────────────────────────────
+
 
 def transformar(df: pd.DataFrame) -> dict:
     """Aplica transformações e gera indicadores analíticos."""
@@ -113,7 +113,7 @@ def transformar(df: pd.DataFrame) -> dict:
     print(f"  → Tempo médio de atendimento: {tempo_medio}h")
     print(f"  → Total coletado: {total_coletado_ton} toneladas")
 
-    # Ocorrências por bairro
+    
     por_bairro = (
         df.groupby("bairro")
         .agg(
@@ -129,14 +129,14 @@ def transformar(df: pd.DataFrame) -> dict:
     )
     por_bairro = por_bairro.sort_values("total_ocorrencias", ascending=False)
 
-    # Ocorrências por mês
+    
     por_mes = (
         df.groupby("mes")
         .agg(total=("id", "count"), coletado_kg=("quantidade_coletada_kg", "sum"))
         .reset_index()
     )
 
-    # Tipo de ocorrência mais comum
+    
     por_tipo = df["tipo_ocorrencia"].value_counts().reset_index()
     por_tipo.columns = ["tipo", "quantidade"]
 
@@ -154,7 +154,7 @@ def transformar(df: pd.DataFrame) -> dict:
     }
 
 
-# ─── CARGA ────────────────────────────────────────────────────────────────────
+
 
 def carregar(resultado: dict):
     """Salva os dados transformados em CSV."""
@@ -179,7 +179,7 @@ def carregar(resultado: dict):
     print(f"  → Arquivos salvos em: {OUTPUT_DIR}")
 
 
-# ─── PIPELINE PRINCIPAL ───────────────────────────────────────────────────────
+
 
 def run():
     print("=" * 60)
@@ -188,7 +188,7 @@ def run():
 
     datasets = extrair_datasets_emlurb()
 
-    # Tenta usar dados reais; cai nos simulados se não houver
+   
     df_raw = gerar_dados_simulados_limpeza()
     print(f"  → {len(df_raw)} registros carregados.")
 
