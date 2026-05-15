@@ -14,7 +14,7 @@ from datetime import datetime
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# ─── EXTRAÇÃO ────────────────────────────────────────────────────────────────
+
 
 def extrair_sinesp():
     """
@@ -89,7 +89,7 @@ def gerar_dados_simulados_seguranca():
     for i in range(1000):
         bairro = random.choice(list(bairros_risco.keys()))
         nivel = bairros_risco[bairro]
-        # Pesos de crime variam com nível de risco
+       
         if nivel == "alto":
             pesos = [0.25, 0.22, 0.18, 0.15, 0.10, 0.05, 0.03, 0.02]
         elif nivel == "médio":
@@ -115,7 +115,7 @@ def gerar_dados_simulados_seguranca():
     return pd.DataFrame(registros)
 
 
-# ─── TRANSFORMAÇÃO ────────────────────────────────────────────────────────────
+
 
 def transformar(df: pd.DataFrame) -> dict:
     print("[TRANSFORMAÇÃO] Analisando dados de segurança pública...")
@@ -178,7 +178,7 @@ def transformar(df: pd.DataFrame) -> dict:
     }
 
 
-# ─── CARGA ────────────────────────────────────────────────────────────────────
+
 
 def carregar(resultado: dict):
     print("[CARGA] Salvando dados de segurança pública...")
@@ -192,7 +192,7 @@ def carregar(resultado: dict):
     print(f"  → Arquivos salvos em: {OUTPUT_DIR}")
 
 
-# ─── PIPELINE PRINCIPAL ───────────────────────────────────────────────────────
+
 
 def run():
     print("=" * 60)
