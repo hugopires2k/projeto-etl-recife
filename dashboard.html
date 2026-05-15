@@ -32,7 +32,7 @@
     min-height: 100vh;
   }
 
-  /* HEADER */
+  
   header {
     background: linear-gradient(135deg, #0b0f1a 0%, #111827 100%);
     border-bottom: 1px solid var(--border);
@@ -57,7 +57,7 @@
   .logo span { color: var(--accent); }
   .header-meta { font-size:.75rem; color:var(--muted); text-align:right; line-height:1.6; }
 
-  /* TABS */
+  
   nav {
     display:flex; gap:4px;
     padding: 12px 32px;
@@ -84,10 +84,10 @@
   .tab[data-tema="saude"].active { background: var(--accent4); border-color:var(--accent4); color:#000; }
   .tab[data-tema="educacao"].active { background: var(--accent5); border-color:var(--accent5); }
 
-  /* MAIN */
+  
   main { padding: 28px 32px; max-width: 1400px; margin: 0 auto; }
 
-  /* SECTION */
+  
   .section { display:none; }
   .section.active { display:block; }
 
@@ -98,7 +98,7 @@
   }
   .section-sub { color:var(--muted); font-size:.85rem; margin-bottom:24px; }
 
-  /* KPI GRID */
+  
   .kpi-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -128,7 +128,7 @@
   }
   .kpi-label { font-size:.73rem; color:var(--muted); margin-top:6px; line-height:1.3; }
 
-  /* CHARTS GRID */
+  
   .charts-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -148,7 +148,7 @@
   }
   .chart-card canvas { max-height: 260px; }
 
-  /* INSIGHT BOX */
+  
   .insights {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -164,7 +164,7 @@
   }
   .insight strong { color: var(--accent); display:block; margin-bottom:4px; }
 
-  /* TABLE */
+  
   .table-wrap { overflow-x:auto; margin-top:20px; }
   table { width:100%; border-collapse:collapse; font-size:.8rem; }
   th {
@@ -184,7 +184,7 @@
   .badge-red    { background:rgba(239,68,68,.15);   color:#ef4444; }
   .badge-blue   { background:rgba(0,212,255,.15);   color:#00d4ff; }
 
-  /* OVERVIEW TAB */
+  
   .overview-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -263,7 +263,7 @@
 
 <main>
 
-<!-- ═══════════════════════════════════════════════════════ OVERVIEW ══ -->
+
 <div class="section active" id="sec-overview">
   <div class="section-title">Análise Integrada de Serviços Públicos e Infraestrutura Urbana</div>
   <div class="section-sub">Pipeline ETL com 5 temas · Portal Recife Dados · API CKAN · Dados Abertos</div>
@@ -317,7 +317,7 @@
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════════ ETL 01 LIMPEZA ══ -->
+
 <div class="section" id="sec-limpeza">
   <div class="section-title" style="color:var(--accent)">🗑️ ETL 01 — Limpeza Urbana e Coleta de Resíduos</div>
   <div class="section-sub">Fonte: EMLURB · Portal Recife Dados · API CKAN</div>
@@ -355,7 +355,7 @@
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════ ETL 02 OBRAS ══ -->
+
 <div class="section" id="sec-obras">
   <div class="section-title" style="color:var(--accent2)">🏗️ ETL 02 — Obras Públicas e Licenciamento Urbanístico</div>
   <div class="section-sub">Fonte: Portal Recife Dados · Secretaria de Infraestrutura · API CKAN</div>
@@ -407,7 +407,7 @@
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════ ETL 03 ARBORIZAÇÃO ══ -->
+
 <div class="section" id="sec-arborizacao">
   <div class="section-title" style="color:var(--accent3)">🌳 ETL 03 — Arborização Urbana e Impacto Ambiental</div>
   <div class="section-sub">Fonte: Portal Recife Dados · Secretaria de Meio Ambiente · Áreas Verdes</div>
@@ -447,7 +447,7 @@
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════ ETL 04 SEGURANÇA ══ -->
+
 <div class="section" id="sec-seguranca">
   <div class="section-title" style="color:var(--danger)">🔒 ETL 04 — Segurança Pública por Região</div>
   <div class="section-sub">Fonte: Guarda Municipal do Recife · SINESP · Fogo Cruzado · Ministério da Justiça</div>
@@ -498,7 +498,7 @@
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════ ETL 05 SAÚDE & EDUCAÇÃO ══ -->
+
 <div class="section" id="sec-saude">
   <div class="section-title" style="color:var(--accent5)">🏥 ETL 05 — Saúde & Educação Pública</div>
   <div class="section-sub">Fonte: Secretaria de Saúde · Secretaria de Educação · SAMU · Portal Recife Dados</div>
@@ -549,7 +549,7 @@
 </footer>
 
 <script>
-// ─── NAVEGAÇÃO ────────────────────────────────────────────────────────────────
+
 const tabs = document.querySelectorAll('.tab');
 const sections = document.querySelectorAll('.section');
 
@@ -562,7 +562,7 @@ tabs.forEach(tab => {
   tab.addEventListener('click', () => switchTab(tab.dataset.tema));
 });
 
-// ─── PALETA ───────────────────────────────────────────────────────────────────
+
 const C = {
   blue:   '#00d4ff', orange: '#ff6b35', green:  '#39d98a',
   yellow: '#f5a623', purple: '#a855f7', red:    '#ef4444',
@@ -593,7 +593,7 @@ function mkChart(id, type, labels, datasets, extra={}) {
   });
 }
 
-// ── OVERVIEW ──────────────────────────────────────────────────────────────────
+
 mkChart('chartOverviewPizza','doughnut',
   ['Limpeza','Obras','Arborização','Segurança','UBS/SAMU','Escolas'],
   [{data:[500,300,800,1000,514,120], backgroundColor:MULTI, borderWidth:0}],
@@ -614,7 +614,7 @@ mkChart('chartOverviewRadar','radar',
   }
 );
 
-// ── ETL 01 LIMPEZA ────────────────────────────────────────────────────────────
+
 mkChart('chartLimpezaTipo','bar',
   ['Acúmulo\nem via','Ponto\nviciado','Lixeira\ndanificada','Falta\nde coleta','Entulho','Descarte\nirregular'],
   [{label:'Ocorrências', data:[98,87,81,79,77,78], backgroundColor:C.blue, borderRadius:5}],
@@ -638,7 +638,7 @@ mkChart('chartLimpezaStatus','doughnut',
   { plugins:{legend:{position:'right',labels:{color:'#94a3b8'}}}, scales:{x:{display:false},y:{display:false}} }
 );
 
-// ── ETL 02 OBRAS ──────────────────────────────────────────────────────────────
+
 mkChart('chartObrasStatus','doughnut',
   ['Em andamento','Paralisada','Concluída','Licitação'],
   [{data:[100,91,71,38], backgroundColor:[C.blue,C.red,C.green,C.yellow], borderWidth:0}],
@@ -662,7 +662,7 @@ mkChart('chartObrasSecretaria','doughnut',
   { plugins:{legend:{position:'right',labels:{color:'#94a3b8'}}}, scales:{x:{display:false},y:{display:false}} }
 );
 
-// ── ETL 03 ARBORIZAÇÃO ────────────────────────────────────────────────────────
+
 mkChart('chartArbCondicao','doughnut',
   ['Boa','Regular','Ruim','Crítica'],
   [{data:[350,240,136,74], backgroundColor:[C.green,C.yellow,C.orange,C.red], borderWidth:0}],
@@ -686,7 +686,7 @@ mkChart('chartArbAreas','bar',
   { indexAxis:'y' }
 );
 
-// ── ETL 04 SEGURANÇA ──────────────────────────────────────────────────────────
+
 mkChart('chartSegTipo','bar',
   ['Furto','Roubo\npedestre','Roubo\nveículo','Tráfico','Lesão\ncorporal','Arrombamento','Perturbação','Homicídio'],
   [{label:'Ocorrências', data:[300,200,150,120,100,50,50,30], backgroundColor:C.red, borderRadius:5}],
@@ -711,7 +711,7 @@ mkChart('chartSegRisco','doughnut',
   { plugins:{legend:{position:'right',labels:{color:'#94a3b8'}}}, scales:{x:{display:false},y:{display:false}} }
 );
 
-// ── ETL 05 SAÚDE & EDUCAÇÃO ───────────────────────────────────────────────────
+
 mkChart('chartSaudeUBS','bar',
   ['UBS Boa Viagem','UBS Ibura','UBS Jordão','UBS Casa Amarela','UBS Dois Unidos','UBS Beberibe','UBS Imbiribeira','UBS Afogados'],
   [{label:'Satisfação (0-10)', data:[7.8,4.2,4.8,5.5,5.1,6.2,6.8,7.1], backgroundColor:C.yellow, borderRadius:5}]
