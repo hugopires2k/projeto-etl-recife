@@ -15,7 +15,7 @@ BASE_URL = "http://dados.recife.pe.gov.br/api/3/action"
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# ─── EXTRAÇÃO ────────────────────────────────────────────────────────────────
+
 
 def extrair_dados_arborizacao():
     """Busca datasets de arborização via API CKAN."""
@@ -52,7 +52,7 @@ def gerar_dados_simulados_arborizacao():
 
     registros = []
     for i in range(800):
-        dap = round(random.uniform(5, 150), 1)  # Diâmetro à altura do peito
+        dap = round(random.uniform(5, 150), 1)  
         altura = round(random.uniform(2, 20), 1)
         registros.append({
             "id": i + 1,
@@ -97,7 +97,7 @@ def gerar_dados_areas_verdes():
     return pd.DataFrame(areas)
 
 
-# ─── TRANSFORMAÇÃO ────────────────────────────────────────────────────────────
+
 
 def transformar(df_arv: pd.DataFrame, df_areas: pd.DataFrame) -> dict:
     print("[TRANSFORMAÇÃO] Processando dados de arborização urbana...")
@@ -158,7 +158,7 @@ def transformar(df_arv: pd.DataFrame, df_areas: pd.DataFrame) -> dict:
     }
 
 
-# ─── CARGA ────────────────────────────────────────────────────────────────────
+
 
 def carregar(resultado: dict):
     print("[CARGA] Salvando dados de arborização...")
@@ -172,7 +172,7 @@ def carregar(resultado: dict):
     print(f"  → Arquivos salvos em: {OUTPUT_DIR}")
 
 
-# ─── PIPELINE PRINCIPAL ───────────────────────────────────────────────────────
+
 
 def run():
     print("=" * 60)
