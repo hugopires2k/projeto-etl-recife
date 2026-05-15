@@ -15,7 +15,7 @@ BASE_URL = "http://dados.recife.pe.gov.br/api/3/action"
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# ─── EXTRAÇÃO ────────────────────────────────────────────────────────────────
+
 
 def extrair_dados_saude():
     """Busca datasets da Secretaria de Saúde via API CKAN."""
@@ -138,7 +138,7 @@ def gerar_dados_educacao():
     return pd.DataFrame(registros)
 
 
-# ─── TRANSFORMAÇÃO ────────────────────────────────────────────────────────────
+
 
 def transformar_saude(df_ubs: pd.DataFrame, df_samu: pd.DataFrame) -> dict:
     print("[TRANSFORMAÇÃO] Analisando dados de saúde pública...")
@@ -149,7 +149,7 @@ def transformar_saude(df_ubs: pd.DataFrame, df_samu: pd.DataFrame) -> dict:
     tempo_espera_med = round(df_ubs["tempo_espera_medio_min"].mean(), 1)
     satisfacao_media = round(df_ubs["satisfacao_usuario_0_10"].mean(), 2)
 
-    # SAMU
+    
     tempo_resposta_med = round(df_samu["tempo_resposta_min"].mean(), 1)
     obitos_samu = (df_samu["desfecho"] == "Óbito").sum()
 
@@ -238,7 +238,7 @@ def transformar_educacao(df: pd.DataFrame) -> dict:
     }
 
 
-# ─── CARGA ────────────────────────────────────────────────────────────────────
+
 
 def carregar(res_saude: dict, res_edu: dict):
     print("[CARGA] Salvando dados de saúde e educação...")
@@ -256,7 +256,7 @@ def carregar(res_saude: dict, res_edu: dict):
     print(f"  → Arquivos salvos em: {OUTPUT_DIR}")
 
 
-# ─── PIPELINE PRINCIPAL ───────────────────────────────────────────────────────
+
 
 def run():
     print("=" * 60)
