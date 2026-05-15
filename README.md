@@ -1,180 +1,63 @@
-# Pipeline ETL — Análise Integrada de Serviços Públicos e Infraestrutura Urbana no Recife
+Com certeza! Um README humanizado é aquele que não foca apenas no código, mas explica o "porquê" do projeto existir e como ele ajuda as pessoas.
 
-**SENAC Pernambuco · Disciplina: Data Science · Professor: Heuryk Wylk**
+Abaixo, preparei um modelo pronto para você copiar e colar no seu arquivo README.md lá no GitHub. Ele está organizado, visual e muito profissional.
 
----
+🚀 Projeto ETL Recife: Inteligência Urbana na Palma da Mão
+Olá! Este projeto nasceu da vontade de transformar dados públicos brutos em informações que realmente façam sentido para a gestão da cidade do Recife.
 
-## 📋 Descrição do Projeto
+Muitas vezes, a prefeitura libera milhares de dados, mas eles ficam "escondidos" em tabelas complexas. Este sistema automatiza a leitura desses dados e os transforma em um Dashboard Visual fácil de entender.
 
-Pipeline ETL completo que consome dados públicos do portal **Recife Dados**, envolvendo cinco secretarias e áreas distintas para análise integrada de serviços públicos e infraestrutura urbana, com geração de insights para melhoria da gestão municipal.
+🧐 O que este projeto faz?
+O sistema é um Pipeline de Dados (ETL). Ele funciona em três etapas principais:
 
----
+Extração (Extraction): O código se conecta ao Portal de Dados Abertos do Recife e coleta informações atualizadas de 5 áreas críticas: Limpeza, Obras, Arborização, Segurança e Saúde/Educação.
 
-## 🏗️ Arquitetura do Pipeline
+Transformação (Transformation): Usando Python e a biblioteca Pandas, o sistema limpa os dados, calcula médias de atendimento, soma investimentos e identifica riscos (como árvores que podem cair ou obras paradas).
 
-```
-Portal Recife Dados (API CKAN)
-  http://dados.recife.pe.gov.br/api/3/action/
-├── EMLURB           → ETL 01 — Limpeza Urbana
-├── SEINFRA          → ETL 02 — Obras Públicas
-├── Meio Ambiente    → ETL 03 — Arborização
-├── SINESP / GM      → ETL 04 — Segurança Pública
-└── Saúde / Educação → ETL 05 — Saúde & Educação
+Carga (Load): Tudo é organizado na pasta /data, que alimenta automaticamente um Dashboard Interativo em HTML.
 
-         ↓ EXTRAÇÃO (requests + API CKAN)
-         ↓ TRANSFORMAÇÃO (pandas)
-         ↓ CARGA (CSV + JSON)
-         ↓ VISUALIZAÇÃO (Dashboard HTML/Chart.js)
-```
+📊 O que você vai encontrar no Dashboard?
+🧹 Limpeza Urbana: Acompanhamento da taxa de resolução de problemas e tempo médio de coleta.
 
----
+🏗️ Obras Públicas: Monitoramento de mais de R$ 730 milhões em investimentos e o status de cada obra.
 
-## 📁 Estrutura do Projeto
+🌳 Meio Ambiente: Inventário de árvores, cálculo de CO₂ absorvido e alerta de árvores em risco.
 
-```
-etl_recife/
-├── main.py                          # Pipeline principal (executa todos os ETLs)
-├── dashboard.html                   # Dashboard interativo completo
-├── etl/
-│   ├── __init__.py
-│   ├── etl_01_limpeza_urbana.py     # ETL 01: Limpeza e coleta de resíduos
-│   ├── etl_02_obras_publicas.py     # ETL 02: Obras e licenciamento urbanístico
-│   ├── etl_03_arborizacao.py        # ETL 03: Arborização e meio ambiente
-│   ├── etl_04_seguranca_publica.py  # ETL 04: Segurança pública por região
-│   └── etl_05_educacao_saude.py     # ETL 05: Educação e saúde pública
-└── data/                            # CSVs e JSONs gerados pelo pipeline
-    ├── limpeza_ocorrencias_completo.csv
-    ├── limpeza_por_bairro.csv
-    ├── limpeza_kpis.json
-    ├── obras_completo.csv
-    ├── obras_por_tipo.csv
-    ├── arborizacao_completo.csv
-    ├── arborizacao_por_bairro.csv
-    ├── seguranca_completo.csv
-    ├── seguranca_por_bairro.csv
-    ├── saude_ubs.csv
-    ├── saude_samu.csv
-    ├── educacao_escolas.csv
-    └── kpis_consolidados.json       # KPIs unificados de todos os temas
-```
+🛡️ Segurança: Análise de crimes por turno (identificando a noite como período crítico).
 
----
+🏥 Saúde e Educação: Nível de satisfação nas UBS e desempenho escolar (IDEB).
 
-## 🔗 Fontes de Dados e APIs
+🛠️ Tecnologias Utilizadas
+Linguagem: Python 3.x
 
-| Tema | Fonte | Endpoint / Link |
-|------|-------|-----------------|
-| Limpeza Urbana | EMLURB · Portal Recife Dados | `http://dados.recife.pe.gov.br/api/3/action/package_search?q=emlurb` |
-| Obras Públicas | SEINFRA · API CKAN | `http://dados.recife.pe.gov.br/api/3/action/package_search?q=obras` |
-| Arborização | Sec. Meio Ambiente · API CKAN | `http://dados.recife.pe.gov.br/api/3/action/package_search?q=arborizacao` |
-| Segurança Pública | Guarda Municipal + SINESP | `http://ec2-54-174-4-15.compute1.amazonaws.com/api?uf=pe&municipio=recife` |
-| Saúde | Sec. Saúde · API CKAN | `https://dados.recife.pe.gov.br/organization/secretaria-de-saude` |
-| Educação | Sec. Educação · API CKAN | `http://dados.recife.pe.gov.br/api/3/action/package_search?q=educacao` |
+Manipulação de Dados: Pandas / NumPy
 
----
+Visualização: Chart.js / HTML5 / CSS3
 
-## 👥 Divisão de Tarefas
+Versionamento: Git & GitHub
 
-| Aluno | Responsabilidade |
-|-------|-----------------|
-| **Aluno 1** | Extração dos dados das APIs — ETL 01 (Limpeza) e ETL 02 (Obras) |
-| **Aluno 2** | Transformação e análise — ETL 03 (Arborização e Meio Ambiente) |
-| **Aluno 3** | Transformação e análise — ETL 04 (Segurança) e ETL 05 (Saúde) |
-| **Aluno 4** | Carga dos dados e desenvolvimento do dashboard interativo |
+🏗️ Estrutura do Repositório
+Plaintext
+.
+├── main.py              # O "maestro" que roda todo o projeto
+├── dashboard.html       # Visualização interativa dos dados
+├── etl/                 # Pasta com os scripts de inteligência
+│   └── etl_01..05.py    # Cada script cuida de uma secretaria
+└── data/                # Onde os dados processados são guardados
+💡 Como rodar o projeto?
+Certifique-se de ter o Python instalado.
 
----
+Clone o repositório:
+git clone https://github.com/hugopires2k/projeto-etl-recife.git
 
-## ▶️ Como Executar
-
-### Pré-requisitos
-```bash
+Instale as dependências (Pandas):
 pip install pandas requests
-```
 
-### Executar pipeline completo
-```bash
-cd etl_recife
+Execute o comando principal:
 python main.py
-```
 
-### Executar ETL individual
-```bash
-python etl/etl_01_limpeza_urbana.py
-python etl/etl_02_obras_publicas.py
-python etl/etl_03_arborizacao.py
-python etl/etl_04_seguranca_publica.py
-python etl/etl_05_educacao_saude.py
-```
+Abra o arquivo dashboard.html no seu navegador!
 
-### Visualizar dashboard
-Abra `dashboard.html` diretamente no navegador.
-
----
-
-## 📊 KPIs Gerados
-
-### ETL 01 — Limpeza Urbana
-- Total de ocorrências registradas: **500**
-- Taxa de resolução: **77%**
-- Tempo médio de atendimento: **37.4 horas**
-- Total coletado: **509 toneladas**
-
-### ETL 02 — Obras Públicas
-- Total de obras/licenças: **300**
-- Obras concluídas: **71** | Paralisadas: **91**
-- Obras com atraso: **229 (76%)**
-- Investimento total: **R$ 733 milhões**
-
-### ETL 03 — Arborização
-- Árvores inventariadas: **800**
-- Em boa condição: **43.75%** | Estado crítico: **9.25%**
-- CO₂ absorvido: **347 toneladas/ano**
-- Áreas verdes: **488 hectares**
-
-### ETL 04 — Segurança Pública
-- Ocorrências: **1.000** | Vítimas: **955**
-- Taxa de prisão: **30.5%**
-- Crime mais frequente: **Furto (30%)**
-- Turno mais perigoso: **Noite (18h–00h)**
-
-### ETL 05 — Saúde & Educação
-- UBS ativas: **14** (5 superlotadas)
-- Tempo de espera médio UBS: **111.9 min**
-- Tempo de resposta SAMU: **24.2 min**
-- Escolas municipais: **120** · Matrículas: **55.513**
-- IDEB médio: **5.26** · Aprovação: **75.6%**
-
----
-
-## 💡 Principais Insights
-
-1. **Limpeza**: Pontos viciados de descarte irregular são o maior problema; reforço de ecopontos é recomendado.
-2. **Obras**: 76% das obras estão atrasadas — auditoria de contratos é urgente.
-3. **Arborização**: 117 árvores representam risco de queda; intervenção imediata necessária.
-4. **Segurança**: Bairros periféricos (Ibura, Jordão, Beberibe) concentram risco alto; policiamento noturno deve ser reforçado.
-5. **Saúde/Educação**: UBS superlotadas e IDEB abaixo da meta exigem investimento estrutural prioritário.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-| Tecnologia | Uso |
-|-----------|-----|
-| Python 3.x | Linguagem principal do pipeline |
-| pandas | Transformação e análise dos dados |
-| requests | Consumo das APIs REST |
-| JSON/CSV | Formato de carga dos dados |
-| HTML/CSS/JS | Dashboard de visualização |
-| Chart.js | Gráficos interativos do dashboard |
-| API CKAN | Interface dos portais de dados abertos |
-
----
-
-## 📚 Referências
-
-- Portal de Dados Abertos do Recife: http://dados.recife.pe.gov.br/
-- Hub de Dados Abertos do Recife: https://hubdedados.recife.pe.gov.br/
-- Documentação API CKAN: https://docs.ckan.org/en/2.9/api/
-- API SINESP (Segurança Pública): https://github.com/api_seguranca_publica
-- Plataforma Fogo Cruzado: https://fogocruzado.org.br/
-- Secretaria de Saúde Recife: https://dados.recife.pe.gov.br/organization/secretaria-de-saude
+🤝 Contato
+Desenvolvido por Hugo Pires / Rafael Barbosa / Israel Soares / Isack Otavio / Pedro Lucas / Zaion Kauan como parte do projeto de análise de dados integrados.
+Sinta-se à vontade para entrar em contato ou dar um fork no projeto!
