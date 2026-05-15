@@ -1,0 +1,501 @@
+id,tipo_ocorrencia,mes,ano,tempo_resposta_min,desfecho,bairro
+1,Cardiopatia,5,2023,42.0,Atendido no local,Jordão
+2,Trabalho de parto,9,2022,34.8,Atendido no local,Madalena
+3,AVC,8,2022,41.7,Atendido no local,Beberibe
+4,AVC,7,2023,30.5,Encaminhado hospital,Ibura
+5,Queimadura,3,2023,6.0,Encaminhado hospital,Afogados
+6,Outros,10,2022,31.7,Encaminhado hospital,Jordão
+7,Intoxicação,5,2022,13.0,Atendido no local,Beberibe
+8,Queimadura,2,2023,8.5,Encaminhado hospital,Ibura
+9,Queda,8,2023,7.3,Encaminhado hospital,Ibura
+10,Queimadura,6,2023,37.9,Atendido no local,Afogados
+11,AVC,1,2023,37.4,Atendido no local,Jordão
+12,Outros,6,2023,18.6,Encaminhado hospital,Imbiribeira
+13,Trabalho de parto,6,2022,18.7,Atendido no local,Beberibe
+14,Cardiopatia,1,2023,5.9,Atendido no local,Imbiribeira
+15,Cardiopatia,9,2023,9.0,Encaminhado hospital,Casa Amarela
+16,Intoxicação,2,2022,24.7,Encaminhado hospital,Imbiribeira
+17,Outros,6,2022,29.2,Atendido no local,Casa Amarela
+18,Intoxicação,5,2023,8.1,Atendido no local,Imbiribeira
+19,Queimadura,3,2022,33.8,Encaminhado hospital,Ibura
+20,Trauma/Acidente,2,2023,35.1,Atendido no local,Ibura
+21,AVC,10,2023,34.8,Atendido no local,Casa Amarela
+22,Queimadura,4,2022,17.6,Encaminhado hospital,Jordão
+23,Trabalho de parto,1,2022,21.1,Encaminhado hospital,Beberibe
+24,Cardiopatia,4,2022,13.3,Atendido no local,Casa Amarela
+25,Trabalho de parto,6,2022,38.0,Encaminhado hospital,Ibura
+26,Queimadura,2,2023,33.4,Atendido no local,Afogados
+27,Intoxicação,9,2022,39.9,Encaminhado hospital,Imbiribeira
+28,Trabalho de parto,3,2023,17.2,Atendido no local,Casa Amarela
+29,Outros,6,2023,43.3,Encaminhado hospital,Madalena
+30,Queimadura,12,2022,26.5,Atendido no local,Madalena
+31,Trauma/Acidente,11,2022,12.4,Encaminhado hospital,Jordão
+32,Intoxicação,7,2023,8.2,Encaminhado hospital,Beberibe
+33,Outros,5,2023,8.2,Encaminhado hospital,Boa Viagem
+34,Queda,10,2023,25.9,Atendido no local,Boa Viagem
+35,Trabalho de parto,1,2023,31.0,Encaminhado hospital,Beberibe
+36,Queimadura,3,2022,17.3,Atendido no local,Beberibe
+37,Queimadura,12,2022,43.5,Encaminhado hospital,Boa Viagem
+38,Intoxicação,1,2023,34.2,Atendido no local,Afogados
+39,AVC,1,2023,19.8,Encaminhado hospital,Afogados
+40,Intoxicação,6,2023,5.3,Encaminhado hospital,Imbiribeira
+41,Cardiopatia,11,2023,9.8,Encaminhado hospital,Afogados
+42,Trabalho de parto,11,2023,22.7,Encaminhado hospital,Boa Viagem
+43,Intoxicação,3,2022,32.7,Atendido no local,Imbiribeira
+44,Trabalho de parto,9,2023,14.7,Encaminhado hospital,Imbiribeira
+45,Trauma/Acidente,1,2023,23.7,Encaminhado hospital,Ibura
+46,Queimadura,7,2022,39.6,Encaminhado hospital,Jordão
+47,Cardiopatia,11,2022,5.1,Encaminhado hospital,Jordão
+48,Trauma/Acidente,5,2023,9.9,Encaminhado hospital,Madalena
+49,Cardiopatia,11,2023,24.6,Encaminhado hospital,Madalena
+50,Cardiopatia,3,2022,24.4,Encaminhado hospital,Boa Viagem
+51,Queimadura,7,2023,29.1,Atendido no local,Casa Amarela
+52,Intoxicação,6,2022,20.8,Encaminhado hospital,Afogados
+53,AVC,4,2023,11.9,Encaminhado hospital,Beberibe
+54,Queimadura,3,2022,17.7,Atendido no local,Madalena
+55,Outros,3,2023,23.3,Encaminhado hospital,Imbiribeira
+56,Queda,10,2022,12.2,Encaminhado hospital,Casa Amarela
+57,Trabalho de parto,10,2022,20.6,Encaminhado hospital,Imbiribeira
+58,Outros,5,2023,20.3,Encaminhado hospital,Imbiribeira
+59,Queimadura,10,2023,28.3,Encaminhado hospital,Casa Amarela
+60,Queda,6,2022,35.4,Encaminhado hospital,Boa Viagem
+61,Cardiopatia,5,2023,20.1,Atendido no local,Casa Amarela
+62,Queimadura,9,2022,9.5,Atendido no local,Boa Viagem
+63,Queimadura,2,2022,32.5,Encaminhado hospital,Casa Amarela
+64,Trabalho de parto,10,2022,32.3,Encaminhado hospital,Jordão
+65,Intoxicação,4,2022,24.8,Encaminhado hospital,Casa Amarela
+66,Cardiopatia,6,2023,8.2,Encaminhado hospital,Beberibe
+67,Trabalho de parto,11,2022,24.6,Atendido no local,Imbiribeira
+68,Trauma/Acidente,3,2023,12.9,Encaminhado hospital,Ibura
+69,Queda,11,2022,16.7,Encaminhado hospital,Beberibe
+70,Outros,7,2023,36.4,Encaminhado hospital,Jordão
+71,Trauma/Acidente,5,2023,31.7,Encaminhado hospital,Casa Amarela
+72,Cardiopatia,2,2023,21.3,Encaminhado hospital,Beberibe
+73,Queda,7,2022,16.8,Atendido no local,Boa Viagem
+74,Queda,12,2022,11.0,Atendido no local,Jordão
+75,Outros,6,2023,17.0,Atendido no local,Afogados
+76,Trabalho de parto,6,2023,33.2,Encaminhado hospital,Ibura
+77,Trabalho de parto,9,2023,30.5,Encaminhado hospital,Imbiribeira
+78,Queda,12,2023,40.0,Encaminhado hospital,Jordão
+79,Queda,6,2023,12.3,Encaminhado hospital,Casa Amarela
+80,Queimadura,1,2023,16.6,Encaminhado hospital,Ibura
+81,Trauma/Acidente,5,2022,14.0,Encaminhado hospital,Madalena
+82,Intoxicação,11,2022,18.3,Encaminhado hospital,Jordão
+83,Trabalho de parto,2,2023,13.7,Atendido no local,Ibura
+84,Intoxicação,4,2023,33.2,Encaminhado hospital,Imbiribeira
+85,Cardiopatia,2,2022,23.7,Encaminhado hospital,Beberibe
+86,Trauma/Acidente,7,2022,25.0,Encaminhado hospital,Ibura
+87,Queda,11,2022,22.5,Encaminhado hospital,Imbiribeira
+88,Outros,12,2022,44.4,Encaminhado hospital,Casa Amarela
+89,Cardiopatia,1,2023,16.8,Atendido no local,Imbiribeira
+90,Trabalho de parto,11,2023,31.2,Atendido no local,Casa Amarela
+91,Trabalho de parto,5,2022,34.9,Encaminhado hospital,Afogados
+92,Queimadura,11,2023,41.4,Atendido no local,Beberibe
+93,Outros,9,2023,7.7,Encaminhado hospital,Casa Amarela
+94,Trabalho de parto,7,2022,16.7,Encaminhado hospital,Casa Amarela
+95,Cardiopatia,10,2023,18.9,Atendido no local,Afogados
+96,Queda,7,2023,12.9,Atendido no local,Jordão
+97,Trauma/Acidente,6,2023,16.4,Encaminhado hospital,Madalena
+98,Queda,8,2023,31.4,Encaminhado hospital,Boa Viagem
+99,Queimadura,6,2023,8.8,Encaminhado hospital,Afogados
+100,Trabalho de parto,8,2022,12.1,Encaminhado hospital,Imbiribeira
+101,Trabalho de parto,10,2023,39.3,Atendido no local,Imbiribeira
+102,Outros,8,2022,41.0,Encaminhado hospital,Afogados
+103,Cardiopatia,11,2022,20.5,Encaminhado hospital,Ibura
+104,Queimadura,6,2023,44.9,Encaminhado hospital,Afogados
+105,Cardiopatia,4,2023,34.0,Atendido no local,Imbiribeira
+106,Cardiopatia,8,2022,8.1,Encaminhado hospital,Imbiribeira
+107,Queda,11,2022,21.3,Encaminhado hospital,Madalena
+108,AVC,12,2022,17.5,Óbito,Imbiribeira
+109,Intoxicação,8,2023,16.2,Encaminhado hospital,Madalena
+110,Intoxicação,6,2022,24.6,Encaminhado hospital,Madalena
+111,Cardiopatia,7,2022,28.0,Atendido no local,Beberibe
+112,Outros,9,2023,12.6,Encaminhado hospital,Madalena
+113,Outros,2,2022,41.0,Encaminhado hospital,Jordão
+114,Outros,5,2022,20.4,Encaminhado hospital,Imbiribeira
+115,Cardiopatia,11,2022,25.3,Encaminhado hospital,Beberibe
+116,Queimadura,11,2022,14.5,Atendido no local,Ibura
+117,Trauma/Acidente,2,2022,40.2,Encaminhado hospital,Casa Amarela
+118,Trauma/Acidente,8,2023,39.9,Atendido no local,Casa Amarela
+119,Queda,4,2023,14.4,Óbito,Jordão
+120,Outros,9,2022,17.8,Encaminhado hospital,Afogados
+121,Intoxicação,9,2022,43.9,Encaminhado hospital,Afogados
+122,AVC,2,2022,43.4,Encaminhado hospital,Ibura
+123,Queda,6,2022,36.8,Encaminhado hospital,Boa Viagem
+124,AVC,8,2023,32.9,Encaminhado hospital,Casa Amarela
+125,Intoxicação,5,2022,6.2,Encaminhado hospital,Madalena
+126,AVC,1,2022,36.9,Encaminhado hospital,Jordão
+127,Queimadura,3,2022,25.1,Encaminhado hospital,Imbiribeira
+128,Cardiopatia,12,2022,19.8,Encaminhado hospital,Afogados
+129,Trabalho de parto,11,2023,8.3,Atendido no local,Afogados
+130,Cardiopatia,1,2023,43.4,Encaminhado hospital,Afogados
+131,Trabalho de parto,4,2023,26.2,Atendido no local,Beberibe
+132,AVC,3,2022,26.2,Encaminhado hospital,Beberibe
+133,Trabalho de parto,2,2023,12.3,Encaminhado hospital,Casa Amarela
+134,Outros,2,2023,34.1,Encaminhado hospital,Madalena
+135,Cardiopatia,10,2023,27.1,Encaminhado hospital,Boa Viagem
+136,Queda,10,2022,8.9,Atendido no local,Madalena
+137,Queda,3,2023,13.2,Encaminhado hospital,Madalena
+138,Intoxicação,12,2022,30.8,Atendido no local,Casa Amarela
+139,Outros,9,2022,8.9,Atendido no local,Jordão
+140,AVC,12,2023,19.7,Encaminhado hospital,Jordão
+141,AVC,9,2022,32.1,Encaminhado hospital,Imbiribeira
+142,Trauma/Acidente,1,2022,28.3,Encaminhado hospital,Afogados
+143,Queimadura,7,2023,26.2,Encaminhado hospital,Beberibe
+144,Queda,1,2022,17.4,Encaminhado hospital,Boa Viagem
+145,Intoxicação,10,2023,43.0,Óbito,Boa Viagem
+146,Queda,10,2022,24.8,Encaminhado hospital,Beberibe
+147,Trauma/Acidente,7,2022,26.0,Atendido no local,Casa Amarela
+148,Outros,5,2022,38.4,Encaminhado hospital,Ibura
+149,Trabalho de parto,9,2023,23.1,Encaminhado hospital,Boa Viagem
+150,Trabalho de parto,7,2023,21.2,Encaminhado hospital,Afogados
+151,Trabalho de parto,5,2022,16.8,Encaminhado hospital,Madalena
+152,Queimadura,8,2022,17.3,Encaminhado hospital,Jordão
+153,Cardiopatia,4,2022,17.3,Encaminhado hospital,Ibura
+154,Outros,10,2022,16.9,Atendido no local,Imbiribeira
+155,Outros,9,2022,17.5,Encaminhado hospital,Jordão
+156,Trauma/Acidente,5,2022,25.7,Encaminhado hospital,Afogados
+157,Cardiopatia,12,2023,30.8,Atendido no local,Afogados
+158,Cardiopatia,2,2022,28.7,Encaminhado hospital,Madalena
+159,Trabalho de parto,8,2023,40.9,Atendido no local,Beberibe
+160,Queimadura,7,2023,10.8,Encaminhado hospital,Jordão
+161,AVC,10,2023,5.6,Encaminhado hospital,Casa Amarela
+162,Trabalho de parto,12,2023,29.7,Encaminhado hospital,Ibura
+163,Outros,9,2023,35.8,Encaminhado hospital,Madalena
+164,AVC,3,2022,42.6,Encaminhado hospital,Imbiribeira
+165,AVC,2,2023,33.2,Encaminhado hospital,Beberibe
+166,Trauma/Acidente,6,2023,27.9,Encaminhado hospital,Boa Viagem
+167,Outros,2,2023,23.7,Encaminhado hospital,Beberibe
+168,Intoxicação,3,2022,16.1,Encaminhado hospital,Boa Viagem
+169,Queda,9,2022,37.7,Encaminhado hospital,Imbiribeira
+170,AVC,7,2023,17.8,Encaminhado hospital,Imbiribeira
+171,AVC,6,2023,24.2,Encaminhado hospital,Imbiribeira
+172,AVC,6,2022,7.8,Encaminhado hospital,Boa Viagem
+173,Queda,2,2023,12.0,Encaminhado hospital,Afogados
+174,Queda,10,2022,11.4,Atendido no local,Ibura
+175,Queimadura,10,2022,13.8,Atendido no local,Madalena
+176,Cardiopatia,9,2022,10.8,Encaminhado hospital,Afogados
+177,Intoxicação,10,2023,33.1,Óbito,Beberibe
+178,Cardiopatia,3,2022,25.7,Encaminhado hospital,Afogados
+179,Trabalho de parto,2,2022,40.7,Atendido no local,Madalena
+180,Cardiopatia,12,2023,43.6,Encaminhado hospital,Imbiribeira
+181,Cardiopatia,3,2023,8.6,Encaminhado hospital,Boa Viagem
+182,Cardiopatia,4,2023,21.7,Encaminhado hospital,Ibura
+183,Intoxicação,8,2023,33.2,Encaminhado hospital,Jordão
+184,Trauma/Acidente,8,2023,13.2,Atendido no local,Beberibe
+185,Trabalho de parto,5,2022,22.5,Atendido no local,Casa Amarela
+186,Queda,8,2022,26.8,Encaminhado hospital,Madalena
+187,Trabalho de parto,9,2023,5.1,Encaminhado hospital,Ibura
+188,Trabalho de parto,12,2022,23.0,Encaminhado hospital,Ibura
+189,Queimadura,9,2022,44.1,Encaminhado hospital,Boa Viagem
+190,Outros,5,2022,36.1,Encaminhado hospital,Casa Amarela
+191,Trabalho de parto,4,2022,11.7,Encaminhado hospital,Boa Viagem
+192,Trauma/Acidente,11,2023,18.6,Encaminhado hospital,Ibura
+193,Queda,12,2022,38.6,Atendido no local,Imbiribeira
+194,Queda,1,2023,38.0,Encaminhado hospital,Boa Viagem
+195,Cardiopatia,8,2022,10.3,Encaminhado hospital,Beberibe
+196,Queimadura,11,2023,43.4,Encaminhado hospital,Imbiribeira
+197,Cardiopatia,10,2022,35.5,Atendido no local,Beberibe
+198,Outros,8,2022,8.2,Encaminhado hospital,Jordão
+199,Trauma/Acidente,10,2022,40.1,Encaminhado hospital,Boa Viagem
+200,Trabalho de parto,3,2022,34.5,Encaminhado hospital,Boa Viagem
+201,Queimadura,1,2023,10.3,Encaminhado hospital,Boa Viagem
+202,Intoxicação,10,2023,35.7,Encaminhado hospital,Afogados
+203,Queda,10,2023,38.4,Encaminhado hospital,Afogados
+204,Queimadura,12,2023,16.1,Atendido no local,Madalena
+205,Intoxicação,5,2023,15.3,Encaminhado hospital,Afogados
+206,Queimadura,7,2023,14.9,Atendido no local,Casa Amarela
+207,Cardiopatia,10,2022,17.5,Óbito,Imbiribeira
+208,Outros,8,2022,28.5,Atendido no local,Imbiribeira
+209,Queimadura,8,2023,21.2,Atendido no local,Beberibe
+210,Trabalho de parto,12,2023,32.0,Encaminhado hospital,Beberibe
+211,Trauma/Acidente,1,2022,42.9,Encaminhado hospital,Beberibe
+212,Queda,9,2023,28.1,Encaminhado hospital,Casa Amarela
+213,AVC,7,2023,30.9,Encaminhado hospital,Ibura
+214,Queda,8,2022,36.4,Encaminhado hospital,Casa Amarela
+215,Trabalho de parto,10,2023,5.9,Encaminhado hospital,Jordão
+216,AVC,10,2022,5.5,Encaminhado hospital,Boa Viagem
+217,AVC,7,2022,21.3,Encaminhado hospital,Boa Viagem
+218,Cardiopatia,2,2022,15.7,Óbito,Casa Amarela
+219,Intoxicação,4,2023,43.5,Encaminhado hospital,Jordão
+220,Queda,2,2022,14.8,Atendido no local,Jordão
+221,Outros,5,2022,7.7,Atendido no local,Ibura
+222,AVC,4,2023,32.5,Encaminhado hospital,Beberibe
+223,Intoxicação,12,2023,9.5,Encaminhado hospital,Jordão
+224,AVC,10,2023,42.0,Atendido no local,Boa Viagem
+225,AVC,5,2023,38.1,Encaminhado hospital,Boa Viagem
+226,Queda,3,2023,22.7,Encaminhado hospital,Beberibe
+227,Outros,12,2023,38.6,Encaminhado hospital,Beberibe
+228,Queda,2,2023,36.4,Óbito,Boa Viagem
+229,Intoxicação,9,2022,19.1,Encaminhado hospital,Imbiribeira
+230,AVC,5,2022,23.4,Encaminhado hospital,Imbiribeira
+231,Trabalho de parto,10,2022,31.4,Encaminhado hospital,Imbiribeira
+232,Outros,9,2022,25.5,Atendido no local,Casa Amarela
+233,Queda,3,2022,15.2,Encaminhado hospital,Casa Amarela
+234,AVC,1,2022,30.2,Encaminhado hospital,Afogados
+235,Queimadura,4,2023,10.9,Encaminhado hospital,Beberibe
+236,Outros,2,2023,6.1,Encaminhado hospital,Beberibe
+237,Outros,7,2022,35.3,Encaminhado hospital,Ibura
+238,Outros,10,2022,10.8,Encaminhado hospital,Jordão
+239,Intoxicação,11,2023,6.0,Atendido no local,Beberibe
+240,Queimadura,5,2022,22.1,Encaminhado hospital,Imbiribeira
+241,Queimadura,3,2023,12.3,Encaminhado hospital,Jordão
+242,Intoxicação,2,2023,36.6,Encaminhado hospital,Beberibe
+243,Outros,8,2023,29.0,Atendido no local,Afogados
+244,Cardiopatia,7,2022,39.9,Encaminhado hospital,Jordão
+245,AVC,6,2023,37.3,Atendido no local,Imbiribeira
+246,Outros,9,2022,41.1,Encaminhado hospital,Afogados
+247,Trabalho de parto,7,2023,18.9,Encaminhado hospital,Ibura
+248,Cardiopatia,6,2022,35.8,Encaminhado hospital,Imbiribeira
+249,Outros,3,2022,40.0,Encaminhado hospital,Imbiribeira
+250,Trabalho de parto,7,2023,8.1,Encaminhado hospital,Imbiribeira
+251,Queimadura,9,2022,8.9,Atendido no local,Beberibe
+252,Cardiopatia,7,2022,35.0,Encaminhado hospital,Imbiribeira
+253,Trauma/Acidente,11,2022,23.4,Encaminhado hospital,Ibura
+254,AVC,10,2023,31.3,Encaminhado hospital,Jordão
+255,Queimadura,5,2023,5.7,Encaminhado hospital,Ibura
+256,Trauma/Acidente,3,2022,32.4,Encaminhado hospital,Beberibe
+257,Cardiopatia,1,2022,17.8,Óbito,Boa Viagem
+258,Cardiopatia,3,2022,6.8,Óbito,Beberibe
+259,Trabalho de parto,1,2023,21.7,Encaminhado hospital,Jordão
+260,Trabalho de parto,7,2023,24.2,Óbito,Afogados
+261,Trabalho de parto,1,2023,31.4,Encaminhado hospital,Madalena
+262,Queimadura,12,2023,16.6,Atendido no local,Beberibe
+263,Trauma/Acidente,1,2023,22.4,Encaminhado hospital,Madalena
+264,Cardiopatia,8,2022,31.2,Encaminhado hospital,Ibura
+265,Intoxicação,9,2022,19.8,Atendido no local,Madalena
+266,Intoxicação,7,2023,10.6,Atendido no local,Jordão
+267,Cardiopatia,7,2023,37.0,Encaminhado hospital,Beberibe
+268,Intoxicação,9,2023,42.1,Encaminhado hospital,Beberibe
+269,Intoxicação,4,2022,33.2,Encaminhado hospital,Beberibe
+270,Trauma/Acidente,9,2022,34.4,Encaminhado hospital,Casa Amarela
+271,Intoxicação,10,2022,7.8,Encaminhado hospital,Boa Viagem
+272,Queimadura,7,2022,37.1,Encaminhado hospital,Casa Amarela
+273,Intoxicação,5,2023,10.8,Encaminhado hospital,Ibura
+274,Queda,5,2023,44.1,Atendido no local,Ibura
+275,Intoxicação,3,2023,30.0,Encaminhado hospital,Casa Amarela
+276,Queimadura,2,2022,33.9,Encaminhado hospital,Boa Viagem
+277,Trauma/Acidente,12,2023,18.4,Atendido no local,Imbiribeira
+278,AVC,6,2023,43.0,Encaminhado hospital,Jordão
+279,Trauma/Acidente,8,2023,17.3,Encaminhado hospital,Imbiribeira
+280,Queimadura,8,2022,9.8,Atendido no local,Madalena
+281,Outros,6,2023,40.2,Óbito,Madalena
+282,AVC,3,2022,11.8,Encaminhado hospital,Boa Viagem
+283,Intoxicação,12,2022,18.7,Óbito,Imbiribeira
+284,AVC,12,2022,42.8,Encaminhado hospital,Beberibe
+285,AVC,7,2022,15.9,Encaminhado hospital,Afogados
+286,Cardiopatia,9,2023,24.3,Óbito,Afogados
+287,AVC,7,2022,20.3,Encaminhado hospital,Jordão
+288,Trabalho de parto,6,2022,26.5,Atendido no local,Casa Amarela
+289,Trabalho de parto,4,2022,27.2,Encaminhado hospital,Madalena
+290,Trabalho de parto,3,2022,14.7,Atendido no local,Boa Viagem
+291,Trabalho de parto,7,2022,9.9,Encaminhado hospital,Boa Viagem
+292,Cardiopatia,8,2023,17.6,Atendido no local,Beberibe
+293,Trauma/Acidente,3,2022,27.4,Encaminhado hospital,Boa Viagem
+294,Trabalho de parto,8,2022,17.8,Atendido no local,Beberibe
+295,Cardiopatia,12,2022,26.2,Atendido no local,Afogados
+296,Outros,12,2022,38.0,Encaminhado hospital,Casa Amarela
+297,AVC,3,2023,26.7,Encaminhado hospital,Afogados
+298,AVC,3,2023,26.8,Encaminhado hospital,Casa Amarela
+299,Queda,12,2023,42.1,Atendido no local,Madalena
+300,Trauma/Acidente,6,2022,28.4,Encaminhado hospital,Afogados
+301,Intoxicação,2,2022,13.2,Encaminhado hospital,Madalena
+302,Intoxicação,4,2022,12.3,Óbito,Casa Amarela
+303,Queimadura,8,2023,11.0,Atendido no local,Imbiribeira
+304,Trauma/Acidente,4,2022,27.2,Atendido no local,Casa Amarela
+305,AVC,2,2022,40.5,Atendido no local,Casa Amarela
+306,Queda,7,2023,18.5,Atendido no local,Afogados
+307,Outros,1,2023,6.9,Encaminhado hospital,Casa Amarela
+308,Trabalho de parto,7,2022,15.5,Atendido no local,Casa Amarela
+309,Queda,8,2022,11.7,Encaminhado hospital,Madalena
+310,Intoxicação,1,2023,23.2,Encaminhado hospital,Madalena
+311,Trabalho de parto,11,2022,31.6,Atendido no local,Beberibe
+312,Trabalho de parto,5,2022,16.0,Encaminhado hospital,Boa Viagem
+313,Intoxicação,12,2023,7.5,Encaminhado hospital,Jordão
+314,AVC,5,2023,34.9,Encaminhado hospital,Casa Amarela
+315,Queda,9,2023,19.3,Encaminhado hospital,Madalena
+316,Trabalho de parto,11,2022,12.8,Óbito,Ibura
+317,Intoxicação,11,2023,22.1,Encaminhado hospital,Imbiribeira
+318,AVC,3,2022,16.7,Encaminhado hospital,Ibura
+319,Queimadura,2,2023,24.1,Encaminhado hospital,Imbiribeira
+320,Queda,5,2023,35.1,Atendido no local,Jordão
+321,Outros,11,2022,26.9,Encaminhado hospital,Madalena
+322,Intoxicação,4,2023,38.4,Encaminhado hospital,Beberibe
+323,Queda,1,2022,28.6,Encaminhado hospital,Ibura
+324,Queda,6,2022,25.7,Encaminhado hospital,Beberibe
+325,Cardiopatia,2,2022,5.9,Atendido no local,Boa Viagem
+326,Intoxicação,2,2023,34.2,Encaminhado hospital,Imbiribeira
+327,Cardiopatia,11,2023,21.3,Encaminhado hospital,Ibura
+328,Queda,11,2022,16.2,Encaminhado hospital,Boa Viagem
+329,Cardiopatia,8,2022,29.8,Atendido no local,Imbiribeira
+330,Queda,8,2023,41.7,Atendido no local,Imbiribeira
+331,Trauma/Acidente,6,2022,28.1,Encaminhado hospital,Boa Viagem
+332,Queda,11,2022,30.9,Atendido no local,Beberibe
+333,Trabalho de parto,10,2022,6.2,Encaminhado hospital,Ibura
+334,AVC,11,2023,7.2,Encaminhado hospital,Boa Viagem
+335,Cardiopatia,11,2023,19.9,Óbito,Afogados
+336,Cardiopatia,12,2023,18.1,Encaminhado hospital,Imbiribeira
+337,Intoxicação,7,2023,16.4,Encaminhado hospital,Boa Viagem
+338,Intoxicação,2,2023,20.4,Encaminhado hospital,Beberibe
+339,Intoxicação,10,2023,25.5,Encaminhado hospital,Imbiribeira
+340,Outros,9,2022,16.7,Encaminhado hospital,Boa Viagem
+341,AVC,12,2023,41.6,Óbito,Beberibe
+342,Cardiopatia,4,2022,31.9,Encaminhado hospital,Ibura
+343,Outros,4,2023,16.7,Encaminhado hospital,Beberibe
+344,AVC,1,2023,30.0,Óbito,Boa Viagem
+345,Cardiopatia,6,2022,41.0,Encaminhado hospital,Madalena
+346,Cardiopatia,5,2023,35.6,Encaminhado hospital,Afogados
+347,AVC,6,2022,35.6,Encaminhado hospital,Imbiribeira
+348,AVC,3,2023,30.0,Encaminhado hospital,Jordão
+349,Trauma/Acidente,6,2022,7.5,Encaminhado hospital,Madalena
+350,Queda,4,2022,10.3,Encaminhado hospital,Ibura
+351,Queimadura,5,2022,21.0,Encaminhado hospital,Afogados
+352,AVC,6,2022,37.1,Encaminhado hospital,Afogados
+353,Cardiopatia,8,2022,8.7,Encaminhado hospital,Jordão
+354,Trabalho de parto,3,2023,13.0,Atendido no local,Afogados
+355,Queimadura,5,2023,16.9,Atendido no local,Beberibe
+356,Cardiopatia,3,2023,23.3,Atendido no local,Boa Viagem
+357,Queda,9,2022,32.4,Encaminhado hospital,Madalena
+358,Intoxicação,7,2022,33.7,Encaminhado hospital,Afogados
+359,Queimadura,2,2022,39.0,Atendido no local,Boa Viagem
+360,Queda,3,2022,35.1,Atendido no local,Beberibe
+361,Trabalho de parto,7,2023,30.6,Encaminhado hospital,Casa Amarela
+362,Queimadura,10,2022,37.8,Atendido no local,Beberibe
+363,Outros,1,2023,20.6,Encaminhado hospital,Jordão
+364,Queimadura,12,2023,34.3,Atendido no local,Beberibe
+365,Outros,2,2023,6.0,Encaminhado hospital,Boa Viagem
+366,Trabalho de parto,1,2023,32.1,Encaminhado hospital,Casa Amarela
+367,Intoxicação,5,2023,42.3,Atendido no local,Imbiribeira
+368,Intoxicação,1,2023,36.2,Encaminhado hospital,Casa Amarela
+369,Queda,2,2023,19.8,Encaminhado hospital,Afogados
+370,Queimadura,7,2022,26.5,Atendido no local,Madalena
+371,Intoxicação,11,2023,6.2,Encaminhado hospital,Imbiribeira
+372,Trabalho de parto,3,2022,43.7,Óbito,Madalena
+373,Trabalho de parto,10,2023,17.0,Encaminhado hospital,Casa Amarela
+374,Trauma/Acidente,1,2022,17.3,Encaminhado hospital,Madalena
+375,AVC,10,2022,14.0,Encaminhado hospital,Madalena
+376,Cardiopatia,5,2022,34.2,Encaminhado hospital,Beberibe
+377,Trauma/Acidente,12,2023,33.0,Atendido no local,Boa Viagem
+378,Outros,3,2022,24.8,Encaminhado hospital,Ibura
+379,Cardiopatia,1,2022,26.1,Encaminhado hospital,Afogados
+380,Intoxicação,7,2023,16.3,Encaminhado hospital,Jordão
+381,Intoxicação,10,2022,14.2,Encaminhado hospital,Beberibe
+382,Intoxicação,4,2023,6.2,Encaminhado hospital,Ibura
+383,Cardiopatia,5,2023,17.7,Encaminhado hospital,Madalena
+384,Trabalho de parto,12,2023,16.2,Encaminhado hospital,Casa Amarela
+385,Intoxicação,6,2023,29.7,Encaminhado hospital,Ibura
+386,Outros,6,2023,8.6,Encaminhado hospital,Afogados
+387,Intoxicação,3,2023,44.6,Atendido no local,Imbiribeira
+388,Intoxicação,10,2023,26.4,Encaminhado hospital,Imbiribeira
+389,Intoxicação,5,2023,21.8,Atendido no local,Imbiribeira
+390,Cardiopatia,4,2023,36.3,Óbito,Boa Viagem
+391,Trabalho de parto,6,2023,7.9,Óbito,Beberibe
+392,Outros,5,2023,40.6,Atendido no local,Afogados
+393,Cardiopatia,10,2023,5.6,Encaminhado hospital,Imbiribeira
+394,Outros,2,2022,43.5,Encaminhado hospital,Madalena
+395,Queda,10,2022,43.9,Encaminhado hospital,Ibura
+396,Queda,12,2022,42.1,Encaminhado hospital,Madalena
+397,Cardiopatia,5,2022,42.5,Encaminhado hospital,Afogados
+398,Queimadura,11,2023,14.0,Atendido no local,Afogados
+399,Trabalho de parto,1,2022,30.7,Atendido no local,Jordão
+400,Cardiopatia,11,2022,34.4,Óbito,Madalena
+401,Queda,9,2023,42.3,Encaminhado hospital,Beberibe
+402,Outros,5,2023,18.5,Encaminhado hospital,Madalena
+403,Trauma/Acidente,3,2022,39.5,Encaminhado hospital,Imbiribeira
+404,Trabalho de parto,2,2022,15.6,Encaminhado hospital,Ibura
+405,AVC,10,2022,14.6,Encaminhado hospital,Madalena
+406,Queda,8,2022,9.1,Atendido no local,Imbiribeira
+407,Queda,2,2023,13.7,Encaminhado hospital,Boa Viagem
+408,Cardiopatia,1,2023,24.6,Encaminhado hospital,Beberibe
+409,Queda,1,2023,12.4,Atendido no local,Casa Amarela
+410,Intoxicação,2,2022,8.9,Encaminhado hospital,Beberibe
+411,Queda,11,2022,9.8,Encaminhado hospital,Boa Viagem
+412,AVC,10,2023,37.0,Encaminhado hospital,Madalena
+413,Outros,5,2023,6.2,Atendido no local,Boa Viagem
+414,Trabalho de parto,7,2022,37.1,Encaminhado hospital,Beberibe
+415,Trabalho de parto,9,2023,25.1,Encaminhado hospital,Casa Amarela
+416,Trauma/Acidente,7,2022,16.3,Encaminhado hospital,Boa Viagem
+417,Intoxicação,1,2023,15.2,Encaminhado hospital,Ibura
+418,Outros,11,2022,6.6,Encaminhado hospital,Casa Amarela
+419,Queda,12,2022,20.5,Encaminhado hospital,Boa Viagem
+420,Cardiopatia,3,2022,5.4,Encaminhado hospital,Imbiribeira
+421,Trabalho de parto,11,2022,17.3,Encaminhado hospital,Jordão
+422,Intoxicação,8,2022,14.7,Atendido no local,Beberibe
+423,Queimadura,5,2023,44.4,Encaminhado hospital,Casa Amarela
+424,AVC,9,2022,37.0,Encaminhado hospital,Casa Amarela
+425,Trabalho de parto,9,2023,31.5,Atendido no local,Beberibe
+426,Intoxicação,2,2022,31.9,Encaminhado hospital,Imbiribeira
+427,Outros,3,2022,6.9,Encaminhado hospital,Boa Viagem
+428,AVC,12,2022,20.4,Encaminhado hospital,Jordão
+429,Trabalho de parto,11,2023,18.9,Encaminhado hospital,Jordão
+430,Trauma/Acidente,5,2023,21.0,Encaminhado hospital,Casa Amarela
+431,Intoxicação,8,2023,34.5,Atendido no local,Afogados
+432,Queimadura,7,2022,34.0,Encaminhado hospital,Beberibe
+433,Intoxicação,11,2023,20.5,Encaminhado hospital,Jordão
+434,AVC,3,2023,39.0,Atendido no local,Afogados
+435,Cardiopatia,3,2022,20.5,Encaminhado hospital,Imbiribeira
+436,Queda,8,2023,33.6,Encaminhado hospital,Beberibe
+437,Queimadura,2,2022,12.3,Atendido no local,Beberibe
+438,Trauma/Acidente,1,2023,31.6,Encaminhado hospital,Beberibe
+439,Intoxicação,1,2022,27.0,Encaminhado hospital,Casa Amarela
+440,Trabalho de parto,2,2022,21.6,Encaminhado hospital,Casa Amarela
+441,AVC,3,2023,16.2,Atendido no local,Jordão
+442,AVC,6,2022,9.1,Atendido no local,Afogados
+443,AVC,2,2023,42.1,Encaminhado hospital,Afogados
+444,Trabalho de parto,2,2022,20.6,Atendido no local,Boa Viagem
+445,Queimadura,12,2022,29.9,Encaminhado hospital,Ibura
+446,Cardiopatia,11,2022,14.8,Encaminhado hospital,Beberibe
+447,AVC,3,2023,38.7,Encaminhado hospital,Beberibe
+448,Queda,3,2022,14.2,Encaminhado hospital,Imbiribeira
+449,Queimadura,4,2022,6.9,Encaminhado hospital,Imbiribeira
+450,Cardiopatia,6,2023,36.3,Encaminhado hospital,Jordão
+451,Queda,7,2022,42.9,Óbito,Boa Viagem
+452,Trabalho de parto,1,2023,42.8,Encaminhado hospital,Imbiribeira
+453,AVC,1,2023,20.4,Atendido no local,Casa Amarela
+454,Cardiopatia,10,2023,17.4,Encaminhado hospital,Casa Amarela
+455,Trauma/Acidente,8,2023,6.8,Atendido no local,Casa Amarela
+456,Trabalho de parto,8,2023,38.9,Encaminhado hospital,Imbiribeira
+457,AVC,8,2022,18.9,Encaminhado hospital,Afogados
+458,Queimadura,10,2023,27.3,Atendido no local,Ibura
+459,Outros,9,2022,13.9,Atendido no local,Beberibe
+460,Trabalho de parto,5,2023,15.1,Encaminhado hospital,Jordão
+461,AVC,11,2022,43.2,Atendido no local,Boa Viagem
+462,Trauma/Acidente,11,2023,21.4,Encaminhado hospital,Ibura
+463,Queimadura,6,2022,15.8,Atendido no local,Boa Viagem
+464,Intoxicação,7,2023,32.5,Atendido no local,Casa Amarela
+465,Queimadura,5,2023,13.6,Encaminhado hospital,Boa Viagem
+466,AVC,3,2022,8.8,Óbito,Jordão
+467,AVC,1,2023,38.4,Óbito,Afogados
+468,Cardiopatia,8,2022,14.3,Encaminhado hospital,Imbiribeira
+469,Trauma/Acidente,6,2023,30.8,Encaminhado hospital,Afogados
+470,Trabalho de parto,12,2022,23.6,Encaminhado hospital,Imbiribeira
+471,Trabalho de parto,8,2022,31.2,Encaminhado hospital,Madalena
+472,AVC,1,2023,8.1,Encaminhado hospital,Madalena
+473,Outros,8,2022,35.8,Encaminhado hospital,Ibura
+474,Trauma/Acidente,3,2023,30.9,Encaminhado hospital,Jordão
+475,Intoxicação,11,2023,10.9,Encaminhado hospital,Boa Viagem
+476,Intoxicação,2,2022,29.1,Encaminhado hospital,Ibura
+477,Outros,1,2022,38.9,Encaminhado hospital,Ibura
+478,Queda,9,2022,28.0,Encaminhado hospital,Jordão
+479,Queda,2,2022,13.5,Encaminhado hospital,Beberibe
+480,Queda,6,2022,23.6,Encaminhado hospital,Casa Amarela
+481,Outros,4,2023,30.7,Encaminhado hospital,Casa Amarela
+482,Outros,1,2023,5.7,Encaminhado hospital,Beberibe
+483,Trabalho de parto,4,2022,40.6,Encaminhado hospital,Afogados
+484,AVC,3,2023,7.4,Encaminhado hospital,Boa Viagem
+485,AVC,1,2022,9.7,Atendido no local,Boa Viagem
+486,Queimadura,3,2022,44.9,Encaminhado hospital,Beberibe
+487,AVC,6,2022,6.0,Encaminhado hospital,Madalena
+488,Trauma/Acidente,7,2022,21.8,Atendido no local,Ibura
+489,Queda,8,2022,16.5,Encaminhado hospital,Casa Amarela
+490,Queimadura,9,2023,12.5,Encaminhado hospital,Imbiribeira
+491,Queimadura,4,2023,22.6,Atendido no local,Jordão
+492,Intoxicação,2,2023,26.1,Atendido no local,Boa Viagem
+493,Outros,10,2022,40.1,Encaminhado hospital,Afogados
+494,Queimadura,1,2023,39.4,Encaminhado hospital,Casa Amarela
+495,Outros,3,2023,23.2,Encaminhado hospital,Afogados
+496,Trauma/Acidente,11,2022,25.0,Encaminhado hospital,Boa Viagem
+497,Trauma/Acidente,10,2022,20.9,Encaminhado hospital,Imbiribeira
+498,Outros,12,2023,27.3,Encaminhado hospital,Ibura
+499,Queda,6,2022,22.5,Atendido no local,Madalena
+500,Intoxicação,4,2022,43.7,Encaminhado hospital,Imbiribeira

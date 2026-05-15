@@ -1,0 +1,501 @@
+id,data_ocorrencia,mes,ano,bairro,tipo_ocorrencia,quantidade_coletada_kg,tempo_atendimento_horas,resolvido,latitude,longitude
+1,2023-11-04,11,2023,Boa Viagem,Descarte irregular em terreno baldio,586.31,16.8,True,-8.01466,-34.821564
+2,2023-02-19,2,2023,Tejipió,Acúmulo de lixo em via pública,108.1,16.5,True,-8.144693,-34.960232
+3,2023-11-23,11,2023,Água Fria,Falta de coleta no prazo,479.86,42.8,False,-8.1487,-34.838836
+4,2023-12-14,12,2023,Beberibe,Lixeira danificada,353.19,69.0,True,-8.131451,-34.980657
+5,2023-06-20,6,2023,Imbiribeira,Acúmulo de lixo em via pública,1472.98,39.1,False,-8.074293,-34.889592
+6,2023-11-20,11,2023,Caxangá,Entulho em área pública,424.96,5.9,True,-7.995386,-34.802956
+7,2023-04-28,4,2023,Aflitos,Falta de coleta no prazo,592.05,46.1,True,-8.075964,-34.958099
+8,2023-05-23,5,2023,Graças,Entulho em área pública,1288.21,38.9,True,-8.057548,-34.94601
+9,2023-11-23,11,2023,Água Fria,Ponto viciado de descarte irregular,1385.0,60.8,False,-8.10419,-34.99358
+10,2023-06-13,6,2023,Imbiribeira,Acúmulo de lixo em via pública,461.42,67.9,False,-8.087064,-34.868912
+11,2023-07-21,7,2023,Ibura,Ponto viciado de descarte irregular,566.52,18.5,True,-8.097452,-34.883083
+12,2023-10-13,10,2023,Caxangá,Ponto viciado de descarte irregular,1994.79,10.8,True,-7.998844,-34.827779
+13,2023-03-21,3,2023,Madalena,Descarte irregular em terreno baldio,873.21,5.5,True,-7.950776,-34.894177
+14,2023-09-28,9,2023,Boa Viagem,Descarte irregular em terreno baldio,1455.41,49.4,True,-8.096635,-34.871808
+15,2023-02-10,2,2023,Tejipió,Ponto viciado de descarte irregular,934.76,68.7,False,-8.097322,-34.899883
+16,2023-03-17,3,2023,Aflitos,Descarte irregular em terreno baldio,631.97,46.4,True,-8.119432,-34.847498
+17,2023-09-25,9,2023,Dois Unidos,Acúmulo de lixo em via pública,1217.94,35.7,True,-8.077404,-34.802936
+18,2023-05-08,5,2023,Casa Forte,Ponto viciado de descarte irregular,1762.12,68.2,True,-8.052802,-34.986157
+19,2023-09-25,9,2023,Espinheiro,Ponto viciado de descarte irregular,1336.51,68.2,True,-8.044465,-34.878681
+20,2023-04-18,4,2023,Torre,Descarte irregular em terreno baldio,657.85,71.7,True,-8.06238,-34.896485
+21,2023-02-08,2,2023,Pina,Acúmulo de lixo em via pública,709.27,42.8,True,-8.105957,-34.985801
+22,2023-11-02,11,2023,Pina,Acúmulo de lixo em via pública,1815.57,62.0,True,-8.102399,-34.866204
+23,2023-04-18,4,2023,Espinheiro,Descarte irregular em terreno baldio,1874.25,41.5,True,-7.993076,-34.838501
+24,2023-04-04,4,2023,Aflitos,Descarte irregular em terreno baldio,890.55,31.1,True,-8.004185,-34.865327
+25,2023-11-04,11,2023,Casa Forte,Falta de coleta no prazo,1470.02,57.8,True,-8.111682,-34.892743
+26,2023-03-14,3,2023,Madalena,Lixeira danificada,952.12,63.1,True,-7.988396,-34.828807
+27,2023-02-02,2,2023,Água Fria,Acúmulo de lixo em via pública,1939.54,66.8,False,-8.116738,-34.902872
+28,2023-04-28,4,2023,Várzea,Acúmulo de lixo em via pública,371.04,1.2,True,-7.964696,-34.842974
+29,2023-05-14,5,2023,Água Fria,Descarte irregular em terreno baldio,1450.9,12.0,True,-7.956258,-34.884164
+30,2023-09-02,9,2023,Beberibe,Acúmulo de lixo em via pública,147.78,34.9,False,-8.043775,-34.988624
+31,2023-09-03,9,2023,Madalena,Acúmulo de lixo em via pública,1210.32,48.9,True,-8.126023,-34.821943
+32,2023-04-19,4,2023,Mustardinha,Acúmulo de lixo em via pública,1257.79,30.8,True,-8.045443,-34.813059
+33,2023-04-22,4,2023,Beberibe,Ponto viciado de descarte irregular,567.95,10.3,True,-8.058555,-34.814196
+34,2023-02-01,2,2023,Ibura,Entulho em área pública,1996.99,71.7,True,-8.107369,-34.94696
+35,2023-06-03,6,2023,Pina,Lixeira danificada,605.73,32.1,True,-8.089497,-34.803229
+36,2023-11-17,11,2023,Boa Viagem,Descarte irregular em terreno baldio,1643.35,22.3,True,-7.962214,-34.973142
+37,2023-02-04,2,2023,Água Fria,Ponto viciado de descarte irregular,581.08,43.9,True,-8.109281,-34.873152
+38,2023-05-17,5,2023,Jordão,Lixeira danificada,1815.41,61.1,True,-8.065285,-34.944664
+39,2023-01-11,1,2023,Espinheiro,Descarte irregular em terreno baldio,1960.61,12.5,True,-8.008867,-34.887819
+40,2023-02-03,2,2023,Espinheiro,Entulho em área pública,120.25,27.2,True,-8.064043,-34.991634
+41,2023-06-26,6,2023,Casa Forte,Lixeira danificada,459.65,18.7,True,-7.993977,-34.823173
+42,2023-07-20,7,2023,Espinheiro,Ponto viciado de descarte irregular,1735.98,70.3,False,-7.973717,-34.995043
+43,2023-12-11,12,2023,Tejipió,Descarte irregular em terreno baldio,1734.92,58.6,True,-7.992525,-34.978381
+44,2023-01-28,1,2023,Jordão,Ponto viciado de descarte irregular,439.17,66.2,True,-7.985893,-34.825735
+45,2023-04-01,4,2023,Torre,Falta de coleta no prazo,690.11,62.4,False,-8.094175,-34.871704
+46,2023-07-22,7,2023,Água Fria,Lixeira danificada,1881.51,9.2,False,-8.114286,-34.807493
+47,2023-05-02,5,2023,Aflitos,Entulho em área pública,897.4,52.7,True,-8.028758,-34.897715
+48,2023-07-19,7,2023,Torre,Lixeira danificada,136.55,32.0,True,-7.988698,-34.862629
+49,2023-12-24,12,2023,Torre,Lixeira danificada,891.03,68.4,False,-8.025369,-34.867323
+50,2023-02-24,2,2023,Encruzilhada,Entulho em área pública,653.11,30.0,True,-8.090869,-34.974542
+51,2023-07-22,7,2023,Várzea,Descarte irregular em terreno baldio,1508.86,13.4,True,-8.068785,-34.833255
+52,2023-05-10,5,2023,Torre,Falta de coleta no prazo,1582.23,44.1,True,-8.061643,-34.864875
+53,2023-09-16,9,2023,Madalena,Descarte irregular em terreno baldio,215.35,37.6,True,-8.082962,-34.836315
+54,2023-04-22,4,2023,Encruzilhada,Ponto viciado de descarte irregular,1622.8,11.5,True,-7.953213,-34.877745
+55,2023-02-15,2,2023,Tejipió,Descarte irregular em terreno baldio,1172.56,52.0,True,-8.070069,-34.970486
+56,2023-12-01,12,2023,Aflitos,Falta de coleta no prazo,476.74,58.1,True,-8.05709,-34.888519
+57,2023-02-15,2,2023,Espinheiro,Falta de coleta no prazo,1351.78,71.1,True,-7.959992,-34.821715
+58,2023-10-27,10,2023,Dois Unidos,Falta de coleta no prazo,1669.61,39.9,False,-8.001269,-34.905065
+59,2023-05-25,5,2023,Pina,Descarte irregular em terreno baldio,590.76,56.2,True,-8.102151,-34.912025
+60,2023-12-10,12,2023,Pina,Lixeira danificada,704.9,64.4,True,-8.119834,-34.923393
+61,2023-03-23,3,2023,Torre,Acúmulo de lixo em via pública,858.99,24.5,True,-8.137547,-34.833422
+62,2023-07-25,7,2023,Iputinga,Descarte irregular em terreno baldio,88.09,63.5,True,-8.054604,-34.811452
+63,2023-05-25,5,2023,Várzea,Falta de coleta no prazo,1099.53,53.2,False,-7.970438,-34.902354
+64,2023-05-14,5,2023,Jordão,Acúmulo de lixo em via pública,808.27,48.5,False,-8.005164,-34.831899
+65,2023-03-20,3,2023,Água Fria,Acúmulo de lixo em via pública,1818.51,43.0,True,-8.133211,-34.914277
+66,2023-08-06,8,2023,Casa Forte,Lixeira danificada,789.25,16.0,True,-7.997754,-34.924175
+67,2023-07-09,7,2023,Graças,Falta de coleta no prazo,87.8,39.3,False,-8.080008,-34.869971
+68,2023-11-02,11,2023,Boa Viagem,Ponto viciado de descarte irregular,438.75,2.4,True,-8.124756,-34.866108
+69,2023-10-07,10,2023,Ibura,Descarte irregular em terreno baldio,549.68,27.2,True,-7.957253,-34.856329
+70,2023-03-10,3,2023,Aflitos,Entulho em área pública,100.07,23.1,True,-7.958365,-34.920669
+71,2023-12-07,12,2023,Graças,Entulho em área pública,1396.7,45.5,True,-7.995504,-34.829941
+72,2023-10-26,10,2023,Aflitos,Entulho em área pública,1576.14,25.7,True,-8.075886,-34.898808
+73,2023-06-01,6,2023,Tejipió,Falta de coleta no prazo,255.8,69.2,True,-7.984259,-34.858538
+74,2023-07-06,7,2023,Dois Unidos,Descarte irregular em terreno baldio,576.66,58.4,True,-8.0533,-34.912885
+75,2023-12-19,12,2023,Imbiribeira,Lixeira danificada,1710.84,60.0,True,-7.973674,-34.951227
+76,2023-08-19,8,2023,Mustardinha,Descarte irregular em terreno baldio,789.03,3.0,False,-8.113632,-34.957576
+77,2023-05-11,5,2023,Imbiribeira,Entulho em área pública,1417.31,20.6,True,-7.960387,-34.982877
+78,2023-12-14,12,2023,Jordão,Entulho em área pública,1528.42,50.0,True,-8.051836,-34.841413
+79,2023-02-10,2,2023,Pina,Falta de coleta no prazo,1398.98,22.7,True,-8.055348,-34.893816
+80,2023-07-24,7,2023,Água Fria,Lixeira danificada,736.03,33.2,True,-8.103892,-34.855743
+81,2023-06-04,6,2023,Água Fria,Descarte irregular em terreno baldio,411.04,16.4,True,-8.005083,-34.804679
+82,2023-09-20,9,2023,Encruzilhada,Acúmulo de lixo em via pública,1673.63,22.0,True,-8.089546,-34.858396
+83,2023-03-09,3,2023,Casa Forte,Acúmulo de lixo em via pública,1129.05,50.5,True,-7.976308,-34.901824
+84,2023-01-19,1,2023,Encruzilhada,Falta de coleta no prazo,983.49,25.2,False,-8.099504,-34.827655
+85,2023-02-27,2,2023,Graças,Falta de coleta no prazo,1008.91,42.0,True,-8.119655,-34.837772
+86,2023-05-03,5,2023,Pina,Acúmulo de lixo em via pública,1138.24,30.5,True,-8.026316,-34.844861
+87,2023-07-15,7,2023,Ibura,Lixeira danificada,1727.32,71.3,True,-8.025795,-34.878074
+88,2023-12-04,12,2023,Torre,Descarte irregular em terreno baldio,461.5,47.9,True,-8.115237,-34.984987
+89,2023-01-14,1,2023,Ibura,Descarte irregular em terreno baldio,1207.93,21.7,True,-8.008609,-34.859402
+90,2023-08-03,8,2023,Pina,Lixeira danificada,1586.26,45.4,True,-7.963266,-34.914972
+91,2023-09-08,9,2023,Espinheiro,Lixeira danificada,1661.93,6.1,True,-8.088478,-34.850208
+92,2023-10-10,10,2023,Ibura,Acúmulo de lixo em via pública,963.96,22.6,True,-8.095551,-34.892004
+93,2023-08-03,8,2023,Mustardinha,Acúmulo de lixo em via pública,1784.37,53.2,True,-8.144827,-34.954215
+94,2023-11-27,11,2023,Iputinga,Entulho em área pública,1904.03,72.0,True,-8.096098,-34.991954
+95,2023-03-16,3,2023,Dois Unidos,Descarte irregular em terreno baldio,912.35,20.7,False,-8.062823,-34.837151
+96,2023-02-16,2,2023,Caxangá,Falta de coleta no prazo,699.95,48.6,False,-8.084039,-34.861265
+97,2023-05-22,5,2023,Várzea,Entulho em área pública,121.56,7.3,True,-8.126816,-34.84549
+98,2023-09-27,9,2023,Boa Viagem,Descarte irregular em terreno baldio,1745.27,33.8,True,-8.046312,-34.875473
+99,2023-08-21,8,2023,Ibura,Acúmulo de lixo em via pública,446.94,40.0,False,-8.062377,-34.86035
+100,2023-02-01,2,2023,Mustardinha,Ponto viciado de descarte irregular,1434.08,23.1,True,-8.068402,-34.95506
+101,2023-02-15,2,2023,Aflitos,Descarte irregular em terreno baldio,1672.68,36.4,True,-8.048226,-34.945315
+102,2023-08-16,8,2023,Pina,Falta de coleta no prazo,1124.97,28.2,False,-8.048352,-34.824135
+103,2023-02-09,2,2023,Tejipió,Lixeira danificada,1871.78,37.0,False,-8.093432,-34.940289
+104,2023-10-19,10,2023,Jordão,Ponto viciado de descarte irregular,920.77,35.4,True,-7.997425,-34.924558
+105,2023-06-28,6,2023,Torre,Descarte irregular em terreno baldio,515.67,28.2,False,-8.067845,-34.936365
+106,2023-08-23,8,2023,Várzea,Falta de coleta no prazo,1977.41,57.3,True,-8.119579,-34.807035
+107,2023-03-17,3,2023,Iputinga,Lixeira danificada,1745.92,63.1,True,-8.04481,-34.908614
+108,2023-12-05,12,2023,Tejipió,Descarte irregular em terreno baldio,1941.42,6.3,False,-8.096995,-34.875348
+109,2023-07-21,7,2023,Graças,Lixeira danificada,1712.07,62.0,True,-8.086668,-34.856257
+110,2023-08-28,8,2023,Água Fria,Acúmulo de lixo em via pública,1254.05,17.7,True,-8.092524,-34.954503
+111,2023-02-14,2,2023,Aflitos,Descarte irregular em terreno baldio,1422.59,8.1,True,-8.090107,-34.994211
+112,2023-06-26,6,2023,Casa Forte,Lixeira danificada,749.0,31.6,True,-8.06759,-34.86364
+113,2023-03-06,3,2023,Madalena,Acúmulo de lixo em via pública,1238.51,28.2,True,-8.050467,-34.883369
+114,2023-04-15,4,2023,Imbiribeira,Falta de coleta no prazo,547.89,1.7,False,-7.969758,-34.864478
+115,2023-03-03,3,2023,Ibura,Lixeira danificada,1975.92,22.2,False,-8.011937,-34.908633
+116,2023-05-07,5,2023,Várzea,Falta de coleta no prazo,257.97,28.1,True,-8.090826,-34.860144
+117,2023-01-27,1,2023,Várzea,Lixeira danificada,65.79,62.4,False,-7.955279,-34.817877
+118,2023-12-16,12,2023,Encruzilhada,Ponto viciado de descarte irregular,1233.78,26.0,True,-8.025822,-34.864447
+119,2023-12-25,12,2023,Espinheiro,Descarte irregular em terreno baldio,239.47,45.5,True,-7.992278,-34.993327
+120,2023-06-24,6,2023,Espinheiro,Acúmulo de lixo em via pública,1823.77,24.2,True,-8.109841,-34.842697
+121,2023-06-17,6,2023,Dois Unidos,Lixeira danificada,1669.42,19.2,False,-8.05363,-34.838702
+122,2023-12-28,12,2023,Beberibe,Acúmulo de lixo em via pública,963.25,6.3,False,-8.104877,-34.864735
+123,2023-11-13,11,2023,Água Fria,Lixeira danificada,226.09,29.0,True,-8.125282,-34.926283
+124,2023-12-22,12,2023,Imbiribeira,Entulho em área pública,793.0,46.3,True,-8.015033,-34.905705
+125,2023-10-18,10,2023,Beberibe,Entulho em área pública,481.67,5.5,False,-7.968122,-34.939562
+126,2023-07-04,7,2023,Espinheiro,Acúmulo de lixo em via pública,1895.21,22.6,True,-8.130562,-34.822548
+127,2023-03-13,3,2023,Ibura,Lixeira danificada,1357.45,53.8,False,-8.066175,-34.851546
+128,2023-03-14,3,2023,Aflitos,Falta de coleta no prazo,1250.52,67.7,True,-8.011944,-34.956546
+129,2023-08-08,8,2023,Caxangá,Acúmulo de lixo em via pública,1962.81,27.1,False,-8.021035,-34.98789
+130,2023-05-07,5,2023,Aflitos,Falta de coleta no prazo,228.76,16.1,True,-7.955781,-34.989884
+131,2023-06-08,6,2023,Espinheiro,Entulho em área pública,450.15,59.9,True,-8.032723,-34.837389
+132,2023-04-11,4,2023,Espinheiro,Entulho em área pública,55.53,61.9,True,-8.124002,-34.949869
+133,2023-03-04,3,2023,Boa Viagem,Ponto viciado de descarte irregular,78.98,57.1,True,-8.085246,-34.965151
+134,2023-01-05,1,2023,Tejipió,Entulho em área pública,271.62,5.5,True,-8.077592,-34.881267
+135,2023-08-17,8,2023,Pina,Entulho em área pública,134.56,56.6,False,-8.04571,-34.908391
+136,2023-01-02,1,2023,Jordão,Falta de coleta no prazo,881.23,8.7,True,-8.061288,-34.820147
+137,2023-06-20,6,2023,Espinheiro,Acúmulo de lixo em via pública,296.07,45.3,True,-8.007569,-34.923819
+138,2023-10-17,10,2023,Encruzilhada,Falta de coleta no prazo,1035.82,31.5,False,-8.127117,-34.869057
+139,2023-09-24,9,2023,Torre,Falta de coleta no prazo,930.53,17.2,True,-8.0593,-34.916802
+140,2023-02-11,2,2023,Tejipió,Lixeira danificada,1346.96,27.6,True,-7.965403,-34.986573
+141,2023-02-03,2,2023,Tejipió,Acúmulo de lixo em via pública,1501.95,27.5,True,-8.138004,-34.808675
+142,2023-09-11,9,2023,Aflitos,Falta de coleta no prazo,739.52,48.2,False,-7.976382,-34.855788
+143,2023-05-20,5,2023,Encruzilhada,Lixeira danificada,252.02,37.0,True,-8.053562,-34.830545
+144,2023-06-28,6,2023,Água Fria,Lixeira danificada,274.03,20.8,True,-8.064178,-34.887807
+145,2023-10-20,10,2023,Água Fria,Acúmulo de lixo em via pública,1237.54,47.7,True,-8.144209,-34.945346
+146,2023-05-11,5,2023,Caxangá,Acúmulo de lixo em via pública,403.74,11.2,True,-8.136083,-34.851806
+147,2023-01-03,1,2023,Dois Unidos,Ponto viciado de descarte irregular,783.58,33.2,True,-8.087673,-34.935123
+148,2023-10-20,10,2023,Graças,Acúmulo de lixo em via pública,353.38,54.6,True,-8.133684,-34.911377
+149,2023-07-16,7,2023,Mustardinha,Falta de coleta no prazo,857.66,16.3,True,-8.080965,-34.977822
+150,2023-11-22,11,2023,Iputinga,Falta de coleta no prazo,1077.52,22.9,True,-7.953111,-34.989044
+151,2023-04-10,4,2023,Torre,Ponto viciado de descarte irregular,1540.11,21.6,True,-8.050523,-34.913869
+152,2023-03-13,3,2023,Água Fria,Descarte irregular em terreno baldio,498.72,40.7,True,-8.079167,-34.920586
+153,2023-12-02,12,2023,Tejipió,Acúmulo de lixo em via pública,946.52,6.5,True,-8.064143,-34.919115
+154,2023-11-14,11,2023,Encruzilhada,Acúmulo de lixo em via pública,839.81,69.6,True,-7.960477,-34.907981
+155,2023-12-12,12,2023,Graças,Falta de coleta no prazo,1696.74,18.3,True,-8.045207,-34.920847
+156,2023-05-24,5,2023,Beberibe,Ponto viciado de descarte irregular,699.48,12.9,True,-8.127195,-34.89801
+157,2023-06-12,6,2023,Espinheiro,Ponto viciado de descarte irregular,250.47,19.2,True,-8.119426,-34.84817
+158,2023-02-06,2,2023,Jordão,Falta de coleta no prazo,1521.17,55.0,True,-7.965169,-34.887102
+159,2023-11-20,11,2023,Beberibe,Descarte irregular em terreno baldio,666.47,32.2,True,-8.023723,-34.840734
+160,2023-10-02,10,2023,Caxangá,Entulho em área pública,194.67,33.8,True,-8.076252,-34.942585
+161,2023-11-28,11,2023,Graças,Entulho em área pública,1208.46,28.3,True,-7.959154,-34.852216
+162,2023-01-15,1,2023,Iputinga,Descarte irregular em terreno baldio,417.07,44.0,True,-7.958456,-34.909895
+163,2023-06-23,6,2023,Graças,Entulho em área pública,1309.95,3.8,True,-7.951803,-34.895186
+164,2023-10-06,10,2023,Caxangá,Lixeira danificada,1839.98,28.5,False,-8.01422,-34.989527
+165,2023-11-21,11,2023,Beberibe,Acúmulo de lixo em via pública,692.9,40.6,True,-8.099601,-34.829687
+166,2023-10-28,10,2023,Espinheiro,Lixeira danificada,208.93,48.1,False,-8.087954,-34.868789
+167,2023-11-13,11,2023,Espinheiro,Entulho em área pública,1432.23,7.0,True,-8.021301,-34.934305
+168,2023-03-22,3,2023,Dois Unidos,Acúmulo de lixo em via pública,1309.75,31.1,True,-8.07748,-34.963947
+169,2023-04-11,4,2023,Jordão,Ponto viciado de descarte irregular,491.76,10.8,True,-7.981114,-34.979772
+170,2023-09-27,9,2023,Dois Unidos,Acúmulo de lixo em via pública,1340.76,63.2,True,-8.030551,-34.969149
+171,2023-03-27,3,2023,Mustardinha,Ponto viciado de descarte irregular,1456.31,4.1,True,-8.006083,-34.806082
+172,2023-10-10,10,2023,Ibura,Ponto viciado de descarte irregular,1091.32,23.0,False,-8.056197,-34.832977
+173,2023-06-22,6,2023,Iputinga,Falta de coleta no prazo,950.28,21.0,True,-8.044508,-34.806746
+174,2023-04-26,4,2023,Mustardinha,Ponto viciado de descarte irregular,1752.35,4.7,True,-8.075758,-34.813141
+175,2023-12-28,12,2023,Dois Unidos,Acúmulo de lixo em via pública,605.87,55.2,True,-7.968939,-34.97053
+176,2023-07-03,7,2023,Pina,Falta de coleta no prazo,1775.03,67.1,True,-8.070709,-34.925208
+177,2023-07-03,7,2023,Caxangá,Ponto viciado de descarte irregular,104.97,67.1,False,-8.020008,-34.841724
+178,2023-03-02,3,2023,Encruzilhada,Falta de coleta no prazo,1407.34,10.9,True,-8.06028,-34.99895
+179,2023-02-01,2,2023,Imbiribeira,Ponto viciado de descarte irregular,1678.18,40.0,True,-8.044446,-34.977763
+180,2023-05-08,5,2023,Encruzilhada,Acúmulo de lixo em via pública,143.11,30.8,False,-8.058577,-34.977828
+181,2023-08-20,8,2023,Água Fria,Acúmulo de lixo em via pública,1282.31,41.8,True,-8.091746,-34.999687
+182,2023-06-08,6,2023,Iputinga,Falta de coleta no prazo,415.26,48.4,True,-8.077879,-34.809319
+183,2023-09-17,9,2023,Dois Unidos,Entulho em área pública,89.65,63.0,True,-8.072624,-34.92534
+184,2023-12-01,12,2023,Caxangá,Acúmulo de lixo em via pública,722.36,53.0,True,-7.9957,-34.852963
+185,2023-06-05,6,2023,Casa Forte,Lixeira danificada,1114.73,58.8,True,-7.994171,-34.907075
+186,2023-12-16,12,2023,Madalena,Ponto viciado de descarte irregular,173.05,56.1,True,-8.091311,-34.991239
+187,2023-04-02,4,2023,Beberibe,Lixeira danificada,1055.0,71.2,True,-8.099337,-34.849342
+188,2023-04-10,4,2023,Caxangá,Acúmulo de lixo em via pública,1738.31,24.6,True,-8.076396,-34.822103
+189,2023-12-15,12,2023,Várzea,Lixeira danificada,1948.76,36.2,True,-7.965138,-34.896145
+190,2023-02-24,2,2023,Tejipió,Acúmulo de lixo em via pública,889.68,71.7,True,-8.091247,-34.97948
+191,2023-06-22,6,2023,Encruzilhada,Lixeira danificada,919.54,52.0,True,-8.061218,-34.910574
+192,2023-12-28,12,2023,Caxangá,Entulho em área pública,1996.39,20.5,False,-7.960419,-34.984992
+193,2023-11-13,11,2023,Caxangá,Entulho em área pública,1612.14,49.2,False,-8.121444,-34.878485
+194,2023-08-02,8,2023,Espinheiro,Acúmulo de lixo em via pública,510.19,46.8,True,-7.960107,-34.993523
+195,2023-03-22,3,2023,Ibura,Lixeira danificada,775.43,55.2,True,-8.044108,-34.920393
+196,2023-11-09,11,2023,Pina,Acúmulo de lixo em via pública,100.53,14.2,True,-7.967291,-34.976448
+197,2023-05-23,5,2023,Ibura,Ponto viciado de descarte irregular,1992.91,21.3,False,-8.05176,-34.975473
+198,2023-02-15,2,2023,Madalena,Descarte irregular em terreno baldio,917.97,7.2,True,-7.980896,-34.936082
+199,2023-06-23,6,2023,Graças,Entulho em área pública,1107.23,64.3,False,-8.007638,-34.814535
+200,2023-11-06,11,2023,Caxangá,Entulho em área pública,487.27,70.9,False,-8.102653,-34.901196
+201,2023-06-18,6,2023,Iputinga,Lixeira danificada,961.44,70.8,True,-7.973151,-34.98685
+202,2023-07-23,7,2023,Jordão,Entulho em área pública,851.05,30.1,True,-8.124935,-34.936594
+203,2023-02-15,2,2023,Ibura,Descarte irregular em terreno baldio,1058.85,10.1,False,-8.039739,-34.882443
+204,2023-03-14,3,2023,Dois Unidos,Acúmulo de lixo em via pública,1671.21,37.8,True,-8.117607,-34.813052
+205,2023-04-12,4,2023,Dois Unidos,Lixeira danificada,1699.57,18.8,True,-8.039832,-34.974966
+206,2023-05-20,5,2023,Água Fria,Acúmulo de lixo em via pública,1030.02,13.0,False,-8.119161,-34.868253
+207,2023-12-20,12,2023,Beberibe,Entulho em área pública,130.33,62.3,True,-7.960291,-34.845796
+208,2023-05-21,5,2023,Torre,Entulho em área pública,862.34,46.4,True,-8.024567,-34.942066
+209,2023-05-16,5,2023,Pina,Descarte irregular em terreno baldio,841.88,33.2,True,-8.118384,-34.916876
+210,2023-08-07,8,2023,Beberibe,Entulho em área pública,330.15,62.2,True,-7.952395,-34.930926
+211,2023-07-05,7,2023,Caxangá,Entulho em área pública,1145.22,23.7,True,-8.096506,-34.950416
+212,2023-02-02,2,2023,Encruzilhada,Falta de coleta no prazo,1735.12,30.7,False,-7.969538,-34.837304
+213,2023-10-24,10,2023,Beberibe,Ponto viciado de descarte irregular,1538.09,36.4,True,-8.050248,-34.938292
+214,2023-01-03,1,2023,Várzea,Entulho em área pública,941.6,18.1,True,-8.140268,-34.943729
+215,2023-10-27,10,2023,Jordão,Lixeira danificada,1096.55,61.1,True,-7.973509,-34.854498
+216,2023-07-12,7,2023,Casa Forte,Falta de coleta no prazo,149.76,40.9,True,-8.09228,-34.92273
+217,2023-08-25,8,2023,Água Fria,Lixeira danificada,1659.36,45.3,True,-8.124267,-34.980664
+218,2023-06-26,6,2023,Beberibe,Entulho em área pública,1880.95,54.6,True,-8.048175,-34.899984
+219,2023-01-02,1,2023,Espinheiro,Descarte irregular em terreno baldio,699.43,34.6,True,-8.028748,-34.896899
+220,2023-06-20,6,2023,Beberibe,Ponto viciado de descarte irregular,816.26,44.8,False,-8.031255,-34.898537
+221,2023-09-18,9,2023,Jordão,Descarte irregular em terreno baldio,1147.7,34.7,True,-8.083752,-34.978079
+222,2023-07-19,7,2023,Encruzilhada,Descarte irregular em terreno baldio,1750.59,45.7,True,-8.096894,-34.868882
+223,2023-10-19,10,2023,Pina,Descarte irregular em terreno baldio,150.14,35.1,True,-8.005763,-34.845079
+224,2023-07-05,7,2023,Pina,Acúmulo de lixo em via pública,1166.51,50.7,True,-8.061792,-34.916244
+225,2023-07-23,7,2023,Torre,Falta de coleta no prazo,1028.55,44.4,True,-7.980325,-34.85452
+226,2023-12-05,12,2023,Dois Unidos,Ponto viciado de descarte irregular,1143.73,71.9,True,-8.074635,-34.808663
+227,2023-08-18,8,2023,Beberibe,Entulho em área pública,740.86,55.8,True,-8.021338,-34.861337
+228,2023-10-16,10,2023,Torre,Ponto viciado de descarte irregular,594.06,22.2,False,-7.953548,-34.845765
+229,2023-12-07,12,2023,Jordão,Lixeira danificada,985.62,40.8,False,-8.005667,-34.942442
+230,2023-10-22,10,2023,Água Fria,Falta de coleta no prazo,1796.73,29.0,True,-7.995387,-34.970705
+231,2023-01-10,1,2023,Graças,Lixeira danificada,1851.82,47.6,True,-8.107203,-34.83441
+232,2023-05-18,5,2023,Imbiribeira,Ponto viciado de descarte irregular,262.99,53.6,True,-8.139847,-34.818963
+233,2023-04-21,4,2023,Pina,Acúmulo de lixo em via pública,245.39,24.5,True,-8.013762,-34.972507
+234,2023-09-06,9,2023,Tejipió,Descarte irregular em terreno baldio,1873.31,63.4,True,-8.110109,-34.807217
+235,2023-06-10,6,2023,Casa Forte,Acúmulo de lixo em via pública,1321.98,17.5,True,-7.979933,-34.99254
+236,2023-03-14,3,2023,Madalena,Acúmulo de lixo em via pública,1994.49,29.2,True,-7.962678,-34.807574
+237,2023-05-02,5,2023,Boa Viagem,Lixeira danificada,1157.53,8.6,False,-8.093088,-34.80218
+238,2023-09-17,9,2023,Jordão,Ponto viciado de descarte irregular,1709.57,34.2,True,-8.127471,-34.967501
+239,2023-08-21,8,2023,Imbiribeira,Descarte irregular em terreno baldio,413.09,53.3,False,-8.036444,-34.848543
+240,2023-03-20,3,2023,Várzea,Falta de coleta no prazo,1054.8,7.2,True,-8.113044,-34.971878
+241,2023-06-08,6,2023,Boa Viagem,Lixeira danificada,797.97,32.7,True,-8.084075,-34.883508
+242,2023-10-01,10,2023,Imbiribeira,Descarte irregular em terreno baldio,751.13,17.8,True,-8.056921,-34.968057
+243,2023-11-17,11,2023,Encruzilhada,Descarte irregular em terreno baldio,278.96,66.0,True,-8.027075,-34.956174
+244,2023-03-16,3,2023,Espinheiro,Falta de coleta no prazo,1508.08,44.0,True,-8.040153,-34.905834
+245,2023-09-26,9,2023,Torre,Ponto viciado de descarte irregular,1376.67,43.3,False,-8.044899,-34.894365
+246,2023-06-03,6,2023,Iputinga,Acúmulo de lixo em via pública,170.43,39.9,True,-8.03546,-34.97003
+247,2023-06-28,6,2023,Dois Unidos,Falta de coleta no prazo,276.67,15.6,True,-8.131812,-34.897925
+248,2023-01-15,1,2023,Espinheiro,Entulho em área pública,860.08,41.0,True,-8.015446,-34.938366
+249,2023-01-13,1,2023,Imbiribeira,Acúmulo de lixo em via pública,1504.32,42.1,True,-8.081094,-34.987248
+250,2023-01-03,1,2023,Jordão,Acúmulo de lixo em via pública,609.83,13.8,True,-8.021695,-34.854142
+251,2023-07-12,7,2023,Várzea,Falta de coleta no prazo,1745.76,65.4,True,-8.013454,-34.867641
+252,2023-09-05,9,2023,Caxangá,Acúmulo de lixo em via pública,398.02,39.1,True,-8.004428,-34.955462
+253,2023-01-25,1,2023,Boa Viagem,Lixeira danificada,952.86,52.1,True,-8.074145,-34.954067
+254,2023-08-12,8,2023,Espinheiro,Lixeira danificada,417.54,63.1,False,-8.143557,-34.86796
+255,2023-10-25,10,2023,Boa Viagem,Ponto viciado de descarte irregular,451.86,8.2,True,-8.030443,-34.859343
+256,2023-01-08,1,2023,Casa Forte,Falta de coleta no prazo,905.98,39.3,False,-7.994787,-34.971973
+257,2023-05-08,5,2023,Iputinga,Lixeira danificada,1176.08,55.9,False,-8.102619,-34.824748
+258,2023-11-17,11,2023,Pina,Falta de coleta no prazo,635.98,5.3,False,-7.974057,-34.817684
+259,2023-11-22,11,2023,Tejipió,Entulho em área pública,1016.46,70.0,False,-8.015731,-34.842839
+260,2023-06-23,6,2023,Tejipió,Falta de coleta no prazo,340.97,27.7,False,-8.055296,-34.830132
+261,2023-05-28,5,2023,Espinheiro,Falta de coleta no prazo,1833.75,40.9,False,-8.038543,-34.973181
+262,2023-04-09,4,2023,Torre,Lixeira danificada,1311.08,66.5,False,-8.131507,-34.855083
+263,2023-04-02,4,2023,Imbiribeira,Falta de coleta no prazo,1363.66,43.8,False,-8.112367,-34.847661
+264,2023-12-22,12,2023,Água Fria,Ponto viciado de descarte irregular,984.82,62.7,True,-7.958596,-34.996933
+265,2023-04-24,4,2023,Aflitos,Descarte irregular em terreno baldio,1999.17,35.0,True,-8.02912,-34.959097
+266,2023-04-18,4,2023,Beberibe,Lixeira danificada,792.29,38.9,True,-8.097688,-34.897437
+267,2023-08-15,8,2023,Aflitos,Descarte irregular em terreno baldio,965.51,60.6,False,-8.075859,-34.917214
+268,2023-10-28,10,2023,Pina,Descarte irregular em terreno baldio,334.55,19.5,False,-8.034171,-34.916484
+269,2023-03-07,3,2023,Beberibe,Ponto viciado de descarte irregular,790.69,60.2,True,-8.019078,-34.863031
+270,2023-05-25,5,2023,Jordão,Descarte irregular em terreno baldio,1301.3,35.8,True,-7.991005,-34.966147
+271,2023-12-18,12,2023,Jordão,Ponto viciado de descarte irregular,1837.95,39.5,True,-8.138254,-34.993235
+272,2023-02-27,2,2023,Casa Forte,Acúmulo de lixo em via pública,854.16,60.8,True,-8.008566,-34.998172
+273,2023-09-15,9,2023,Caxangá,Acúmulo de lixo em via pública,1254.78,48.3,True,-8.053359,-34.902429
+274,2023-01-18,1,2023,Água Fria,Falta de coleta no prazo,73.11,38.6,True,-7.954504,-34.996571
+275,2023-12-22,12,2023,Tejipió,Ponto viciado de descarte irregular,258.68,7.8,True,-8.111614,-34.894709
+276,2023-06-09,6,2023,Várzea,Acúmulo de lixo em via pública,777.45,29.8,True,-7.951953,-34.954829
+277,2023-11-27,11,2023,Graças,Descarte irregular em terreno baldio,1983.77,47.1,True,-8.068944,-34.924566
+278,2023-08-02,8,2023,Boa Viagem,Descarte irregular em terreno baldio,384.2,36.5,True,-7.993125,-34.886829
+279,2023-02-17,2,2023,Casa Forte,Ponto viciado de descarte irregular,462.26,62.6,False,-8.0549,-34.990688
+280,2023-02-22,2,2023,Imbiribeira,Entulho em área pública,1148.84,3.3,False,-8.087103,-34.807706
+281,2023-10-05,10,2023,Várzea,Acúmulo de lixo em via pública,633.59,41.0,True,-7.980112,-34.864593
+282,2023-09-11,9,2023,Várzea,Descarte irregular em terreno baldio,322.9,71.2,True,-8.049841,-34.805135
+283,2023-01-04,1,2023,Tejipió,Ponto viciado de descarte irregular,1685.42,25.2,False,-7.959028,-34.920659
+284,2023-06-01,6,2023,Imbiribeira,Falta de coleta no prazo,1006.68,26.3,False,-8.06363,-34.864061
+285,2023-11-13,11,2023,Graças,Entulho em área pública,625.99,18.5,True,-8.096406,-34.924
+286,2023-11-05,11,2023,Várzea,Lixeira danificada,753.37,7.5,False,-8.061053,-34.847731
+287,2023-02-05,2,2023,Graças,Ponto viciado de descarte irregular,890.41,40.5,True,-8.129341,-34.982076
+288,2023-09-03,9,2023,Mustardinha,Entulho em área pública,1579.66,62.3,True,-8.067238,-34.844166
+289,2023-12-18,12,2023,Pina,Entulho em área pública,1066.15,49.7,True,-8.096216,-34.946319
+290,2023-03-03,3,2023,Madalena,Falta de coleta no prazo,588.13,22.3,False,-8.077775,-34.811156
+291,2023-12-21,12,2023,Jordão,Entulho em área pública,1252.5,33.5,True,-8.148647,-34.920862
+292,2023-10-13,10,2023,Beberibe,Falta de coleta no prazo,702.74,58.9,False,-7.955155,-34.972775
+293,2023-06-20,6,2023,Torre,Falta de coleta no prazo,662.66,69.5,False,-8.09171,-34.861008
+294,2023-08-19,8,2023,Pina,Lixeira danificada,783.31,59.0,True,-8.127222,-34.88723
+295,2023-10-18,10,2023,Madalena,Descarte irregular em terreno baldio,1546.85,2.9,True,-7.961405,-34.95807
+296,2023-05-27,5,2023,Graças,Falta de coleta no prazo,1362.31,10.9,True,-8.099464,-34.969171
+297,2023-07-26,7,2023,Várzea,Acúmulo de lixo em via pública,925.68,43.5,True,-8.043127,-34.815301
+298,2023-12-14,12,2023,Água Fria,Acúmulo de lixo em via pública,1591.91,26.5,False,-8.042619,-34.872364
+299,2023-02-04,2,2023,Pina,Descarte irregular em terreno baldio,1346.15,12.8,True,-8.037356,-34.870994
+300,2023-11-13,11,2023,Beberibe,Falta de coleta no prazo,256.59,8.0,True,-8.000629,-34.888401
+301,2023-12-19,12,2023,Pina,Falta de coleta no prazo,779.53,33.9,True,-8.011913,-34.969851
+302,2023-01-16,1,2023,Aflitos,Lixeira danificada,861.15,69.3,True,-7.961865,-34.971665
+303,2023-05-11,5,2023,Ibura,Ponto viciado de descarte irregular,1066.17,25.7,True,-8.005601,-34.909511
+304,2023-02-10,2,2023,Casa Forte,Descarte irregular em terreno baldio,274.42,61.3,True,-8.014572,-34.967129
+305,2023-12-08,12,2023,Dois Unidos,Ponto viciado de descarte irregular,1126.23,24.5,True,-8.057589,-34.840449
+306,2023-11-06,11,2023,Madalena,Descarte irregular em terreno baldio,1331.75,29.1,True,-7.973381,-34.910085
+307,2023-07-13,7,2023,Boa Viagem,Descarte irregular em terreno baldio,468.85,20.8,True,-7.990798,-34.88453
+308,2023-09-06,9,2023,Caxangá,Lixeira danificada,434.29,9.1,True,-8.052103,-34.806817
+309,2023-06-20,6,2023,Várzea,Entulho em área pública,815.46,9.1,True,-8.058428,-34.965494
+310,2023-11-23,11,2023,Encruzilhada,Entulho em área pública,1200.83,48.7,True,-8.102285,-34.97661
+311,2023-06-23,6,2023,Espinheiro,Entulho em área pública,807.5,43.3,True,-8.065392,-34.902666
+312,2023-09-23,9,2023,Madalena,Entulho em área pública,375.39,21.5,True,-7.981603,-34.876118
+313,2023-06-01,6,2023,Jordão,Ponto viciado de descarte irregular,430.5,28.3,True,-8.019386,-34.918173
+314,2023-08-14,8,2023,Ibura,Falta de coleta no prazo,376.14,41.1,False,-8.105894,-34.993461
+315,2023-04-18,4,2023,Encruzilhada,Ponto viciado de descarte irregular,1572.44,41.2,False,-8.050937,-34.897839
+316,2023-10-04,10,2023,Imbiribeira,Entulho em área pública,1655.4,27.0,False,-8.141678,-34.856204
+317,2023-09-07,9,2023,Tejipió,Acúmulo de lixo em via pública,1485.18,47.4,True,-7.975038,-34.993554
+318,2023-05-12,5,2023,Graças,Falta de coleta no prazo,1737.32,9.3,False,-8.108024,-34.852477
+319,2023-12-12,12,2023,Mustardinha,Descarte irregular em terreno baldio,884.93,44.7,False,-7.987294,-34.838912
+320,2023-10-12,10,2023,Água Fria,Lixeira danificada,1213.87,13.0,False,-8.091473,-34.885453
+321,2023-09-22,9,2023,Aflitos,Ponto viciado de descarte irregular,1927.41,56.8,False,-7.951503,-34.82659
+322,2023-03-23,3,2023,Espinheiro,Ponto viciado de descarte irregular,335.17,23.9,True,-7.981289,-34.92146
+323,2023-03-19,3,2023,Imbiribeira,Descarte irregular em terreno baldio,857.74,33.1,True,-7.973975,-34.981381
+324,2023-09-24,9,2023,Imbiribeira,Descarte irregular em terreno baldio,1875.86,27.2,False,-8.084542,-34.999505
+325,2023-12-03,12,2023,Ibura,Descarte irregular em terreno baldio,1345.08,26.4,True,-8.043115,-34.956434
+326,2023-07-27,7,2023,Torre,Falta de coleta no prazo,573.65,59.8,True,-8.034413,-34.886772
+327,2023-08-26,8,2023,Beberibe,Descarte irregular em terreno baldio,1536.4,4.3,True,-7.98266,-34.996744
+328,2023-03-15,3,2023,Ibura,Acúmulo de lixo em via pública,1984.08,31.4,False,-7.968119,-34.82357
+329,2023-05-06,5,2023,Imbiribeira,Acúmulo de lixo em via pública,1326.45,18.8,True,-7.96924,-34.966895
+330,2023-07-21,7,2023,Encruzilhada,Descarte irregular em terreno baldio,1413.91,17.6,True,-8.00926,-34.999783
+331,2023-08-03,8,2023,Espinheiro,Entulho em área pública,491.07,49.3,True,-8.010881,-34.836578
+332,2023-07-23,7,2023,Espinheiro,Falta de coleta no prazo,188.12,28.2,True,-8.129515,-34.93733
+333,2023-05-05,5,2023,Várzea,Ponto viciado de descarte irregular,1301.07,49.1,True,-8.037342,-34.877936
+334,2023-03-15,3,2023,Caxangá,Descarte irregular em terreno baldio,465.46,54.1,False,-8.026785,-34.911523
+335,2023-04-03,4,2023,Aflitos,Ponto viciado de descarte irregular,1517.27,42.9,True,-7.95735,-34.937099
+336,2023-03-08,3,2023,Imbiribeira,Descarte irregular em terreno baldio,214.28,40.3,True,-8.028481,-34.844206
+337,2023-12-01,12,2023,Encruzilhada,Ponto viciado de descarte irregular,1059.61,37.2,True,-8.090892,-34.989086
+338,2023-04-16,4,2023,Várzea,Acúmulo de lixo em via pública,520.11,46.3,True,-7.972255,-34.997587
+339,2023-06-11,6,2023,Espinheiro,Falta de coleta no prazo,1728.59,41.4,True,-8.013412,-34.847455
+340,2023-02-01,2,2023,Iputinga,Acúmulo de lixo em via pública,76.9,16.3,False,-7.960264,-34.920405
+341,2023-05-21,5,2023,Dois Unidos,Falta de coleta no prazo,875.97,29.6,True,-8.042469,-34.969464
+342,2023-02-10,2,2023,Graças,Entulho em área pública,1845.8,70.2,True,-8.08465,-34.882713
+343,2023-11-22,11,2023,Graças,Lixeira danificada,1412.42,52.8,False,-8.138419,-34.982757
+344,2023-07-04,7,2023,Ibura,Entulho em área pública,1237.22,23.0,True,-8.001868,-34.976111
+345,2023-12-05,12,2023,Boa Viagem,Ponto viciado de descarte irregular,1018.01,25.6,True,-7.985499,-34.948151
+346,2023-06-05,6,2023,Imbiribeira,Descarte irregular em terreno baldio,1778.51,55.8,True,-7.988578,-34.945604
+347,2023-02-09,2,2023,Iputinga,Descarte irregular em terreno baldio,200.29,33.3,True,-8.050078,-34.886623
+348,2023-06-06,6,2023,Imbiribeira,Acúmulo de lixo em via pública,1793.82,48.9,True,-8.001844,-34.999486
+349,2023-01-08,1,2023,Casa Forte,Falta de coleta no prazo,759.75,66.3,True,-7.957932,-34.992927
+350,2023-12-24,12,2023,Tejipió,Ponto viciado de descarte irregular,677.51,30.6,True,-8.095748,-34.984423
+351,2023-06-04,6,2023,Dois Unidos,Descarte irregular em terreno baldio,1808.78,13.7,False,-7.953717,-34.809184
+352,2023-02-15,2,2023,Encruzilhada,Lixeira danificada,688.24,40.3,True,-8.109866,-34.887239
+353,2023-05-24,5,2023,Mustardinha,Ponto viciado de descarte irregular,954.66,43.0,True,-7.995477,-34.960916
+354,2023-09-25,9,2023,Pina,Ponto viciado de descarte irregular,62.44,30.1,True,-8.080715,-34.832085
+355,2023-01-11,1,2023,Boa Viagem,Descarte irregular em terreno baldio,783.74,53.4,True,-8.108961,-34.803377
+356,2023-07-16,7,2023,Casa Forte,Ponto viciado de descarte irregular,1437.72,7.6,False,-7.970543,-34.896048
+357,2023-12-12,12,2023,Ibura,Descarte irregular em terreno baldio,215.56,7.8,True,-7.986007,-34.985034
+358,2023-10-02,10,2023,Tejipió,Descarte irregular em terreno baldio,1930.23,17.8,True,-8.086998,-34.839837
+359,2023-12-27,12,2023,Beberibe,Lixeira danificada,932.88,17.6,False,-8.122778,-34.845971
+360,2023-02-05,2,2023,Aflitos,Ponto viciado de descarte irregular,926.66,23.3,True,-8.078343,-34.845933
+361,2023-08-10,8,2023,Ibura,Lixeira danificada,1712.34,7.4,False,-8.089157,-34.859059
+362,2023-10-02,10,2023,Torre,Lixeira danificada,339.23,51.5,False,-8.070751,-34.99021
+363,2023-05-09,5,2023,Madalena,Acúmulo de lixo em via pública,1906.59,61.7,True,-8.039976,-34.981055
+364,2023-02-26,2,2023,Espinheiro,Acúmulo de lixo em via pública,73.32,60.0,False,-8.123857,-34.835265
+365,2023-06-22,6,2023,Graças,Entulho em área pública,1192.93,66.1,True,-7.950568,-34.96045
+366,2023-11-15,11,2023,Espinheiro,Acúmulo de lixo em via pública,1814.9,59.9,True,-8.141461,-34.907801
+367,2023-03-19,3,2023,Tejipió,Descarte irregular em terreno baldio,820.25,3.1,True,-8.115439,-34.957057
+368,2023-03-09,3,2023,Imbiribeira,Falta de coleta no prazo,1772.68,3.5,True,-8.100843,-34.940979
+369,2023-07-18,7,2023,Jordão,Acúmulo de lixo em via pública,221.06,28.2,True,-8.021469,-34.84056
+370,2023-04-21,4,2023,Água Fria,Acúmulo de lixo em via pública,1979.34,56.5,True,-8.041096,-34.903064
+371,2023-10-17,10,2023,Beberibe,Falta de coleta no prazo,577.35,2.9,True,-8.144139,-34.837862
+372,2023-05-02,5,2023,Jordão,Entulho em área pública,746.99,42.5,True,-8.118075,-34.950429
+373,2023-04-09,4,2023,Água Fria,Descarte irregular em terreno baldio,159.02,71.7,True,-7.980699,-34.840522
+374,2023-06-27,6,2023,Madalena,Ponto viciado de descarte irregular,511.27,23.6,True,-8.078243,-34.881688
+375,2023-12-23,12,2023,Caxangá,Entulho em área pública,1149.03,41.0,True,-7.952399,-34.823675
+376,2023-08-18,8,2023,Encruzilhada,Ponto viciado de descarte irregular,1006.35,7.4,True,-8.106238,-34.89471
+377,2023-01-11,1,2023,Mustardinha,Ponto viciado de descarte irregular,1622.57,25.2,True,-7.989515,-34.826357
+378,2023-01-01,1,2023,Espinheiro,Entulho em área pública,1424.16,11.1,True,-8.044741,-34.927022
+379,2023-02-12,2,2023,Várzea,Entulho em área pública,247.01,22.4,True,-8.118499,-34.810261
+380,2023-11-16,11,2023,Beberibe,Ponto viciado de descarte irregular,1429.01,40.9,False,-8.027258,-34.928635
+381,2023-11-19,11,2023,Madalena,Falta de coleta no prazo,648.31,49.9,True,-8.004234,-34.810242
+382,2023-10-13,10,2023,Iputinga,Acúmulo de lixo em via pública,405.06,23.6,False,-8.027724,-34.872071
+383,2023-02-16,2,2023,Espinheiro,Lixeira danificada,1503.42,17.9,False,-8.116423,-34.822936
+384,2023-02-27,2,2023,Beberibe,Falta de coleta no prazo,72.22,15.9,True,-8.079904,-34.842596
+385,2023-12-01,12,2023,Casa Forte,Falta de coleta no prazo,904.53,30.8,True,-8.067196,-34.823646
+386,2023-06-18,6,2023,Várzea,Acúmulo de lixo em via pública,1666.17,57.0,True,-7.998351,-34.954883
+387,2023-08-03,8,2023,Casa Forte,Lixeira danificada,89.15,19.5,True,-8.081638,-34.822414
+388,2023-03-24,3,2023,Graças,Entulho em área pública,1886.58,70.4,True,-7.952945,-34.821355
+389,2023-12-01,12,2023,Tejipió,Descarte irregular em terreno baldio,371.74,64.2,True,-8.129748,-34.95889
+390,2023-04-14,4,2023,Água Fria,Descarte irregular em terreno baldio,1854.87,39.3,True,-8.09052,-34.980817
+391,2023-07-19,7,2023,Água Fria,Falta de coleta no prazo,349.5,26.6,True,-8.09109,-34.867596
+392,2023-10-16,10,2023,Torre,Acúmulo de lixo em via pública,100.18,13.1,True,-8.133613,-34.831246
+393,2023-05-26,5,2023,Várzea,Falta de coleta no prazo,1003.74,47.9,True,-8.041175,-34.963024
+394,2023-07-12,7,2023,Madalena,Falta de coleta no prazo,137.0,32.2,True,-7.982584,-34.887151
+395,2023-03-25,3,2023,Aflitos,Acúmulo de lixo em via pública,1352.88,58.4,True,-7.998709,-34.954497
+396,2023-01-27,1,2023,Várzea,Entulho em área pública,866.33,39.0,False,-8.055035,-34.823669
+397,2023-08-10,8,2023,Graças,Falta de coleta no prazo,1810.42,51.7,True,-7.969909,-34.83991
+398,2023-11-20,11,2023,Espinheiro,Acúmulo de lixo em via pública,1901.05,32.9,False,-8.116567,-34.957622
+399,2023-04-05,4,2023,Casa Forte,Falta de coleta no prazo,202.82,49.5,True,-7.985487,-34.970424
+400,2023-10-09,10,2023,Beberibe,Descarte irregular em terreno baldio,1832.64,5.8,True,-8.070529,-34.934775
+401,2023-05-17,5,2023,Ibura,Acúmulo de lixo em via pública,1583.77,45.2,True,-8.066081,-34.917112
+402,2023-03-19,3,2023,Iputinga,Entulho em área pública,1528.84,67.7,False,-8.037463,-34.979802
+403,2023-05-28,5,2023,Água Fria,Lixeira danificada,1761.89,19.8,True,-8.035595,-34.905391
+404,2023-03-09,3,2023,Várzea,Ponto viciado de descarte irregular,1255.58,49.3,True,-8.070841,-34.824208
+405,2023-12-08,12,2023,Casa Forte,Descarte irregular em terreno baldio,976.68,20.1,True,-8.082427,-34.84127
+406,2023-05-09,5,2023,Jordão,Descarte irregular em terreno baldio,1385.46,70.0,True,-8.089904,-34.851255
+407,2023-06-09,6,2023,Tejipió,Entulho em área pública,1308.83,14.3,True,-7.985206,-34.851811
+408,2023-09-28,9,2023,Caxangá,Acúmulo de lixo em via pública,1054.78,12.3,True,-8.048641,-34.97287
+409,2023-09-19,9,2023,Boa Viagem,Ponto viciado de descarte irregular,425.89,60.1,False,-8.100102,-34.90871
+410,2023-06-23,6,2023,Torre,Lixeira danificada,768.29,34.0,True,-7.965385,-34.863765
+411,2023-04-12,4,2023,Jordão,Entulho em área pública,919.9,69.2,True,-8.039733,-34.93115
+412,2023-05-24,5,2023,Graças,Lixeira danificada,103.53,4.5,False,-7.994034,-34.957136
+413,2023-04-21,4,2023,Pina,Descarte irregular em terreno baldio,453.13,47.3,True,-7.977074,-34.806572
+414,2023-11-01,11,2023,Jordão,Ponto viciado de descarte irregular,1312.37,43.7,True,-8.099522,-34.838983
+415,2023-05-23,5,2023,Imbiribeira,Falta de coleta no prazo,1796.19,61.5,True,-8.106358,-34.939571
+416,2023-09-27,9,2023,Mustardinha,Falta de coleta no prazo,1189.75,1.5,False,-7.956703,-34.832124
+417,2023-09-21,9,2023,Mustardinha,Entulho em área pública,601.22,49.6,True,-8.082743,-34.944703
+418,2023-06-28,6,2023,Imbiribeira,Lixeira danificada,1329.43,68.6,True,-8.112328,-34.896541
+419,2023-04-02,4,2023,Mustardinha,Falta de coleta no prazo,1338.03,49.3,True,-8.01892,-34.800506
+420,2023-05-14,5,2023,Várzea,Falta de coleta no prazo,1486.63,42.4,False,-7.986797,-34.931367
+421,2023-12-08,12,2023,Água Fria,Descarte irregular em terreno baldio,1580.55,65.4,True,-8.048537,-34.830916
+422,2023-11-18,11,2023,Madalena,Lixeira danificada,240.33,10.1,True,-7.988331,-34.847416
+423,2023-03-22,3,2023,Beberibe,Descarte irregular em terreno baldio,224.13,26.2,True,-8.088583,-34.842382
+424,2023-06-12,6,2023,Imbiribeira,Entulho em área pública,623.4,61.4,True,-7.976721,-34.883285
+425,2023-10-03,10,2023,Jordão,Ponto viciado de descarte irregular,1025.93,62.6,True,-8.090329,-34.989188
+426,2023-03-05,3,2023,Torre,Lixeira danificada,847.92,41.4,False,-8.058486,-34.936723
+427,2023-12-06,12,2023,Graças,Falta de coleta no prazo,698.63,71.1,True,-8.138397,-34.909589
+428,2023-04-25,4,2023,Madalena,Entulho em área pública,1540.74,35.8,False,-8.132392,-34.877104
+429,2023-11-14,11,2023,Várzea,Falta de coleta no prazo,1932.39,28.2,True,-8.110117,-34.92538
+430,2023-01-11,1,2023,Dois Unidos,Ponto viciado de descarte irregular,84.94,1.3,True,-8.104747,-34.824603
+431,2023-05-05,5,2023,Aflitos,Falta de coleta no prazo,1031.51,22.7,True,-8.140856,-34.810307
+432,2023-08-24,8,2023,Dois Unidos,Entulho em área pública,1072.03,31.8,True,-8.123242,-34.800772
+433,2023-08-12,8,2023,Torre,Ponto viciado de descarte irregular,1898.76,66.2,True,-8.104316,-34.854566
+434,2023-03-07,3,2023,Boa Viagem,Entulho em área pública,1034.04,9.7,True,-7.991575,-34.924962
+435,2023-11-09,11,2023,Água Fria,Entulho em área pública,144.74,71.6,True,-8.019286,-34.996052
+436,2023-12-04,12,2023,Tejipió,Falta de coleta no prazo,791.49,39.9,True,-8.119375,-34.860962
+437,2023-11-01,11,2023,Encruzilhada,Falta de coleta no prazo,1340.25,48.0,True,-8.028873,-34.972567
+438,2023-02-17,2,2023,Mustardinha,Acúmulo de lixo em via pública,601.28,56.7,True,-8.0282,-34.844408
+439,2023-09-07,9,2023,Caxangá,Descarte irregular em terreno baldio,849.02,12.4,True,-7.967929,-34.862359
+440,2023-08-11,8,2023,Pina,Acúmulo de lixo em via pública,74.86,7.3,True,-8.035169,-34.901179
+441,2023-02-25,2,2023,Dois Unidos,Acúmulo de lixo em via pública,1460.95,8.2,True,-8.103768,-34.802267
+442,2023-05-09,5,2023,Ibura,Acúmulo de lixo em via pública,244.63,13.4,True,-8.091887,-34.839681
+443,2023-06-14,6,2023,Aflitos,Acúmulo de lixo em via pública,1709.93,64.2,True,-8.122321,-34.87056
+444,2023-06-12,6,2023,Ibura,Entulho em área pública,573.2,53.0,True,-8.081455,-34.977234
+445,2023-07-15,7,2023,Imbiribeira,Falta de coleta no prazo,1395.31,35.0,True,-7.972775,-34.966644
+446,2023-03-23,3,2023,Casa Forte,Ponto viciado de descarte irregular,252.24,65.7,True,-8.036211,-34.912367
+447,2023-10-13,10,2023,Caxangá,Entulho em área pública,106.19,49.6,False,-7.955311,-34.973869
+448,2023-08-04,8,2023,Tejipió,Falta de coleta no prazo,139.65,19.6,True,-8.009086,-34.864414
+449,2023-12-19,12,2023,Iputinga,Ponto viciado de descarte irregular,1956.9,48.6,True,-8.045379,-34.859884
+450,2023-02-14,2,2023,Pina,Falta de coleta no prazo,724.21,49.0,True,-7.982193,-34.888331
+451,2023-10-02,10,2023,Boa Viagem,Descarte irregular em terreno baldio,1872.02,36.9,True,-8.050833,-34.966919
+452,2023-08-11,8,2023,Pina,Lixeira danificada,1941.78,4.6,True,-8.021337,-34.919345
+453,2023-04-03,4,2023,Ibura,Falta de coleta no prazo,1612.46,32.8,False,-8.060586,-34.976259
+454,2023-08-24,8,2023,Boa Viagem,Acúmulo de lixo em via pública,836.71,3.5,True,-7.984818,-34.841643
+455,2023-10-21,10,2023,Encruzilhada,Entulho em área pública,1146.55,47.5,True,-8.081829,-34.834938
+456,2023-04-28,4,2023,Ibura,Lixeira danificada,1142.29,45.0,True,-8.018567,-34.856817
+457,2023-02-04,2,2023,Pina,Acúmulo de lixo em via pública,715.65,59.9,False,-8.091603,-34.895603
+458,2023-12-04,12,2023,Casa Forte,Ponto viciado de descarte irregular,1010.22,59.4,True,-8.068158,-34.949142
+459,2023-04-07,4,2023,Aflitos,Falta de coleta no prazo,470.4,59.5,True,-8.082413,-34.84857
+460,2023-01-21,1,2023,Iputinga,Acúmulo de lixo em via pública,1555.68,33.0,True,-7.958762,-34.973073
+461,2023-08-01,8,2023,Dois Unidos,Descarte irregular em terreno baldio,144.71,67.4,False,-8.053414,-34.898333
+462,2023-03-23,3,2023,Iputinga,Ponto viciado de descarte irregular,1474.46,10.1,True,-8.029891,-34.823461
+463,2023-09-13,9,2023,Tejipió,Entulho em área pública,1836.02,55.1,True,-7.957281,-34.805902
+464,2023-08-26,8,2023,Espinheiro,Ponto viciado de descarte irregular,854.85,50.7,True,-8.090217,-34.859701
+465,2023-06-23,6,2023,Água Fria,Descarte irregular em terreno baldio,473.82,15.9,True,-8.012678,-34.815762
+466,2023-03-23,3,2023,Madalena,Entulho em área pública,1107.86,46.2,True,-7.997845,-34.887544
+467,2023-10-19,10,2023,Tejipió,Descarte irregular em terreno baldio,1508.34,60.7,True,-7.98054,-34.838339
+468,2023-09-04,9,2023,Boa Viagem,Falta de coleta no prazo,333.39,48.6,True,-7.999963,-34.967813
+469,2023-05-22,5,2023,Imbiribeira,Ponto viciado de descarte irregular,1686.79,50.0,True,-7.999281,-34.993539
+470,2023-08-04,8,2023,Mustardinha,Descarte irregular em terreno baldio,1492.01,62.4,True,-8.037746,-34.952481
+471,2023-12-10,12,2023,Casa Forte,Falta de coleta no prazo,805.73,68.9,False,-8.087469,-34.889575
+472,2023-01-24,1,2023,Imbiribeira,Ponto viciado de descarte irregular,1260.1,56.4,False,-7.984003,-34.817703
+473,2023-12-23,12,2023,Caxangá,Entulho em área pública,1115.9,43.8,False,-7.957142,-34.941164
+474,2023-03-22,3,2023,Graças,Ponto viciado de descarte irregular,1926.83,53.2,True,-8.141873,-34.944178
+475,2023-05-05,5,2023,Madalena,Entulho em área pública,1699.73,1.4,True,-7.962501,-34.992012
+476,2023-06-20,6,2023,Casa Forte,Descarte irregular em terreno baldio,1250.44,48.0,True,-8.035465,-34.928383
+477,2023-12-11,12,2023,Dois Unidos,Ponto viciado de descarte irregular,1916.13,38.0,False,-8.118126,-34.891384
+478,2023-07-03,7,2023,Caxangá,Ponto viciado de descarte irregular,1772.62,48.1,True,-8.091285,-34.809938
+479,2023-10-17,10,2023,Jordão,Entulho em área pública,1656.19,70.7,True,-8.016212,-34.910867
+480,2023-11-20,11,2023,Mustardinha,Ponto viciado de descarte irregular,1919.85,49.5,True,-7.966814,-34.811002
+481,2023-07-09,7,2023,Água Fria,Descarte irregular em terreno baldio,601.52,65.7,False,-8.075008,-34.839437
+482,2023-08-16,8,2023,Casa Forte,Lixeira danificada,1801.65,14.7,True,-7.960358,-34.966521
+483,2023-09-18,9,2023,Boa Viagem,Descarte irregular em terreno baldio,177.67,48.6,False,-7.97701,-34.915158
+484,2023-02-07,2,2023,Água Fria,Descarte irregular em terreno baldio,1763.34,53.6,True,-7.986649,-34.985576
+485,2023-11-05,11,2023,Boa Viagem,Falta de coleta no prazo,1447.89,3.7,True,-8.114402,-34.949618
+486,2023-02-19,2,2023,Pina,Lixeira danificada,844.88,33.0,True,-8.086719,-34.9221
+487,2023-02-18,2,2023,Boa Viagem,Descarte irregular em terreno baldio,1454.56,5.5,True,-8.140897,-34.83035
+488,2023-06-17,6,2023,Aflitos,Lixeira danificada,1584.44,22.4,True,-7.996945,-34.912465
+489,2023-07-27,7,2023,Boa Viagem,Falta de coleta no prazo,354.83,16.6,True,-7.990646,-34.830107
+490,2023-05-21,5,2023,Espinheiro,Lixeira danificada,1370.71,65.9,False,-8.004135,-34.925374
+491,2023-01-18,1,2023,Água Fria,Ponto viciado de descarte irregular,290.31,1.4,True,-8.04257,-34.810604
+492,2023-05-07,5,2023,Caxangá,Ponto viciado de descarte irregular,854.68,46.9,True,-8.117809,-34.955842
+493,2023-05-07,5,2023,Aflitos,Ponto viciado de descarte irregular,1358.41,41.3,True,-7.999792,-34.801985
+494,2023-09-15,9,2023,Água Fria,Acúmulo de lixo em via pública,616.77,5.8,True,-8.004882,-34.902562
+495,2023-06-12,6,2023,Espinheiro,Descarte irregular em terreno baldio,1328.17,8.1,True,-7.969976,-34.936443
+496,2023-08-11,8,2023,Mustardinha,Descarte irregular em terreno baldio,646.07,42.5,True,-8.077101,-34.936733
+497,2023-07-06,7,2023,Boa Viagem,Lixeira danificada,530.04,16.7,True,-8.062775,-34.831978
+498,2023-03-22,3,2023,Beberibe,Falta de coleta no prazo,952.55,26.5,True,-8.039666,-34.964846
+499,2023-10-03,10,2023,Imbiribeira,Ponto viciado de descarte irregular,1788.03,14.9,True,-8.024676,-34.854515
+500,2023-01-28,1,2023,Dois Unidos,Descarte irregular em terreno baldio,110.83,42.3,True,-8.031993,-34.818739

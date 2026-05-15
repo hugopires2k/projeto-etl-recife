@@ -1,0 +1,121 @@
+id,nome_escola,bairro,nivel_ensino,matriculas_ativas,capacidade,taxa_ocupacao_pct,professores,taxa_aprovacao_pct,taxa_abandono_pct,ideb_score,infraestrutura,tem_biblioteca,tem_quadra,internet_banda_larga
+1,EMEF A1 - Recife,Beberibe,Ensino Fundamental I,408,392,104.1,34,95.4,3.9,7.3,Ruim,True,False,False
+2,EMEF B1 - Recife,Casa Amarela,EJA,152,186,81.7,13,89.1,2.7,7.5,Regular,True,True,True
+3,EMEF C1 - Recife,Beberibe,Ensino Fundamental I,416,443,93.9,14,58.1,10.2,6.1,Ruim,True,False,True
+4,EMEF D1 - Recife,Cajueiro,Educação Infantil,367,429,85.5,11,79.8,10.0,7.1,Regular,False,True,True
+5,EMEF E1 - Recife,Boa Viagem,Educação Infantil,715,920,77.7,34,91.3,11.7,6.4,Ruim,True,True,True
+6,EMEF F1 - Recife,Imbiribeira,Educação Infantil,291,344,84.6,9,57.2,7.8,6.4,Regular,True,True,True
+7,EMEF G1 - Recife,Casa Amarela,EJA,726,830,87.5,34,84.8,1.6,4.3,Boa,False,False,False
+8,EMEF H1 - Recife,Casa Amarela,EJA,575,625,92.0,12,87.7,9.2,3.1,Boa,True,False,True
+9,EMEF I1 - Recife,Ibura,Ensino Fundamental I,549,706,77.8,15,66.2,9.4,3.4,Boa,True,False,True
+10,EMEF J1 - Recife,Cordeiro,EJA,663,785,84.5,23,76.8,7.4,7.0,Regular,True,False,True
+11,EMEF K1 - Recife,Madalena,Educação Infantil,343,277,123.8,9,55.8,2.1,3.4,Ruim,True,False,False
+12,EMEF L1 - Recife,Arruda,EJA,319,272,117.3,17,74.8,6.1,6.1,Regular,True,False,True
+13,EMEF M1 - Recife,Cajueiro,Educação Infantil,407,383,106.3,35,77.5,4.1,3.9,Boa,True,False,False
+14,EMEF N1 - Recife,Afogados,EJA,687,684,100.4,35,66.0,11.7,6.9,Ruim,False,False,True
+15,EMEF O1 - Recife,Boa Viagem,Educação Infantil,255,222,114.9,14,94.2,7.3,5.5,Regular,True,True,False
+16,EMEF P1 - Recife,Campina do Barreto,Ensino Fundamental I,750,644,116.5,16,89.2,8.0,4.5,Regular,False,False,True
+17,EMEF Q1 - Recife,Madalena,Educação Infantil,457,383,119.3,9,74.3,10.2,5.2,Regular,True,False,True
+18,EMEF R1 - Recife,Apipucos,Ensino Fundamental I,262,213,123.0,9,94.6,7.8,4.2,Regular,True,False,True
+19,EMEF S1 - Recife,Afogados,EJA,239,199,120.1,24,85.7,2.6,5.2,Regular,False,True,True
+20,EMEF T1 - Recife,Imbiribeira,EJA,344,358,96.1,31,83.4,6.9,3.9,Regular,True,False,False
+21,EMEF U1 - Recife,Boa Viagem,Ensino Fundamental II,464,520,89.2,28,73.5,6.3,4.6,Regular,True,False,False
+22,EMEF V1 - Recife,Cajueiro,Ensino Fundamental II,503,570,88.2,24,96.1,3.9,5.2,Regular,True,False,True
+23,EMEF W1 - Recife,Casa Amarela,Ensino Fundamental II,446,395,112.9,26,73.0,6.5,5.8,Regular,False,False,False
+24,EMEF X1 - Recife,Madalena,EJA,704,688,102.3,13,71.6,10.5,4.9,Regular,True,False,False
+25,EMEF Y1 - Recife,Madalena,Educação Infantil,599,632,94.8,26,58.3,4.3,7.4,Regular,True,False,True
+26,EMEF Z1 - Recife,Campina do Barreto,Ensino Fundamental I,299,257,116.3,13,57.1,7.1,4.5,Ruim,False,False,False
+27,EMEF A2 - Recife,Imbiribeira,Educação Infantil,290,257,112.8,23,80.3,6.4,4.9,Boa,False,True,False
+28,EMEF B2 - Recife,Imbiribeira,Educação Infantil,644,549,117.3,10,56.3,8.8,5.2,Boa,True,False,True
+29,EMEF C2 - Recife,Cajueiro,Educação Infantil,680,622,109.3,29,83.5,7.1,6.2,Boa,False,False,True
+30,EMEF D2 - Recife,Afogados,Educação Infantil,461,380,121.3,24,63.1,7.8,6.2,Regular,True,False,True
+31,EMEF E2 - Recife,Cordeiro,EJA,542,630,86.0,11,70.9,1.9,5.2,Boa,False,False,False
+32,EMEF F2 - Recife,Boa Viagem,Ensino Fundamental II,487,618,78.8,15,93.8,0.8,3.1,Ruim,True,False,False
+33,EMEF G2 - Recife,Ibura,Ensino Fundamental I,175,177,98.9,31,87.1,11.8,4.0,Regular,False,True,True
+34,EMEF H2 - Recife,Madalena,EJA,269,302,89.1,13,95.8,6.1,4.8,Boa,False,True,True
+35,EMEF I2 - Recife,Madalena,Ensino Fundamental II,524,671,78.1,25,75.1,1.5,4.3,Ruim,False,True,False
+36,EMEF J2 - Recife,Boa Viagem,EJA,629,514,122.4,35,62.9,9.3,7.2,Ruim,False,False,True
+37,EMEF K2 - Recife,Afogados,Ensino Fundamental II,527,675,78.1,8,61.8,3.6,4.0,Boa,True,False,True
+38,EMEF L2 - Recife,Jordão,Educação Infantil,645,793,81.3,33,85.4,9.6,6.2,Regular,True,True,True
+39,EMEF M2 - Recife,Cajueiro,Ensino Fundamental II,466,561,83.1,17,64.4,7.3,7.1,Regular,False,True,False
+40,EMEF N2 - Recife,Cordeiro,Educação Infantil,176,151,116.6,12,68.2,1.8,4.2,Boa,False,False,False
+41,EMEF O2 - Recife,Cordeiro,Ensino Fundamental I,238,274,86.9,32,85.7,5.1,6.2,Ruim,True,True,True
+42,EMEF P2 - Recife,Afogados,Ensino Fundamental I,586,501,117.0,24,92.6,9.7,4.6,Ruim,True,False,True
+43,EMEF Q2 - Recife,Jordão,Educação Infantil,459,471,97.5,25,57.7,0.5,6.5,Regular,True,True,False
+44,EMEF R2 - Recife,Madalena,Educação Infantil,387,451,85.8,21,91.7,5.2,4.1,Ruim,False,True,False
+45,EMEF S2 - Recife,Afogados,Educação Infantil,386,368,104.9,17,90.3,1.6,6.4,Boa,True,True,True
+46,EMEF T2 - Recife,Arruda,Ensino Fundamental II,589,564,104.4,17,56.2,8.4,4.3,Boa,True,False,False
+47,EMEF U2 - Recife,Ibura,Ensino Fundamental II,659,692,95.2,35,71.6,9.5,6.0,Ruim,True,False,False
+48,EMEF V2 - Recife,Cajueiro,Ensino Fundamental I,392,444,88.3,26,64.4,5.0,7.3,Boa,False,False,True
+49,EMEF W2 - Recife,Ibura,Educação Infantil,789,931,84.7,8,77.8,10.5,4.7,Ruim,False,True,True
+50,EMEF X2 - Recife,Campina do Barreto,EJA,677,657,103.0,32,91.3,6.4,3.1,Ruim,False,False,True
+51,EMEF Y2 - Recife,Cajueiro,Educação Infantil,158,173,91.3,11,59.0,5.9,3.9,Boa,True,False,True
+52,EMEF Z2 - Recife,Boa Viagem,Ensino Fundamental II,283,336,84.2,27,93.5,1.2,4.9,Regular,False,True,False
+53,EMEF A3 - Recife,Apipucos,EJA,714,606,117.8,12,88.9,8.6,5.7,Ruim,True,False,True
+54,EMEF B3 - Recife,Campina do Barreto,Ensino Fundamental II,309,325,95.1,14,82.4,3.2,3.1,Boa,False,False,False
+55,EMEF C3 - Recife,Madalena,EJA,633,670,94.5,11,56.7,4.1,5.1,Boa,True,False,True
+56,EMEF D3 - Recife,Ibura,EJA,273,268,101.9,8,77.8,3.1,3.3,Regular,True,True,True
+57,EMEF E3 - Recife,Campina do Barreto,Educação Infantil,659,632,104.3,29,87.1,10.5,7.5,Ruim,True,False,True
+58,EMEF F3 - Recife,Madalena,EJA,157,127,123.6,10,78.4,3.2,7.4,Boa,True,True,True
+59,EMEF G3 - Recife,Jordão,Ensino Fundamental I,184,215,85.6,13,95.8,6.9,5.4,Boa,True,True,True
+60,EMEF H3 - Recife,Cordeiro,Ensino Fundamental II,329,317,103.8,9,73.2,4.9,4.7,Boa,False,False,True
+61,EMEF I3 - Recife,Arruda,Educação Infantil,387,460,84.1,30,71.1,9.6,6.7,Boa,True,False,True
+62,EMEF J3 - Recife,Casa Amarela,Educação Infantil,785,927,84.7,13,78.6,4.6,3.2,Regular,False,False,False
+63,EMEF K3 - Recife,Ibura,Ensino Fundamental II,797,996,80.0,31,76.0,11.0,5.2,Regular,False,False,False
+64,EMEF L3 - Recife,Arruda,Educação Infantil,539,569,94.7,14,75.8,11.0,5.1,Ruim,False,False,True
+65,EMEF M3 - Recife,Madalena,EJA,759,773,98.2,29,83.8,10.7,5.4,Ruim,True,False,False
+66,EMEF N3 - Recife,Boa Viagem,Ensino Fundamental I,278,302,92.1,16,93.4,2.5,5.6,Boa,True,True,False
+67,EMEF O3 - Recife,Beberibe,Ensino Fundamental I,444,471,94.3,21,79.2,6.5,3.4,Boa,True,False,True
+68,EMEF P3 - Recife,Cajueiro,EJA,491,449,109.4,21,71.7,2.4,4.6,Regular,True,False,False
+69,EMEF Q3 - Recife,Cordeiro,Ensino Fundamental II,155,174,89.1,8,79.9,11.2,5.8,Ruim,False,False,False
+70,EMEF R3 - Recife,Madalena,EJA,671,657,102.1,34,57.9,2.8,7.3,Ruim,False,False,True
+71,EMEF S3 - Recife,Jordão,Educação Infantil,188,234,80.3,16,74.6,1.4,5.4,Regular,True,False,True
+72,EMEF T3 - Recife,Boa Viagem,EJA,506,435,116.3,24,61.1,11.3,4.4,Regular,False,True,False
+73,EMEF U3 - Recife,Imbiribeira,Educação Infantil,652,544,119.9,35,84.6,9.5,7.4,Boa,True,True,False
+74,EMEF V3 - Recife,Casa Amarela,Educação Infantil,255,322,79.2,14,97.7,11.2,6.3,Regular,True,False,False
+75,EMEF W3 - Recife,Ibura,Ensino Fundamental II,608,625,97.3,22,69.5,9.3,4.3,Boa,False,True,True
+76,EMEF X3 - Recife,Imbiribeira,EJA,267,315,84.8,15,78.1,11.2,3.7,Regular,True,True,True
+77,EMEF Y3 - Recife,Dois Unidos,Educação Infantil,779,634,122.9,9,62.9,5.8,4.1,Boa,False,False,True
+78,EMEF Z3 - Recife,Imbiribeira,Ensino Fundamental II,447,429,104.2,16,64.7,7.4,3.8,Ruim,True,False,True
+79,EMEF A4 - Recife,Casa Amarela,Ensino Fundamental I,323,370,87.3,15,60.6,1.1,3.7,Regular,False,False,False
+80,EMEF B4 - Recife,Boa Viagem,Educação Infantil,714,661,108.0,33,83.7,3.9,6.4,Boa,False,True,False
+81,EMEF C4 - Recife,Cajueiro,Ensino Fundamental II,159,147,108.2,20,91.0,3.7,5.9,Ruim,True,False,True
+82,EMEF D4 - Recife,Campina do Barreto,EJA,704,776,90.7,35,56.0,9.1,3.1,Boa,True,False,False
+83,EMEF E4 - Recife,Madalena,Educação Infantil,311,393,79.1,13,57.6,2.8,7.4,Regular,False,True,True
+84,EMEF F4 - Recife,Ibura,Ensino Fundamental II,738,643,114.8,28,69.5,1.4,5.3,Boa,False,True,False
+85,EMEF G4 - Recife,Afogados,Ensino Fundamental II,175,155,112.9,16,74.0,10.0,6.7,Regular,False,False,True
+86,EMEF H4 - Recife,Apipucos,Ensino Fundamental I,234,202,115.8,20,87.2,10.8,4.2,Boa,False,True,True
+87,EMEF I4 - Recife,Casa Amarela,Ensino Fundamental II,738,739,99.9,22,93.8,1.4,3.9,Boa,False,False,True
+88,EMEF J4 - Recife,Dois Unidos,Ensino Fundamental II,475,518,91.7,21,97.7,10.0,5.8,Regular,True,False,True
+89,EMEF K4 - Recife,Cordeiro,Ensino Fundamental II,781,625,125.0,9,56.4,6.9,6.7,Ruim,True,False,True
+90,EMEF L4 - Recife,Dois Unidos,Ensino Fundamental II,531,626,84.8,19,62.5,0.5,5.4,Boa,False,True,True
+91,EMEF M4 - Recife,Imbiribeira,Educação Infantil,529,490,108.0,12,85.6,6.8,4.6,Regular,False,False,False
+92,EMEF N4 - Recife,Madalena,Educação Infantil,793,853,93.0,33,55.0,2.2,5.5,Ruim,False,True,True
+93,EMEF O4 - Recife,Arruda,Ensino Fundamental I,451,368,122.6,13,94.9,1.6,5.7,Regular,False,False,False
+94,EMEF P4 - Recife,Afogados,Ensino Fundamental II,615,518,118.7,11,66.6,8.0,6.6,Ruim,False,False,False
+95,EMEF Q4 - Recife,Afogados,Ensino Fundamental II,161,177,91.0,23,73.0,2.3,6.5,Boa,False,True,False
+96,EMEF R4 - Recife,Imbiribeira,Ensino Fundamental I,221,197,112.2,14,62.7,4.1,6.0,Boa,False,True,False
+97,EMEF S4 - Recife,Imbiribeira,Ensino Fundamental II,481,456,105.5,16,71.5,5.5,3.9,Ruim,False,False,True
+98,EMEF T4 - Recife,Dois Unidos,EJA,467,578,80.8,13,55.6,2.0,3.6,Regular,True,True,True
+99,EMEF U4 - Recife,Cordeiro,EJA,556,461,120.6,16,78.3,11.8,3.0,Ruim,True,False,True
+100,EMEF V4 - Recife,Imbiribeira,Ensino Fundamental II,387,454,85.2,10,77.3,7.3,5.3,Ruim,True,True,True
+101,EMEF W4 - Recife,Ibura,EJA,298,361,82.5,27,71.4,8.9,7.4,Regular,True,True,False
+102,EMEF X4 - Recife,Cordeiro,Educação Infantil,261,250,104.4,11,97.7,8.8,5.0,Regular,True,False,True
+103,EMEF Y4 - Recife,Ibura,Ensino Fundamental II,197,162,121.6,19,73.1,10.6,7.4,Boa,False,True,True
+104,EMEF Z4 - Recife,Campina do Barreto,Ensino Fundamental II,330,334,98.8,17,65.8,2.4,7.4,Regular,True,False,True
+105,EMEF A5 - Recife,Ibura,Ensino Fundamental I,273,331,82.5,35,96.6,0.9,3.6,Regular,False,True,True
+106,EMEF B5 - Recife,Apipucos,Ensino Fundamental II,260,336,77.4,26,78.3,3.8,6.1,Boa,True,True,True
+107,EMEF C5 - Recife,Beberibe,EJA,799,710,112.5,17,71.6,3.5,3.7,Regular,False,False,False
+108,EMEF D5 - Recife,Jordão,EJA,464,398,116.6,32,67.7,11.9,5.7,Boa,True,False,True
+109,EMEF E5 - Recife,Jordão,Educação Infantil,272,268,101.5,18,68.6,3.4,4.6,Boa,False,True,True
+110,EMEF F5 - Recife,Madalena,EJA,270,290,93.1,31,76.2,11.8,5.8,Boa,False,False,True
+111,EMEF G5 - Recife,Campina do Barreto,Educação Infantil,652,823,79.2,11,97.1,9.0,3.1,Boa,True,True,False
+112,EMEF H5 - Recife,Imbiribeira,Ensino Fundamental I,662,581,113.9,21,59.3,3.6,3.8,Regular,False,False,True
+113,EMEF I5 - Recife,Casa Amarela,Educação Infantil,314,303,103.6,23,56.3,10.3,6.6,Ruim,False,True,True
+114,EMEF J5 - Recife,Arruda,Educação Infantil,452,457,98.9,29,63.1,6.4,3.8,Boa,False,True,False
+115,EMEF K5 - Recife,Dois Unidos,Educação Infantil,363,310,117.1,25,57.1,8.4,5.3,Regular,False,True,True
+116,EMEF L5 - Recife,Madalena,EJA,587,549,106.9,10,58.7,2.1,7.1,Ruim,True,False,True
+117,EMEF M5 - Recife,Cajueiro,Ensino Fundamental II,698,780,89.5,34,71.9,8.8,5.2,Boa,True,True,True
+118,EMEF N5 - Recife,Ibura,Ensino Fundamental I,390,504,77.4,29,81.6,11.1,5.6,Regular,True,True,False
+119,EMEF O5 - Recife,Imbiribeira,Ensino Fundamental II,792,649,122.0,22,90.9,3.6,5.7,Boa,False,False,True
+120,EMEF P5 - Recife,Cordeiro,Ensino Fundamental I,311,296,105.1,16,61.1,10.2,4.6,Boa,True,False,False

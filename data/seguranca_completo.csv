@@ -1,0 +1,1001 @@
+id,tipo_ocorrencia,bairro,nivel_risco_bairro,mes,ano,turno,vitimas,prisoes_efetuadas,latitude,longitude
+1,Roubo a pedestre,Imbiribeira,médio,10,2022,Tarde (12h-18h),0,0,-7.995033,-34.892605
+2,Roubo a pedestre,Graças,baixo,10,2023,Manhã (6h-12h),1,0,-7.979773,-34.830804
+3,Furto,Aflitos,baixo,11,2022,Manhã (6h-12h),1,1,-8.088686,-34.792754
+4,Tráfico de drogas,Casa Amarela,médio,2,2023,Tarde (12h-18h),0,0,-8.067951,-34.932992
+5,Roubo a veículo,Recife Antigo,médio,8,2022,Noite (18h-00h),3,0,-8.118202,-34.799017
+6,Tráfico de drogas,Beberibe,alto,8,2022,Madrugada (00h-6h),1,0,-8.164407,-34.906306
+7,Roubo a pedestre,Aflitos,baixo,7,2022,Manhã (6h-12h),1,0,-8.137404,-34.922721
+8,Lesão corporal,Recife Antigo,médio,1,2022,Tarde (12h-18h),1,1,-8.139676,-34.794075
+9,Arrombamento,Torre,médio,3,2022,Noite (18h-00h),1,0,-8.135521,-34.978208
+10,Roubo a pedestre,Beberibe,alto,4,2023,Noite (18h-00h),1,1,-8.141869,-34.822636
+11,Tráfico de drogas,Beberibe,alto,9,2023,Manhã (6h-12h),2,0,-8.079526,-34.939179
+12,Furto,Espinheiro,baixo,7,2023,Noite (18h-00h),0,0,-8.080481,-34.814286
+13,Roubo a pedestre,Espinheiro,baixo,5,2022,Noite (18h-00h),1,1,-7.997026,-34.967535
+14,Tráfico de drogas,Espinheiro,baixo,12,2022,Tarde (12h-18h),1,1,-7.958195,-34.918934
+15,Furto,Recife Antigo,médio,9,2023,Madrugada (00h-6h),2,1,-8.042021,-34.796841
+16,Roubo a pedestre,Água Fria,alto,5,2023,Madrugada (00h-6h),2,0,-8.07905,-34.857196
+17,Perturbação da ordem,Aflitos,baixo,11,2023,Manhã (6h-12h),1,0,-8.168965,-34.934731
+18,Arrombamento,Água Fria,alto,4,2022,Noite (18h-00h),0,0,-7.989364,-34.850498
+19,Lesão corporal,Imbiribeira,médio,6,2023,Manhã (6h-12h),1,0,-8.044696,-34.792023
+20,Perturbação da ordem,Graças,baixo,9,2023,Madrugada (00h-6h),0,1,-8.069959,-34.88551
+21,Roubo a veículo,Casa Forte,baixo,11,2023,Tarde (12h-18h),0,0,-8.0962,-34.880677
+22,Roubo a pedestre,Ibura,alto,6,2023,Manhã (6h-12h),0,1,-8.075281,-34.83058
+23,Roubo a pedestre,Água Fria,alto,3,2022,Madrugada (00h-6h),2,0,-8.076635,-34.885148
+24,Furto,Graças,baixo,5,2022,Tarde (12h-18h),1,1,-8.078163,-34.8216
+25,Perturbação da ordem,Recife Antigo,médio,10,2023,Noite (18h-00h),3,0,-7.930676,-34.894438
+26,Roubo a pedestre,Jordão,alto,8,2022,Tarde (12h-18h),1,0,-8.042077,-34.867958
+27,Furto,Madalena,baixo,5,2022,Manhã (6h-12h),2,0,-8.158538,-34.897279
+28,Lesão corporal,Casa Amarela,médio,3,2023,Manhã (6h-12h),1,0,-8.124765,-34.903681
+29,Roubo a pedestre,Água Fria,alto,6,2022,Noite (18h-00h),0,0,-8.001563,-34.863376
+30,Roubo a pedestre,Aflitos,baixo,12,2022,Noite (18h-00h),2,0,-8.149238,-34.837796
+31,Furto,Casa Forte,baixo,6,2022,Noite (18h-00h),1,0,-8.088378,-35.007325
+32,Lesão corporal,Boa Viagem,médio,7,2022,Tarde (12h-18h),1,0,-8.015704,-34.894902
+33,Furto,Recife Antigo,médio,7,2022,Noite (18h-00h),3,0,-7.994079,-34.875411
+34,Furto,Recife Antigo,médio,3,2022,Noite (18h-00h),1,0,-8.159056,-34.924834
+35,Homicídio,Água Fria,alto,3,2022,Madrugada (00h-6h),2,0,-8.140335,-34.917401
+36,Furto,Jordão,alto,3,2023,Madrugada (00h-6h),1,1,-7.937502,-34.929603
+37,Roubo a veículo,Água Fria,alto,9,2022,Noite (18h-00h),0,1,-8.100694,-34.924109
+38,Tráfico de drogas,Casa Amarela,médio,4,2022,Noite (18h-00h),3,0,-8.014527,-34.980679
+39,Furto,Madalena,baixo,1,2022,Madrugada (00h-6h),0,1,-8.018977,-35.005295
+40,Furto,Recife Antigo,médio,10,2023,Manhã (6h-12h),2,0,-8.075002,-34.781982
+41,Furto,Torre,médio,10,2022,Tarde (12h-18h),0,1,-8.148161,-34.899529
+42,Tráfico de drogas,Dois Unidos,alto,8,2022,Noite (18h-00h),0,0,-7.952505,-34.978341
+43,Tráfico de drogas,Torre,médio,4,2022,Madrugada (00h-6h),0,0,-8.008659,-34.89892
+44,Arrombamento,Aflitos,baixo,2,2022,Tarde (12h-18h),0,1,-8.075097,-34.885263
+45,Roubo a pedestre,Dois Unidos,alto,10,2023,Noite (18h-00h),0,0,-7.943607,-34.915178
+46,Furto,Boa Viagem,médio,1,2023,Manhã (6h-12h),2,0,-8.167567,-34.892725
+47,Tráfico de drogas,Dois Unidos,alto,2,2022,Tarde (12h-18h),0,0,-8.107509,-34.911425
+48,Roubo a pedestre,Ibura,alto,3,2022,Madrugada (00h-6h),1,0,-8.093686,-34.929936
+49,Furto,Casa Amarela,médio,2,2022,Manhã (6h-12h),0,0,-8.108579,-34.794061
+50,Furto,Casa Forte,baixo,2,2023,Manhã (6h-12h),2,1,-8.050679,-34.885996
+51,Lesão corporal,Imbiribeira,médio,11,2023,Tarde (12h-18h),1,0,-8.042519,-35.004538
+52,Furto,Ibura,alto,6,2022,Tarde (12h-18h),1,0,-8.118965,-34.860363
+53,Furto,Casa Amarela,médio,12,2023,Manhã (6h-12h),1,1,-8.102248,-34.836504
+54,Lesão corporal,Recife Antigo,médio,8,2023,Noite (18h-00h),1,0,-8.113557,-34.85352
+55,Homicídio,Recife Antigo,médio,2,2023,Tarde (12h-18h),0,0,-8.102852,-34.841752
+56,Perturbação da ordem,Boa Viagem,médio,2,2022,Manhã (6h-12h),0,0,-8.071595,-34.918392
+57,Roubo a veículo,Casa Forte,baixo,10,2022,Manhã (6h-12h),1,0,-8.009736,-34.781607
+58,Perturbação da ordem,Ibura,alto,5,2022,Madrugada (00h-6h),2,0,-7.930404,-34.850641
+59,Roubo a pedestre,Jordão,alto,3,2023,Tarde (12h-18h),0,0,-8.043667,-34.959954
+60,Furto,Graças,baixo,5,2022,Manhã (6h-12h),1,0,-8.056369,-34.989177
+61,Roubo a veículo,Água Fria,alto,4,2023,Madrugada (00h-6h),0,0,-8.125752,-34.952025
+62,Roubo a pedestre,Dois Unidos,alto,3,2022,Noite (18h-00h),1,0,-8.036611,-34.832475
+63,Furto,Madalena,baixo,12,2023,Noite (18h-00h),0,0,-8.067818,-34.994402
+64,Furto,Ibura,alto,2,2022,Tarde (12h-18h),0,1,-8.000062,-34.978424
+65,Tráfico de drogas,Casa Amarela,médio,4,2022,Noite (18h-00h),1,1,-8.117676,-34.922916
+66,Furto,Casa Amarela,médio,11,2023,Noite (18h-00h),1,0,-8.138628,-34.851265
+67,Perturbação da ordem,Graças,baixo,11,2022,Madrugada (00h-6h),2,0,-8.024833,-34.847594
+68,Roubo a veículo,Beberibe,alto,9,2022,Noite (18h-00h),2,0,-8.165069,-34.874586
+69,Furto,Boa Viagem,médio,7,2022,Manhã (6h-12h),1,0,-8.099706,-34.932898
+70,Roubo a pedestre,Casa Amarela,médio,12,2022,Noite (18h-00h),0,0,-8.087641,-34.972321
+71,Furto,Beberibe,alto,11,2022,Noite (18h-00h),1,0,-8.078928,-34.877892
+72,Perturbação da ordem,Aflitos,baixo,5,2022,Madrugada (00h-6h),3,0,-8.154852,-34.856552
+73,Furto,Recife Antigo,médio,7,2023,Noite (18h-00h),1,0,-7.935596,-34.781447
+74,Roubo a pedestre,Água Fria,alto,3,2022,Noite (18h-00h),3,0,-7.937182,-34.861243
+75,Arrombamento,Espinheiro,baixo,1,2023,Manhã (6h-12h),1,0,-8.106372,-34.915789
+76,Furto,Imbiribeira,médio,6,2022,Madrugada (00h-6h),0,0,-8.050051,-34.947635
+77,Roubo a pedestre,Espinheiro,baixo,1,2022,Noite (18h-00h),1,1,-8.035235,-34.989049
+78,Perturbação da ordem,Casa Forte,baixo,6,2022,Manhã (6h-12h),2,1,-7.946282,-34.911751
+79,Roubo a pedestre,Casa Forte,baixo,8,2023,Noite (18h-00h),0,1,-8.024287,-34.982641
+80,Roubo a pedestre,Casa Forte,baixo,3,2023,Tarde (12h-18h),1,1,-7.996643,-35.012171
+81,Roubo a veículo,Ibura,alto,11,2022,Noite (18h-00h),2,1,-8.050417,-34.987316
+82,Furto,Madalena,baixo,3,2022,Noite (18h-00h),1,0,-7.968068,-34.860085
+83,Furto,Casa Forte,baixo,9,2023,Noite (18h-00h),0,1,-7.997112,-34.957538
+84,Furto,Madalena,baixo,1,2022,Noite (18h-00h),0,0,-8.128505,-34.85816
+85,Arrombamento,Graças,baixo,3,2022,Tarde (12h-18h),1,0,-8.131276,-34.956367
+86,Furto,Espinheiro,baixo,3,2023,Noite (18h-00h),1,0,-8.093556,-34.868413
+87,Roubo a veículo,Boa Viagem,médio,12,2022,Noite (18h-00h),1,0,-7.979064,-34.907898
+88,Furto,Casa Amarela,médio,12,2023,Madrugada (00h-6h),1,0,-8.091161,-34.968272
+89,Furto,Jordão,alto,11,2022,Noite (18h-00h),1,1,-7.999065,-34.789762
+90,Roubo a pedestre,Dois Unidos,alto,3,2022,Noite (18h-00h),0,0,-8.118334,-34.785779
+91,Roubo a pedestre,Torre,médio,1,2022,Noite (18h-00h),3,0,-7.960671,-34.915707
+92,Tráfico de drogas,Água Fria,alto,3,2022,Noite (18h-00h),1,1,-7.940784,-34.782055
+93,Furto,Torre,médio,11,2023,Noite (18h-00h),0,0,-8.058643,-34.99645
+94,Arrombamento,Ibura,alto,11,2023,Manhã (6h-12h),1,0,-8.065367,-34.792818
+95,Furto,Aflitos,baixo,4,2022,Madrugada (00h-6h),0,1,-8.066884,-34.890161
+96,Perturbação da ordem,Espinheiro,baixo,1,2022,Manhã (6h-12h),1,0,-8.117033,-34.835434
+97,Roubo a pedestre,Ibura,alto,1,2022,Noite (18h-00h),0,0,-8.025198,-34.970404
+98,Lesão corporal,Casa Amarela,médio,3,2023,Tarde (12h-18h),1,0,-7.950531,-34.938964
+99,Furto,Água Fria,alto,8,2022,Manhã (6h-12h),3,1,-7.945362,-34.96876
+100,Furto,Aflitos,baixo,5,2023,Tarde (12h-18h),1,0,-8.013057,-34.831064
+101,Roubo a veículo,Torre,médio,1,2023,Manhã (6h-12h),1,0,-8.144059,-34.795718
+102,Tráfico de drogas,Imbiribeira,médio,6,2022,Manhã (6h-12h),1,0,-8.008213,-34.789708
+103,Tráfico de drogas,Recife Antigo,médio,5,2023,Manhã (6h-12h),2,0,-7.969557,-34.78927
+104,Furto,Jordão,alto,8,2022,Noite (18h-00h),1,0,-8.076697,-34.942994
+105,Lesão corporal,Dois Unidos,alto,1,2022,Noite (18h-00h),2,0,-7.967907,-35.018263
+106,Furto,Boa Viagem,médio,7,2023,Noite (18h-00h),1,0,-7.999563,-34.831816
+107,Furto,Casa Forte,baixo,1,2022,Manhã (6h-12h),3,0,-8.155666,-34.950974
+108,Roubo a veículo,Boa Viagem,médio,4,2023,Madrugada (00h-6h),0,0,-7.946093,-34.822032
+109,Lesão corporal,Jordão,alto,3,2022,Noite (18h-00h),1,0,-8.077728,-34.986464
+110,Arrombamento,Madalena,baixo,4,2022,Madrugada (00h-6h),2,0,-8.07008,-34.812675
+111,Roubo a pedestre,Dois Unidos,alto,4,2023,Noite (18h-00h),1,1,-7.93682,-34.831623
+112,Furto,Dois Unidos,alto,12,2022,Manhã (6h-12h),3,0,-7.966384,-35.016456
+113,Furto,Jordão,alto,4,2022,Manhã (6h-12h),0,0,-7.963527,-34.955404
+114,Lesão corporal,Aflitos,baixo,6,2022,Tarde (12h-18h),1,0,-8.057401,-34.896981
+115,Arrombamento,Boa Viagem,médio,6,2022,Noite (18h-00h),1,0,-8.15975,-34.968059
+116,Furto,Dois Unidos,alto,9,2023,Noite (18h-00h),0,0,-8.10522,-34.887133
+117,Furto,Graças,baixo,1,2022,Noite (18h-00h),0,1,-8.121579,-34.978899
+118,Lesão corporal,Imbiribeira,médio,10,2023,Manhã (6h-12h),0,1,-7.985709,-34.891424
+119,Roubo a veículo,Casa Forte,baixo,11,2023,Noite (18h-00h),1,1,-8.045435,-34.988822
+120,Lesão corporal,Espinheiro,baixo,8,2023,Madrugada (00h-6h),1,1,-7.979703,-34.874106
+121,Lesão corporal,Jordão,alto,2,2022,Manhã (6h-12h),0,1,-8.139914,-34.879464
+122,Roubo a veículo,Espinheiro,baixo,1,2023,Tarde (12h-18h),1,1,-8.026388,-35.002686
+123,Tráfico de drogas,Dois Unidos,alto,12,2023,Tarde (12h-18h),2,0,-8.054239,-34.883494
+124,Perturbação da ordem,Torre,médio,6,2023,Noite (18h-00h),0,0,-8.116714,-34.898288
+125,Tráfico de drogas,Jordão,alto,8,2022,Noite (18h-00h),1,0,-7.962801,-34.978474
+126,Roubo a veículo,Recife Antigo,médio,1,2023,Tarde (12h-18h),2,0,-7.945204,-34.8392
+127,Roubo a pedestre,Madalena,baixo,9,2022,Manhã (6h-12h),1,1,-8.024631,-34.891096
+128,Furto,Dois Unidos,alto,1,2022,Noite (18h-00h),1,0,-8.010421,-34.793705
+129,Lesão corporal,Imbiribeira,médio,9,2023,Madrugada (00h-6h),1,0,-7.963363,-34.876825
+130,Roubo a pedestre,Dois Unidos,alto,2,2022,Noite (18h-00h),0,0,-8.111433,-34.951734
+131,Furto,Madalena,baixo,4,2023,Noite (18h-00h),1,0,-8.009421,-34.818675
+132,Lesão corporal,Recife Antigo,médio,1,2022,Tarde (12h-18h),0,0,-8.042112,-34.854571
+133,Furto,Beberibe,alto,7,2023,Madrugada (00h-6h),0,0,-8.090449,-34.902829
+134,Lesão corporal,Dois Unidos,alto,2,2022,Tarde (12h-18h),1,0,-7.962761,-34.829544
+135,Roubo a veículo,Boa Viagem,médio,10,2023,Noite (18h-00h),1,1,-8.135982,-34.908602
+136,Lesão corporal,Água Fria,alto,12,2023,Tarde (12h-18h),1,0,-8.052216,-34.857286
+137,Roubo a pedestre,Ibura,alto,7,2022,Noite (18h-00h),2,0,-7.962784,-34.921515
+138,Furto,Ibura,alto,2,2022,Noite (18h-00h),1,0,-8.116156,-34.928099
+139,Arrombamento,Aflitos,baixo,11,2023,Noite (18h-00h),1,0,-8.05498,-34.838893
+140,Roubo a veículo,Imbiribeira,médio,12,2022,Manhã (6h-12h),1,0,-8.105304,-34.990695
+141,Furto,Torre,médio,6,2023,Madrugada (00h-6h),1,0,-7.930082,-35.002297
+142,Roubo a pedestre,Madalena,baixo,9,2023,Noite (18h-00h),0,0,-7.976156,-35.009126
+143,Furto,Beberibe,alto,5,2023,Tarde (12h-18h),0,0,-8.054948,-34.880814
+144,Furto,Graças,baixo,4,2022,Noite (18h-00h),0,0,-7.982891,-34.940746
+145,Roubo a veículo,Torre,médio,8,2022,Manhã (6h-12h),1,0,-7.97444,-34.959038
+146,Tráfico de drogas,Recife Antigo,médio,11,2022,Manhã (6h-12h),0,0,-8.122312,-34.913774
+147,Arrombamento,Aflitos,baixo,2,2023,Madrugada (00h-6h),2,1,-8.008278,-34.965575
+148,Furto,Espinheiro,baixo,1,2022,Noite (18h-00h),0,0,-8.087952,-34.915599
+149,Arrombamento,Aflitos,baixo,7,2023,Madrugada (00h-6h),1,0,-8.031347,-34.980613
+150,Furto,Recife Antigo,médio,2,2022,Noite (18h-00h),1,0,-7.945157,-34.807061
+151,Tráfico de drogas,Beberibe,alto,4,2022,Tarde (12h-18h),1,0,-8.065115,-34.994652
+152,Furto,Casa Amarela,médio,8,2022,Manhã (6h-12h),0,1,-8.005136,-34.941806
+153,Furto,Casa Amarela,médio,7,2022,Tarde (12h-18h),2,0,-8.05224,-34.975127
+154,Tráfico de drogas,Casa Forte,baixo,10,2023,Madrugada (00h-6h),1,1,-8.140932,-35.016559
+155,Furto,Madalena,baixo,4,2023,Noite (18h-00h),1,1,-8.01705,-34.822279
+156,Roubo a pedestre,Graças,baixo,4,2023,Noite (18h-00h),1,1,-7.961858,-35.019792
+157,Furto,Madalena,baixo,7,2023,Madrugada (00h-6h),1,1,-7.95369,-34.8805
+158,Roubo a pedestre,Jordão,alto,10,2023,Noite (18h-00h),0,0,-8.066822,-34.978707
+159,Roubo a veículo,Ibura,alto,12,2022,Tarde (12h-18h),3,0,-7.99956,-34.97377
+160,Tráfico de drogas,Dois Unidos,alto,4,2023,Madrugada (00h-6h),0,1,-8.089222,-35.007061
+161,Furto,Graças,baixo,10,2022,Madrugada (00h-6h),1,0,-8.040289,-34.787844
+162,Roubo a veículo,Aflitos,baixo,4,2023,Tarde (12h-18h),1,0,-8.07342,-34.912432
+163,Roubo a pedestre,Imbiribeira,médio,5,2023,Noite (18h-00h),2,0,-8.045182,-34.84453
+164,Roubo a veículo,Graças,baixo,3,2023,Tarde (12h-18h),1,0,-7.961734,-34.790646
+165,Roubo a veículo,Torre,médio,5,2023,Tarde (12h-18h),0,0,-8.098598,-34.949016
+166,Tráfico de drogas,Imbiribeira,médio,4,2023,Madrugada (00h-6h),2,0,-8.076212,-34.783314
+167,Roubo a pedestre,Madalena,baixo,1,2022,Noite (18h-00h),1,0,-8.024343,-35.011724
+168,Roubo a pedestre,Ibura,alto,9,2022,Noite (18h-00h),0,0,-7.932128,-34.880428
+169,Furto,Imbiribeira,médio,2,2023,Manhã (6h-12h),2,0,-8.012264,-35.018624
+170,Roubo a veículo,Casa Amarela,médio,9,2022,Noite (18h-00h),1,0,-7.971476,-34.836414
+171,Roubo a pedestre,Ibura,alto,5,2022,Manhã (6h-12h),1,0,-8.072679,-34.809162
+172,Roubo a veículo,Recife Antigo,médio,6,2023,Tarde (12h-18h),2,0,-8.073198,-34.997348
+173,Furto,Madalena,baixo,9,2022,Madrugada (00h-6h),0,1,-8.066009,-34.936405
+174,Furto,Imbiribeira,médio,8,2023,Tarde (12h-18h),1,1,-8.06523,-34.879081
+175,Furto,Água Fria,alto,2,2022,Noite (18h-00h),2,0,-7.954358,-34.890949
+176,Furto,Jordão,alto,5,2022,Manhã (6h-12h),0,0,-8.067916,-34.821569
+177,Furto,Madalena,baixo,7,2022,Noite (18h-00h),0,1,-8.067011,-34.968896
+178,Tráfico de drogas,Beberibe,alto,8,2022,Madrugada (00h-6h),0,0,-8.075349,-35.012298
+179,Furto,Madalena,baixo,4,2022,Noite (18h-00h),1,1,-7.960666,-34.991008
+180,Tráfico de drogas,Água Fria,alto,1,2023,Madrugada (00h-6h),0,0,-8.004371,-35.018243
+181,Roubo a veículo,Torre,médio,9,2022,Noite (18h-00h),0,0,-7.976792,-34.841095
+182,Lesão corporal,Recife Antigo,médio,8,2023,Manhã (6h-12h),1,1,-8.163483,-34.947487
+183,Tráfico de drogas,Madalena,baixo,1,2022,Madrugada (00h-6h),1,1,-8.002707,-34.817588
+184,Furto,Madalena,baixo,10,2022,Madrugada (00h-6h),0,0,-8.128385,-34.930219
+185,Furto,Jordão,alto,11,2023,Noite (18h-00h),2,0,-8.122531,-34.9529
+186,Lesão corporal,Graças,baixo,1,2022,Noite (18h-00h),1,1,-8.163581,-34.885945
+187,Furto,Recife Antigo,médio,7,2023,Tarde (12h-18h),0,0,-8.043419,-34.895685
+188,Furto,Casa Forte,baixo,6,2023,Madrugada (00h-6h),0,0,-7.968725,-34.962772
+189,Roubo a veículo,Imbiribeira,médio,8,2023,Manhã (6h-12h),1,1,-8.12001,-34.819777
+190,Tráfico de drogas,Jordão,alto,1,2023,Manhã (6h-12h),2,1,-8.109934,-34.97445
+191,Furto,Dois Unidos,alto,11,2022,Tarde (12h-18h),2,1,-8.124949,-34.936867
+192,Roubo a pedestre,Casa Forte,baixo,9,2023,Noite (18h-00h),0,0,-7.9526,-34.811094
+193,Furto,Espinheiro,baixo,5,2023,Noite (18h-00h),1,1,-8.108611,-34.879724
+194,Furto,Casa Forte,baixo,11,2022,Noite (18h-00h),1,1,-8.074502,-34.842164
+195,Roubo a pedestre,Jordão,alto,4,2023,Manhã (6h-12h),0,1,-7.974,-34.794226
+196,Lesão corporal,Jordão,alto,4,2023,Tarde (12h-18h),0,1,-8.091129,-35.014537
+197,Roubo a pedestre,Torre,médio,4,2023,Madrugada (00h-6h),1,0,-8.103942,-34.89153
+198,Furto,Beberibe,alto,12,2022,Tarde (12h-18h),1,1,-8.015415,-34.812882
+199,Furto,Recife Antigo,médio,2,2022,Noite (18h-00h),0,0,-8.054692,-34.806459
+200,Furto,Imbiribeira,médio,11,2023,Madrugada (00h-6h),0,0,-8.01132,-34.95063
+201,Furto,Jordão,alto,2,2022,Noite (18h-00h),2,1,-7.948165,-34.824623
+202,Perturbação da ordem,Madalena,baixo,11,2023,Manhã (6h-12h),3,0,-8.076736,-34.947427
+203,Perturbação da ordem,Aflitos,baixo,12,2022,Noite (18h-00h),1,0,-8.090453,-34.975367
+204,Homicídio,Água Fria,alto,10,2023,Tarde (12h-18h),2,0,-8.054402,-34.944517
+205,Arrombamento,Casa Forte,baixo,8,2022,Noite (18h-00h),1,0,-7.996878,-34.984363
+206,Tráfico de drogas,Recife Antigo,médio,10,2023,Madrugada (00h-6h),2,0,-7.978306,-35.002562
+207,Furto,Água Fria,alto,5,2022,Madrugada (00h-6h),0,0,-8.060897,-34.91247
+208,Arrombamento,Madalena,baixo,5,2022,Tarde (12h-18h),0,0,-7.992148,-34.861096
+209,Furto,Aflitos,baixo,3,2022,Tarde (12h-18h),1,0,-8.028674,-34.789456
+210,Lesão corporal,Casa Forte,baixo,2,2022,Manhã (6h-12h),1,1,-7.931883,-34.806414
+211,Furto,Aflitos,baixo,12,2022,Noite (18h-00h),1,0,-7.970894,-34.793768
+212,Furto,Ibura,alto,9,2022,Madrugada (00h-6h),1,0,-8.083411,-34.854874
+213,Furto,Casa Forte,baixo,7,2022,Noite (18h-00h),1,0,-8.054825,-34.948131
+214,Furto,Aflitos,baixo,2,2023,Madrugada (00h-6h),2,0,-8.086652,-34.9832
+215,Furto,Recife Antigo,médio,9,2022,Madrugada (00h-6h),3,1,-8.05406,-34.78358
+216,Roubo a pedestre,Madalena,baixo,11,2022,Noite (18h-00h),1,0,-8.086325,-34.970863
+217,Lesão corporal,Espinheiro,baixo,6,2023,Tarde (12h-18h),1,0,-8.169104,-34.790668
+218,Roubo a pedestre,Jordão,alto,3,2023,Noite (18h-00h),1,0,-8.030949,-34.860284
+219,Furto,Ibura,alto,1,2022,Noite (18h-00h),1,0,-7.94614,-34.875489
+220,Roubo a veículo,Jordão,alto,7,2023,Tarde (12h-18h),2,0,-7.966673,-34.919927
+221,Roubo a veículo,Torre,médio,11,2023,Noite (18h-00h),2,0,-7.977368,-34.842755
+222,Roubo a veículo,Ibura,alto,7,2023,Manhã (6h-12h),0,0,-8.037063,-34.856241
+223,Lesão corporal,Casa Amarela,médio,6,2023,Madrugada (00h-6h),3,1,-7.962413,-34.849038
+224,Furto,Beberibe,alto,3,2023,Noite (18h-00h),1,0,-8.061822,-34.991895
+225,Roubo a veículo,Beberibe,alto,5,2022,Noite (18h-00h),1,1,-7.949574,-34.864404
+226,Roubo a veículo,Graças,baixo,8,2023,Manhã (6h-12h),1,0,-8.027724,-34.838587
+227,Arrombamento,Boa Viagem,médio,6,2022,Manhã (6h-12h),1,0,-8.135178,-34.960913
+228,Arrombamento,Madalena,baixo,6,2023,Tarde (12h-18h),1,0,-8.023121,-35.002285
+229,Lesão corporal,Espinheiro,baixo,7,2023,Tarde (12h-18h),0,0,-8.155406,-34.944512
+230,Roubo a pedestre,Ibura,alto,9,2023,Noite (18h-00h),0,0,-7.977315,-34.886538
+231,Roubo a pedestre,Jordão,alto,2,2022,Noite (18h-00h),0,0,-8.057984,-34.837005
+232,Perturbação da ordem,Casa Amarela,médio,5,2023,Tarde (12h-18h),2,0,-8.134964,-34.839224
+233,Lesão corporal,Madalena,baixo,4,2022,Tarde (12h-18h),2,0,-8.012754,-34.85007
+234,Furto,Água Fria,alto,9,2023,Noite (18h-00h),1,1,-8.110306,-34.923445
+235,Homicídio,Jordão,alto,11,2022,Tarde (12h-18h),0,0,-8.072377,-34.810968
+236,Lesão corporal,Recife Antigo,médio,11,2022,Noite (18h-00h),1,1,-8.132317,-34.894704
+237,Furto,Dois Unidos,alto,11,2023,Noite (18h-00h),1,0,-8.10585,-34.910857
+238,Tráfico de drogas,Beberibe,alto,11,2022,Noite (18h-00h),2,0,-8.065928,-34.801704
+239,Tráfico de drogas,Recife Antigo,médio,11,2022,Noite (18h-00h),0,0,-8.044252,-34.797197
+240,Perturbação da ordem,Casa Amarela,médio,10,2023,Manhã (6h-12h),1,1,-8.163032,-34.960322
+241,Furto,Aflitos,baixo,1,2022,Noite (18h-00h),0,1,-8.062848,-34.784296
+242,Furto,Jordão,alto,2,2023,Noite (18h-00h),1,0,-7.957104,-34.83415
+243,Perturbação da ordem,Aflitos,baixo,7,2023,Noite (18h-00h),1,0,-8.160353,-35.007454
+244,Furto,Casa Amarela,médio,7,2022,Noite (18h-00h),1,1,-8.025872,-34.971168
+245,Roubo a veículo,Ibura,alto,12,2022,Madrugada (00h-6h),0,0,-8.147228,-34.882637
+246,Roubo a pedestre,Recife Antigo,médio,8,2022,Noite (18h-00h),0,0,-7.972753,-34.823292
+247,Lesão corporal,Jordão,alto,10,2023,Noite (18h-00h),1,1,-7.963891,-34.9342
+248,Tráfico de drogas,Casa Amarela,médio,4,2023,Noite (18h-00h),0,0,-8.125436,-35.002762
+249,Furto,Casa Forte,baixo,11,2022,Madrugada (00h-6h),0,0,-8.038837,-34.950057
+250,Tráfico de drogas,Torre,médio,2,2022,Noite (18h-00h),2,0,-8.153561,-34.89276
+251,Homicídio,Madalena,baixo,6,2022,Tarde (12h-18h),0,0,-8.085433,-34.932984
+252,Lesão corporal,Graças,baixo,5,2022,Noite (18h-00h),1,0,-7.988388,-34.848898
+253,Perturbação da ordem,Casa Amarela,médio,11,2022,Noite (18h-00h),1,0,-7.959629,-34.827015
+254,Lesão corporal,Ibura,alto,5,2022,Madrugada (00h-6h),2,0,-8.013337,-34.954309
+255,Roubo a pedestre,Jordão,alto,1,2022,Madrugada (00h-6h),1,0,-8.064627,-35.018601
+256,Arrombamento,Jordão,alto,10,2022,Madrugada (00h-6h),1,0,-8.073258,-34.957255
+257,Furto,Ibura,alto,1,2023,Noite (18h-00h),1,0,-8.059531,-34.907246
+258,Furto,Imbiribeira,médio,11,2022,Madrugada (00h-6h),1,0,-8.154827,-34.797181
+259,Roubo a veículo,Espinheiro,baixo,1,2022,Noite (18h-00h),2,0,-8.086396,-34.966813
+260,Roubo a pedestre,Jordão,alto,7,2022,Noite (18h-00h),1,0,-8.140651,-34.78199
+261,Roubo a pedestre,Dois Unidos,alto,9,2023,Noite (18h-00h),0,0,-7.94477,-34.836162
+262,Roubo a pedestre,Beberibe,alto,8,2022,Tarde (12h-18h),0,0,-8.017565,-34.89455
+263,Roubo a pedestre,Espinheiro,baixo,10,2022,Noite (18h-00h),0,0,-8.159838,-34.95662
+264,Lesão corporal,Aflitos,baixo,1,2023,Noite (18h-00h),1,1,-8.069876,-34.898866
+265,Furto,Graças,baixo,7,2022,Noite (18h-00h),1,0,-7.986121,-34.914152
+266,Roubo a pedestre,Imbiribeira,médio,1,2023,Noite (18h-00h),0,0,-8.04115,-34.977342
+267,Roubo a pedestre,Dois Unidos,alto,9,2022,Manhã (6h-12h),0,1,-8.105549,-34.888522
+268,Roubo a veículo,Recife Antigo,médio,3,2023,Noite (18h-00h),2,1,-8.041159,-34.813147
+269,Furto,Graças,baixo,9,2022,Noite (18h-00h),3,0,-8.027804,-34.85848
+270,Tráfico de drogas,Casa Amarela,médio,12,2022,Tarde (12h-18h),1,0,-8.062498,-34.81721
+271,Perturbação da ordem,Graças,baixo,5,2023,Manhã (6h-12h),1,0,-8.043614,-34.989558
+272,Tráfico de drogas,Recife Antigo,médio,10,2023,Manhã (6h-12h),0,0,-8.077334,-34.803631
+273,Roubo a veículo,Ibura,alto,7,2022,Madrugada (00h-6h),1,0,-7.931448,-34.8635
+274,Perturbação da ordem,Recife Antigo,médio,1,2022,Madrugada (00h-6h),1,0,-7.985165,-34.82859
+275,Perturbação da ordem,Boa Viagem,médio,3,2022,Manhã (6h-12h),2,0,-7.980771,-34.813901
+276,Roubo a veículo,Recife Antigo,médio,4,2022,Madrugada (00h-6h),1,0,-7.968983,-34.828644
+277,Tráfico de drogas,Dois Unidos,alto,9,2023,Madrugada (00h-6h),1,0,-7.980357,-34.809729
+278,Tráfico de drogas,Ibura,alto,4,2023,Tarde (12h-18h),0,0,-8.155581,-34.848868
+279,Tráfico de drogas,Graças,baixo,11,2023,Tarde (12h-18h),1,1,-7.961891,-34.965294
+280,Arrombamento,Espinheiro,baixo,3,2023,Tarde (12h-18h),1,0,-8.099634,-34.816197
+281,Furto,Boa Viagem,médio,9,2023,Madrugada (00h-6h),0,1,-8.050896,-34.92425
+282,Furto,Graças,baixo,3,2022,Noite (18h-00h),1,0,-8.15988,-34.926738
+283,Furto,Imbiribeira,médio,7,2023,Noite (18h-00h),1,0,-8.011397,-34.99093
+284,Lesão corporal,Jordão,alto,4,2022,Noite (18h-00h),1,1,-8.066046,-34.909577
+285,Furto,Boa Viagem,médio,8,2023,Tarde (12h-18h),1,1,-8.169872,-34.782654
+286,Arrombamento,Aflitos,baixo,7,2022,Manhã (6h-12h),1,1,-8.121569,-34.819332
+287,Roubo a pedestre,Espinheiro,baixo,5,2023,Madrugada (00h-6h),1,1,-7.952066,-34.859234
+288,Lesão corporal,Madalena,baixo,10,2022,Madrugada (00h-6h),1,1,-8.068688,-34.876005
+289,Roubo a pedestre,Boa Viagem,médio,2,2022,Madrugada (00h-6h),0,1,-7.962036,-34.782501
+290,Roubo a veículo,Beberibe,alto,7,2023,Madrugada (00h-6h),2,1,-8.144078,-34.995438
+291,Lesão corporal,Espinheiro,baixo,9,2022,Manhã (6h-12h),0,1,-8.071956,-34.840065
+292,Lesão corporal,Madalena,baixo,8,2022,Noite (18h-00h),1,1,-8.122195,-34.792572
+293,Roubo a veículo,Madalena,baixo,8,2022,Madrugada (00h-6h),1,1,-8.059247,-34.815572
+294,Perturbação da ordem,Ibura,alto,6,2022,Tarde (12h-18h),0,0,-8.112452,-34.940201
+295,Roubo a pedestre,Casa Forte,baixo,10,2023,Tarde (12h-18h),0,0,-8.11354,-35.019511
+296,Furto,Madalena,baixo,3,2023,Madrugada (00h-6h),0,0,-8.137919,-34.836049
+297,Roubo a veículo,Boa Viagem,médio,3,2023,Noite (18h-00h),1,0,-8.078119,-34.824343
+298,Homicídio,Ibura,alto,11,2022,Tarde (12h-18h),3,0,-8.101987,-34.897584
+299,Perturbação da ordem,Recife Antigo,médio,2,2023,Noite (18h-00h),0,0,-8.164923,-34.818498
+300,Lesão corporal,Imbiribeira,médio,1,2022,Madrugada (00h-6h),2,0,-8.090563,-34.999399
+301,Furto,Aflitos,baixo,5,2022,Manhã (6h-12h),1,1,-8.049409,-34.824322
+302,Furto,Aflitos,baixo,10,2023,Tarde (12h-18h),0,0,-8.027399,-34.878948
+303,Furto,Recife Antigo,médio,12,2023,Tarde (12h-18h),0,0,-8.038769,-34.864485
+304,Tráfico de drogas,Dois Unidos,alto,2,2023,Tarde (12h-18h),0,0,-7.99664,-34.982349
+305,Roubo a pedestre,Ibura,alto,1,2023,Manhã (6h-12h),1,1,-7.975033,-34.914793
+306,Roubo a veículo,Boa Viagem,médio,6,2023,Madrugada (00h-6h),2,1,-7.995419,-34.785414
+307,Roubo a veículo,Torre,médio,6,2023,Tarde (12h-18h),0,1,-8.143046,-34.874758
+308,Tráfico de drogas,Ibura,alto,8,2023,Manhã (6h-12h),1,0,-8.005082,-35.003082
+309,Furto,Graças,baixo,1,2023,Tarde (12h-18h),1,0,-7.970672,-34.921445
+310,Roubo a pedestre,Água Fria,alto,4,2023,Tarde (12h-18h),1,1,-8.131473,-34.907791
+311,Furto,Boa Viagem,médio,4,2023,Noite (18h-00h),0,1,-8.071639,-35.012756
+312,Furto,Imbiribeira,médio,2,2022,Noite (18h-00h),1,0,-8.001996,-34.910734
+313,Arrombamento,Boa Viagem,médio,5,2023,Manhã (6h-12h),2,1,-8.062828,-34.809284
+314,Furto,Torre,médio,3,2023,Noite (18h-00h),1,0,-7.956164,-35.006818
+315,Roubo a pedestre,Imbiribeira,médio,4,2023,Madrugada (00h-6h),0,0,-8.111319,-34.995473
+316,Roubo a pedestre,Beberibe,alto,12,2023,Noite (18h-00h),0,0,-8.068517,-34.789928
+317,Perturbação da ordem,Casa Forte,baixo,2,2022,Noite (18h-00h),0,0,-8.075982,-34.97243
+318,Roubo a pedestre,Jordão,alto,8,2023,Noite (18h-00h),0,0,-8.103935,-34.819806
+319,Roubo a pedestre,Água Fria,alto,2,2022,Tarde (12h-18h),1,0,-7.97203,-34.907071
+320,Roubo a pedestre,Imbiribeira,médio,10,2023,Manhã (6h-12h),1,0,-8.042134,-34.952727
+321,Lesão corporal,Torre,médio,2,2023,Noite (18h-00h),3,1,-8.062402,-34.980057
+322,Roubo a pedestre,Espinheiro,baixo,6,2022,Manhã (6h-12h),0,0,-8.066276,-34.920123
+323,Lesão corporal,Madalena,baixo,8,2023,Noite (18h-00h),1,0,-8.128961,-34.844941
+324,Roubo a pedestre,Recife Antigo,médio,8,2022,Noite (18h-00h),0,0,-7.992872,-34.830863
+325,Furto,Torre,médio,12,2022,Tarde (12h-18h),2,1,-8.022112,-34.821794
+326,Roubo a veículo,Madalena,baixo,4,2023,Tarde (12h-18h),3,1,-8.1297,-35.00646
+327,Furto,Boa Viagem,médio,12,2023,Tarde (12h-18h),0,0,-8.045282,-34.81215
+328,Furto,Aflitos,baixo,10,2022,Tarde (12h-18h),3,0,-7.935869,-34.974855
+329,Furto,Graças,baixo,6,2023,Noite (18h-00h),1,1,-8.109284,-34.796907
+330,Furto,Boa Viagem,médio,2,2022,Tarde (12h-18h),1,0,-8.034216,-34.96461
+331,Tráfico de drogas,Água Fria,alto,9,2023,Tarde (12h-18h),2,0,-8.116561,-34.944948
+332,Furto,Imbiribeira,médio,5,2023,Manhã (6h-12h),1,0,-8.056071,-34.934494
+333,Furto,Torre,médio,5,2023,Manhã (6h-12h),0,0,-7.9637,-34.786807
+334,Roubo a veículo,Ibura,alto,6,2022,Noite (18h-00h),2,0,-8.153524,-34.957078
+335,Furto,Imbiribeira,médio,11,2023,Manhã (6h-12h),0,1,-8.054756,-34.85505
+336,Furto,Jordão,alto,6,2023,Noite (18h-00h),3,1,-8.071603,-34.9147
+337,Perturbação da ordem,Graças,baixo,11,2023,Noite (18h-00h),0,1,-8.004709,-34.927264
+338,Tráfico de drogas,Água Fria,alto,10,2023,Noite (18h-00h),0,0,-7.946685,-34.957141
+339,Furto,Dois Unidos,alto,6,2022,Manhã (6h-12h),1,1,-8.067654,-34.806153
+340,Roubo a veículo,Madalena,baixo,1,2023,Tarde (12h-18h),1,1,-7.954341,-34.83529
+341,Tráfico de drogas,Dois Unidos,alto,11,2023,Madrugada (00h-6h),1,1,-7.962645,-34.979329
+342,Furto,Água Fria,alto,3,2022,Manhã (6h-12h),1,1,-8.069293,-34.851871
+343,Lesão corporal,Água Fria,alto,1,2022,Noite (18h-00h),1,0,-7.990808,-34.998401
+344,Tráfico de drogas,Dois Unidos,alto,11,2022,Noite (18h-00h),1,1,-8.136172,-34.904342
+345,Lesão corporal,Recife Antigo,médio,9,2023,Tarde (12h-18h),0,1,-8.000079,-34.824396
+346,Perturbação da ordem,Boa Viagem,médio,4,2022,Noite (18h-00h),1,0,-8.049302,-34.940304
+347,Roubo a pedestre,Espinheiro,baixo,4,2023,Noite (18h-00h),1,1,-8.116931,-34.877236
+348,Lesão corporal,Jordão,alto,11,2022,Noite (18h-00h),3,0,-8.054621,-34.787039
+349,Tráfico de drogas,Beberibe,alto,11,2022,Noite (18h-00h),1,0,-8.028169,-34.818645
+350,Roubo a veículo,Madalena,baixo,7,2023,Tarde (12h-18h),1,0,-8.053861,-34.826599
+351,Roubo a veículo,Casa Forte,baixo,3,2023,Manhã (6h-12h),1,0,-7.995762,-34.986776
+352,Perturbação da ordem,Graças,baixo,3,2023,Tarde (12h-18h),0,0,-8.167255,-34.832088
+353,Roubo a pedestre,Casa Forte,baixo,5,2023,Madrugada (00h-6h),1,1,-8.13932,-34.886969
+354,Furto,Graças,baixo,1,2022,Madrugada (00h-6h),2,0,-7.999913,-35.013765
+355,Roubo a veículo,Boa Viagem,médio,4,2023,Manhã (6h-12h),1,1,-8.026602,-34.97942
+356,Roubo a pedestre,Jordão,alto,5,2023,Tarde (12h-18h),1,0,-8.083888,-34.889402
+357,Roubo a veículo,Ibura,alto,2,2023,Tarde (12h-18h),0,0,-7.930376,-34.906311
+358,Furto,Espinheiro,baixo,1,2022,Manhã (6h-12h),2,0,-8.009438,-34.935649
+359,Roubo a pedestre,Jordão,alto,5,2023,Noite (18h-00h),1,0,-8.073326,-34.90628
+360,Furto,Ibura,alto,12,2022,Noite (18h-00h),0,0,-8.080381,-34.889646
+361,Furto,Casa Amarela,médio,12,2023,Tarde (12h-18h),1,0,-8.075383,-34.820157
+362,Furto,Água Fria,alto,1,2023,Noite (18h-00h),3,1,-8.018372,-34.97536
+363,Roubo a pedestre,Água Fria,alto,11,2022,Noite (18h-00h),1,1,-7.930483,-34.878962
+364,Roubo a pedestre,Boa Viagem,médio,2,2022,Noite (18h-00h),2,1,-8.011846,-34.945314
+365,Furto,Aflitos,baixo,7,2022,Manhã (6h-12h),1,0,-8.022628,-34.947996
+366,Furto,Jordão,alto,10,2022,Madrugada (00h-6h),2,0,-8.042286,-34.836162
+367,Furto,Dois Unidos,alto,6,2023,Noite (18h-00h),0,0,-7.973438,-34.950241
+368,Arrombamento,Graças,baixo,6,2023,Noite (18h-00h),0,0,-8.050617,-34.924952
+369,Furto,Beberibe,alto,1,2023,Tarde (12h-18h),2,0,-7.935649,-34.807255
+370,Furto,Imbiribeira,médio,8,2022,Manhã (6h-12h),0,0,-7.944779,-34.876494
+371,Furto,Aflitos,baixo,3,2022,Madrugada (00h-6h),0,1,-8.006586,-34.983999
+372,Roubo a veículo,Casa Amarela,médio,3,2023,Madrugada (00h-6h),1,1,-8.061932,-34.995489
+373,Roubo a veículo,Casa Amarela,médio,5,2023,Noite (18h-00h),0,0,-8.086995,-34.859365
+374,Roubo a veículo,Dois Unidos,alto,5,2023,Noite (18h-00h),0,0,-8.075616,-34.855083
+375,Roubo a veículo,Imbiribeira,médio,8,2022,Noite (18h-00h),1,0,-8.002002,-34.916921
+376,Furto,Beberibe,alto,3,2023,Noite (18h-00h),1,1,-8.103518,-34.951381
+377,Roubo a veículo,Torre,médio,11,2022,Noite (18h-00h),1,1,-7.934739,-34.993677
+378,Lesão corporal,Casa Amarela,médio,5,2022,Madrugada (00h-6h),1,0,-8.036727,-34.843397
+379,Roubo a pedestre,Aflitos,baixo,11,2023,Noite (18h-00h),1,0,-8.02532,-34.958825
+380,Roubo a veículo,Recife Antigo,médio,12,2022,Tarde (12h-18h),2,1,-8.148828,-34.789507
+381,Roubo a pedestre,Torre,médio,1,2023,Tarde (12h-18h),0,0,-8.167734,-34.816003
+382,Arrombamento,Recife Antigo,médio,7,2022,Tarde (12h-18h),3,1,-8.007513,-35.015034
+383,Furto,Torre,médio,2,2023,Manhã (6h-12h),1,0,-8.097379,-34.938941
+384,Roubo a pedestre,Torre,médio,5,2022,Madrugada (00h-6h),0,1,-7.98491,-34.812452
+385,Furto,Casa Forte,baixo,10,2023,Tarde (12h-18h),0,0,-7.951044,-34.80301
+386,Furto,Casa Amarela,médio,9,2023,Tarde (12h-18h),1,0,-8.011802,-34.943408
+387,Tráfico de drogas,Dois Unidos,alto,7,2022,Tarde (12h-18h),2,0,-8.139655,-34.830934
+388,Roubo a veículo,Madalena,baixo,5,2023,Tarde (12h-18h),0,0,-8.145809,-34.954426
+389,Tráfico de drogas,Dois Unidos,alto,8,2022,Noite (18h-00h),0,1,-7.941435,-34.965129
+390,Furto,Jordão,alto,12,2022,Tarde (12h-18h),1,0,-7.988756,-34.799061
+391,Furto,Dois Unidos,alto,6,2022,Manhã (6h-12h),0,0,-8.065203,-34.787444
+392,Furto,Madalena,baixo,12,2023,Noite (18h-00h),1,0,-7.991492,-34.845564
+393,Arrombamento,Aflitos,baixo,6,2022,Tarde (12h-18h),2,0,-8.113762,-34.878878
+394,Furto,Espinheiro,baixo,7,2022,Manhã (6h-12h),0,1,-8.102207,-34.967198
+395,Furto,Torre,médio,12,2022,Tarde (12h-18h),2,1,-7.942195,-35.00143
+396,Homicídio,Boa Viagem,médio,9,2022,Tarde (12h-18h),0,0,-8.015988,-34.864597
+397,Roubo a veículo,Espinheiro,baixo,4,2022,Tarde (12h-18h),0,1,-8.038296,-34.932473
+398,Lesão corporal,Casa Forte,baixo,10,2022,Tarde (12h-18h),1,0,-8.146125,-34.953505
+399,Roubo a pedestre,Imbiribeira,médio,4,2023,Noite (18h-00h),0,1,-8.03325,-34.858567
+400,Furto,Boa Viagem,médio,12,2023,Noite (18h-00h),0,0,-8.127124,-34.919256
+401,Lesão corporal,Casa Amarela,médio,3,2023,Manhã (6h-12h),3,0,-7.941416,-34.825196
+402,Roubo a veículo,Água Fria,alto,3,2022,Madrugada (00h-6h),0,1,-8.112474,-34.826201
+403,Roubo a veículo,Jordão,alto,9,2023,Tarde (12h-18h),1,1,-8.061818,-34.911228
+404,Furto,Madalena,baixo,1,2023,Madrugada (00h-6h),0,1,-8.138241,-34.995877
+405,Roubo a veículo,Aflitos,baixo,1,2023,Manhã (6h-12h),3,1,-8.095561,-34.853092
+406,Furto,Beberibe,alto,4,2022,Madrugada (00h-6h),1,0,-8.091764,-34.819418
+407,Roubo a pedestre,Água Fria,alto,3,2022,Manhã (6h-12h),1,0,-8.121749,-34.99531
+408,Furto,Espinheiro,baixo,2,2023,Tarde (12h-18h),0,0,-7.946187,-34.922986
+409,Furto,Ibura,alto,4,2022,Tarde (12h-18h),0,0,-8.048622,-34.795992
+410,Roubo a pedestre,Casa Amarela,médio,4,2023,Manhã (6h-12h),0,1,-7.962492,-34.813238
+411,Roubo a veículo,Casa Amarela,médio,5,2022,Noite (18h-00h),1,0,-7.997805,-34.923189
+412,Arrombamento,Espinheiro,baixo,7,2023,Tarde (12h-18h),1,1,-7.950263,-35.005097
+413,Roubo a pedestre,Ibura,alto,12,2023,Tarde (12h-18h),0,1,-8.090155,-34.97283
+414,Roubo a pedestre,Boa Viagem,médio,12,2022,Noite (18h-00h),1,0,-8.111098,-34.952635
+415,Furto,Madalena,baixo,12,2022,Noite (18h-00h),1,0,-7.944141,-34.794651
+416,Tráfico de drogas,Graças,baixo,10,2022,Manhã (6h-12h),0,1,-8.124478,-35.007067
+417,Tráfico de drogas,Água Fria,alto,9,2023,Noite (18h-00h),2,1,-7.983797,-34.812762
+418,Furto,Água Fria,alto,12,2023,Manhã (6h-12h),1,1,-8.093169,-34.822819
+419,Perturbação da ordem,Graças,baixo,12,2022,Madrugada (00h-6h),3,0,-8.119931,-34.919158
+420,Furto,Recife Antigo,médio,7,2023,Madrugada (00h-6h),2,0,-7.978248,-34.952311
+421,Roubo a pedestre,Jordão,alto,7,2022,Manhã (6h-12h),1,0,-8.130412,-34.794708
+422,Roubo a veículo,Graças,baixo,8,2022,Tarde (12h-18h),1,1,-7.995071,-34.989104
+423,Roubo a veículo,Beberibe,alto,12,2023,Noite (18h-00h),1,1,-8.042809,-34.780648
+424,Lesão corporal,Água Fria,alto,5,2022,Madrugada (00h-6h),1,0,-8.105147,-34.970829
+425,Lesão corporal,Casa Amarela,médio,5,2023,Madrugada (00h-6h),1,0,-8.015213,-35.014931
+426,Furto,Aflitos,baixo,9,2023,Madrugada (00h-6h),1,1,-8.120265,-34.944539
+427,Furto,Madalena,baixo,6,2022,Noite (18h-00h),1,0,-7.941034,-34.800105
+428,Roubo a pedestre,Boa Viagem,médio,7,2023,Noite (18h-00h),0,0,-7.991379,-34.989192
+429,Arrombamento,Madalena,baixo,3,2022,Manhã (6h-12h),2,0,-7.945979,-34.788051
+430,Roubo a pedestre,Espinheiro,baixo,8,2023,Noite (18h-00h),1,0,-8.100103,-34.952152
+431,Roubo a veículo,Casa Amarela,médio,8,2022,Madrugada (00h-6h),2,1,-8.08261,-35.012455
+432,Furto,Aflitos,baixo,11,2023,Manhã (6h-12h),0,1,-8.103645,-34.88304
+433,Lesão corporal,Aflitos,baixo,6,2023,Tarde (12h-18h),2,1,-7.933444,-34.839426
+434,Furto,Torre,médio,8,2022,Noite (18h-00h),1,0,-8.141808,-34.957795
+435,Perturbação da ordem,Boa Viagem,médio,10,2022,Manhã (6h-12h),1,0,-8.132438,-34.910337
+436,Roubo a pedestre,Recife Antigo,médio,3,2023,Manhã (6h-12h),1,1,-7.998737,-34.938631
+437,Roubo a pedestre,Recife Antigo,médio,10,2023,Noite (18h-00h),2,0,-8.095072,-34.883791
+438,Furto,Casa Amarela,médio,11,2023,Tarde (12h-18h),0,0,-8.112443,-34.871287
+439,Lesão corporal,Graças,baixo,11,2023,Madrugada (00h-6h),0,1,-8.123962,-34.87439
+440,Furto,Jordão,alto,8,2023,Madrugada (00h-6h),1,0,-7.950633,-34.864515
+441,Perturbação da ordem,Graças,baixo,2,2022,Madrugada (00h-6h),0,1,-7.932401,-34.957226
+442,Roubo a pedestre,Jordão,alto,7,2023,Manhã (6h-12h),0,1,-8.1616,-34.941537
+443,Furto,Beberibe,alto,3,2023,Manhã (6h-12h),3,1,-8.040916,-34.875243
+444,Furto,Casa Amarela,médio,6,2022,Tarde (12h-18h),1,0,-7.992516,-34.975964
+445,Perturbação da ordem,Torre,médio,12,2022,Noite (18h-00h),1,1,-8.040516,-34.826963
+446,Roubo a pedestre,Dois Unidos,alto,4,2023,Noite (18h-00h),0,0,-7.943915,-34.87609
+447,Furto,Casa Forte,baixo,9,2022,Madrugada (00h-6h),2,0,-7.975367,-34.888579
+448,Furto,Água Fria,alto,9,2022,Noite (18h-00h),2,0,-8.118748,-35.006194
+449,Roubo a pedestre,Beberibe,alto,10,2022,Noite (18h-00h),2,1,-8.02606,-34.932662
+450,Furto,Torre,médio,8,2023,Noite (18h-00h),1,0,-7.989792,-35.00263
+451,Perturbação da ordem,Graças,baixo,6,2022,Noite (18h-00h),1,1,-8.082656,-34.860496
+452,Furto,Espinheiro,baixo,11,2022,Manhã (6h-12h),2,0,-8.083715,-34.964919
+453,Roubo a pedestre,Espinheiro,baixo,9,2022,Tarde (12h-18h),0,0,-8.112129,-34.980346
+454,Roubo a veículo,Espinheiro,baixo,5,2023,Tarde (12h-18h),0,0,-8.083546,-34.789406
+455,Tráfico de drogas,Beberibe,alto,10,2023,Noite (18h-00h),0,0,-7.994223,-34.978939
+456,Furto,Jordão,alto,4,2023,Noite (18h-00h),2,1,-8.066826,-34.914523
+457,Roubo a pedestre,Jordão,alto,1,2022,Tarde (12h-18h),1,0,-8.096671,-34.950688
+458,Furto,Imbiribeira,médio,6,2022,Noite (18h-00h),1,0,-8.03686,-34.894403
+459,Furto,Boa Viagem,médio,6,2023,Manhã (6h-12h),2,0,-8.01977,-34.793417
+460,Roubo a veículo,Jordão,alto,10,2022,Madrugada (00h-6h),1,0,-8.06952,-34.934764
+461,Tráfico de drogas,Dois Unidos,alto,10,2023,Manhã (6h-12h),3,0,-8.015847,-34.913411
+462,Roubo a pedestre,Beberibe,alto,4,2023,Madrugada (00h-6h),1,1,-8.088401,-34.941122
+463,Arrombamento,Graças,baixo,4,2023,Manhã (6h-12h),1,0,-8.072083,-34.831372
+464,Furto,Imbiribeira,médio,8,2023,Tarde (12h-18h),1,1,-8.131318,-34.906506
+465,Perturbação da ordem,Casa Forte,baixo,9,2023,Manhã (6h-12h),1,1,-7.9871,-34.832199
+466,Furto,Recife Antigo,médio,11,2023,Noite (18h-00h),0,0,-8.03429,-34.817028
+467,Roubo a pedestre,Dois Unidos,alto,9,2022,Noite (18h-00h),1,0,-7.946198,-34.909558
+468,Roubo a veículo,Jordão,alto,2,2023,Tarde (12h-18h),1,0,-7.936041,-34.994036
+469,Furto,Água Fria,alto,8,2023,Madrugada (00h-6h),1,0,-8.019195,-35.019036
+470,Roubo a pedestre,Beberibe,alto,4,2022,Madrugada (00h-6h),2,1,-8.010714,-34.845207
+471,Furto,Beberibe,alto,10,2022,Madrugada (00h-6h),0,0,-7.984499,-34.834476
+472,Furto,Ibura,alto,5,2022,Noite (18h-00h),2,0,-8.04808,-34.811065
+473,Roubo a veículo,Aflitos,baixo,2,2023,Tarde (12h-18h),1,0,-7.956459,-34.867634
+474,Roubo a veículo,Casa Forte,baixo,11,2022,Manhã (6h-12h),0,1,-8.128688,-34.887758
+475,Tráfico de drogas,Aflitos,baixo,8,2023,Noite (18h-00h),1,0,-7.947058,-34.95581
+476,Roubo a veículo,Casa Forte,baixo,9,2023,Noite (18h-00h),0,1,-7.982185,-34.930189
+477,Lesão corporal,Ibura,alto,2,2023,Madrugada (00h-6h),1,0,-7.93434,-35.003006
+478,Furto,Dois Unidos,alto,12,2022,Noite (18h-00h),1,0,-7.973523,-34.816818
+479,Roubo a veículo,Aflitos,baixo,7,2023,Manhã (6h-12h),1,0,-8.07966,-34.894903
+480,Tráfico de drogas,Jordão,alto,4,2023,Tarde (12h-18h),0,0,-8.151953,-34.846137
+481,Furto,Graças,baixo,3,2023,Noite (18h-00h),1,0,-7.955375,-34.964344
+482,Furto,Boa Viagem,médio,12,2022,Tarde (12h-18h),1,1,-8.029184,-34.920397
+483,Furto,Dois Unidos,alto,3,2023,Madrugada (00h-6h),1,0,-8.089026,-34.94785
+484,Lesão corporal,Casa Amarela,médio,1,2023,Tarde (12h-18h),0,1,-8.104662,-34.946592
+485,Furto,Imbiribeira,médio,8,2023,Madrugada (00h-6h),2,0,-8.09203,-34.915489
+486,Roubo a pedestre,Boa Viagem,médio,10,2022,Noite (18h-00h),0,0,-7.976519,-34.827386
+487,Furto,Madalena,baixo,9,2023,Manhã (6h-12h),2,1,-8.04747,-35.00428
+488,Roubo a veículo,Casa Forte,baixo,3,2022,Madrugada (00h-6h),0,0,-8.118659,-34.865354
+489,Tráfico de drogas,Jordão,alto,6,2023,Noite (18h-00h),0,0,-8.014684,-34.983137
+490,Homicídio,Beberibe,alto,10,2022,Tarde (12h-18h),2,0,-8.076335,-34.831149
+491,Arrombamento,Graças,baixo,4,2022,Tarde (12h-18h),1,0,-8.14472,-34.897782
+492,Furto,Boa Viagem,médio,8,2023,Tarde (12h-18h),0,1,-8.048844,-34.811763
+493,Roubo a veículo,Dois Unidos,alto,7,2022,Noite (18h-00h),0,1,-8.134526,-34.786812
+494,Roubo a pedestre,Casa Amarela,médio,12,2023,Noite (18h-00h),1,0,-8.058431,-34.836898
+495,Furto,Água Fria,alto,11,2023,Tarde (12h-18h),0,0,-8.082701,-34.955222
+496,Roubo a veículo,Água Fria,alto,6,2022,Manhã (6h-12h),0,0,-8.103404,-34.989456
+497,Roubo a veículo,Dois Unidos,alto,6,2022,Noite (18h-00h),0,1,-8.077891,-35.015066
+498,Perturbação da ordem,Recife Antigo,médio,7,2023,Manhã (6h-12h),1,1,-8.021192,-34.915021
+499,Roubo a veículo,Aflitos,baixo,2,2023,Madrugada (00h-6h),0,0,-8.098901,-34.918919
+500,Furto,Imbiribeira,médio,3,2022,Madrugada (00h-6h),0,1,-8.165855,-34.892534
+501,Furto,Boa Viagem,médio,7,2023,Noite (18h-00h),1,0,-7.985511,-34.793957
+502,Furto,Espinheiro,baixo,3,2022,Noite (18h-00h),0,0,-8.077592,-34.815521
+503,Perturbação da ordem,Beberibe,alto,8,2022,Noite (18h-00h),1,0,-8.090912,-34.926646
+504,Furto,Jordão,alto,7,2022,Tarde (12h-18h),1,0,-7.988238,-34.856699
+505,Roubo a pedestre,Espinheiro,baixo,3,2023,Madrugada (00h-6h),1,0,-7.951489,-34.898309
+506,Furto,Espinheiro,baixo,9,2023,Tarde (12h-18h),0,0,-8.009542,-34.889884
+507,Tráfico de drogas,Água Fria,alto,7,2022,Manhã (6h-12h),2,0,-8.032668,-34.812366
+508,Roubo a veículo,Madalena,baixo,11,2023,Manhã (6h-12h),2,1,-8.043996,-34.814427
+509,Furto,Imbiribeira,médio,5,2022,Noite (18h-00h),0,0,-8.164039,-34.782942
+510,Roubo a pedestre,Casa Forte,baixo,5,2022,Tarde (12h-18h),0,0,-8.044882,-34.816292
+511,Roubo a pedestre,Jordão,alto,7,2022,Noite (18h-00h),1,0,-7.972368,-34.855173
+512,Roubo a veículo,Imbiribeira,médio,4,2023,Noite (18h-00h),1,0,-8.147634,-34.970188
+513,Furto,Casa Forte,baixo,11,2022,Tarde (12h-18h),1,0,-8.006863,-35.005519
+514,Arrombamento,Boa Viagem,médio,9,2022,Noite (18h-00h),1,1,-8.040721,-34.868576
+515,Furto,Recife Antigo,médio,6,2023,Manhã (6h-12h),3,0,-8.028161,-35.014499
+516,Perturbação da ordem,Jordão,alto,4,2023,Noite (18h-00h),2,1,-8.009767,-34.880013
+517,Roubo a pedestre,Ibura,alto,2,2022,Noite (18h-00h),1,0,-8.023434,-34.903632
+518,Perturbação da ordem,Aflitos,baixo,6,2023,Madrugada (00h-6h),1,0,-8.02973,-34.91339
+519,Roubo a veículo,Casa Forte,baixo,10,2022,Tarde (12h-18h),0,0,-8.135842,-34.920298
+520,Lesão corporal,Água Fria,alto,1,2022,Noite (18h-00h),2,0,-7.96784,-34.911383
+521,Furto,Espinheiro,baixo,5,2023,Tarde (12h-18h),0,0,-8.120131,-34.941935
+522,Furto,Recife Antigo,médio,11,2022,Madrugada (00h-6h),1,0,-8.156494,-34.783396
+523,Tráfico de drogas,Ibura,alto,11,2023,Madrugada (00h-6h),1,0,-8.140977,-34.902812
+524,Tráfico de drogas,Torre,médio,5,2023,Madrugada (00h-6h),0,0,-8.011476,-34.88143
+525,Furto,Água Fria,alto,3,2022,Tarde (12h-18h),1,0,-8.13142,-34.816147
+526,Furto,Casa Amarela,médio,4,2022,Tarde (12h-18h),1,0,-8.112358,-34.807483
+527,Tráfico de drogas,Ibura,alto,6,2023,Noite (18h-00h),1,0,-8.161599,-34.802284
+528,Furto,Casa Forte,baixo,10,2023,Noite (18h-00h),2,0,-8.07164,-34.804464
+529,Roubo a veículo,Boa Viagem,médio,7,2022,Tarde (12h-18h),1,0,-8.019228,-34.853846
+530,Roubo a pedestre,Casa Forte,baixo,10,2023,Noite (18h-00h),0,1,-8.116128,-34.922171
+531,Furto,Ibura,alto,5,2023,Noite (18h-00h),1,1,-7.96881,-34.849412
+532,Perturbação da ordem,Água Fria,alto,12,2022,Madrugada (00h-6h),1,0,-8.111988,-34.951342
+533,Roubo a veículo,Torre,médio,8,2022,Manhã (6h-12h),2,1,-8.002075,-34.879932
+534,Tráfico de drogas,Água Fria,alto,12,2023,Tarde (12h-18h),1,0,-8.162018,-35.017183
+535,Roubo a veículo,Imbiribeira,médio,11,2023,Tarde (12h-18h),0,0,-8.161854,-34.837924
+536,Furto,Boa Viagem,médio,8,2023,Tarde (12h-18h),1,0,-8.086351,-34.810071
+537,Furto,Casa Amarela,médio,6,2023,Tarde (12h-18h),1,0,-8.135738,-34.927159
+538,Perturbação da ordem,Aflitos,baixo,12,2023,Noite (18h-00h),1,0,-8.025837,-35.010506
+539,Furto,Casa Forte,baixo,1,2022,Manhã (6h-12h),2,0,-8.065439,-34.924937
+540,Furto,Água Fria,alto,12,2023,Madrugada (00h-6h),2,0,-8.072144,-34.972834
+541,Roubo a pedestre,Ibura,alto,11,2022,Tarde (12h-18h),0,0,-8.116889,-34.943188
+542,Roubo a veículo,Jordão,alto,2,2022,Tarde (12h-18h),0,1,-8.144878,-34.793694
+543,Tráfico de drogas,Madalena,baixo,10,2022,Tarde (12h-18h),0,0,-7.971115,-34.936901
+544,Roubo a veículo,Aflitos,baixo,8,2023,Noite (18h-00h),1,0,-7.994262,-35.001599
+545,Tráfico de drogas,Casa Amarela,médio,12,2022,Noite (18h-00h),0,0,-8.059951,-34.959881
+546,Roubo a veículo,Torre,médio,8,2022,Noite (18h-00h),1,0,-7.938174,-34.93706
+547,Roubo a pedestre,Ibura,alto,9,2022,Tarde (12h-18h),2,0,-8.004694,-34.865637
+548,Perturbação da ordem,Dois Unidos,alto,8,2023,Tarde (12h-18h),2,0,-7.987636,-34.975377
+549,Arrombamento,Dois Unidos,alto,11,2023,Madrugada (00h-6h),0,0,-8.045289,-34.883541
+550,Furto,Madalena,baixo,4,2022,Madrugada (00h-6h),1,0,-8.016385,-34.924326
+551,Furto,Beberibe,alto,7,2022,Noite (18h-00h),1,0,-7.97298,-34.797136
+552,Tráfico de drogas,Madalena,baixo,12,2022,Tarde (12h-18h),2,0,-8.076531,-34.935753
+553,Furto,Água Fria,alto,10,2022,Tarde (12h-18h),1,0,-8.050604,-34.897617
+554,Furto,Graças,baixo,6,2023,Noite (18h-00h),0,1,-8.064533,-34.91656
+555,Lesão corporal,Casa Amarela,médio,4,2023,Manhã (6h-12h),0,1,-8.116303,-34.866002
+556,Furto,Casa Forte,baixo,10,2022,Manhã (6h-12h),1,1,-7.943595,-34.961883
+557,Tráfico de drogas,Torre,médio,10,2022,Manhã (6h-12h),1,1,-8.017313,-34.998541
+558,Furto,Aflitos,baixo,8,2022,Noite (18h-00h),0,0,-8.123368,-34.861224
+559,Tráfico de drogas,Ibura,alto,12,2022,Madrugada (00h-6h),1,1,-8.134079,-34.804829
+560,Tráfico de drogas,Dois Unidos,alto,12,2023,Noite (18h-00h),0,0,-8.151408,-34.989298
+561,Roubo a pedestre,Casa Amarela,médio,6,2022,Manhã (6h-12h),0,1,-8.144372,-34.868715
+562,Furto,Torre,médio,9,2022,Manhã (6h-12h),1,0,-7.951486,-34.825086
+563,Tráfico de drogas,Torre,médio,3,2023,Noite (18h-00h),1,0,-8.008672,-34.796644
+564,Furto,Recife Antigo,médio,8,2022,Manhã (6h-12h),0,0,-8.088731,-34.946775
+565,Furto,Água Fria,alto,6,2022,Tarde (12h-18h),2,0,-8.027556,-34.863771
+566,Furto,Torre,médio,7,2023,Madrugada (00h-6h),1,0,-8.064334,-34.917503
+567,Perturbação da ordem,Madalena,baixo,10,2022,Tarde (12h-18h),2,0,-8.039588,-34.926385
+568,Furto,Casa Forte,baixo,11,2022,Noite (18h-00h),1,0,-7.993584,-34.857604
+569,Furto,Dois Unidos,alto,2,2022,Tarde (12h-18h),3,1,-8.100694,-34.856144
+570,Furto,Espinheiro,baixo,5,2022,Tarde (12h-18h),3,1,-8.084187,-34.9755
+571,Roubo a veículo,Jordão,alto,1,2023,Tarde (12h-18h),0,1,-8.059306,-34.807379
+572,Furto,Imbiribeira,médio,7,2023,Madrugada (00h-6h),2,0,-8.05395,-34.845025
+573,Furto,Ibura,alto,12,2022,Tarde (12h-18h),2,0,-7.933825,-34.880872
+574,Furto,Água Fria,alto,7,2022,Noite (18h-00h),0,1,-8.099759,-34.989351
+575,Roubo a pedestre,Ibura,alto,2,2023,Tarde (12h-18h),1,0,-7.950441,-34.925663
+576,Lesão corporal,Imbiribeira,médio,10,2023,Madrugada (00h-6h),3,0,-7.970434,-34.872517
+577,Lesão corporal,Beberibe,alto,3,2022,Madrugada (00h-6h),1,0,-8.06525,-34.949773
+578,Furto,Espinheiro,baixo,2,2023,Noite (18h-00h),1,1,-8.135164,-34.856884
+579,Roubo a pedestre,Graças,baixo,10,2023,Manhã (6h-12h),0,1,-7.973455,-34.81463
+580,Roubo a pedestre,Água Fria,alto,7,2023,Noite (18h-00h),2,0,-8.027099,-34.81877
+581,Roubo a pedestre,Casa Forte,baixo,6,2022,Noite (18h-00h),1,0,-8.05446,-34.904779
+582,Tráfico de drogas,Casa Forte,baixo,9,2023,Noite (18h-00h),3,0,-7.944654,-34.998499
+583,Furto,Boa Viagem,médio,6,2023,Noite (18h-00h),0,0,-8.010899,-34.84444
+584,Furto,Imbiribeira,médio,11,2022,Tarde (12h-18h),3,1,-8.010537,-34.834989
+585,Roubo a pedestre,Espinheiro,baixo,7,2022,Noite (18h-00h),1,0,-8.035767,-34.894789
+586,Tráfico de drogas,Recife Antigo,médio,6,2023,Noite (18h-00h),1,0,-7.938952,-34.997219
+587,Furto,Aflitos,baixo,10,2022,Madrugada (00h-6h),1,1,-8.025077,-34.943352
+588,Furto,Casa Amarela,médio,9,2022,Tarde (12h-18h),2,0,-8.005525,-34.975466
+589,Roubo a veículo,Recife Antigo,médio,2,2023,Madrugada (00h-6h),0,0,-7.982013,-34.904709
+590,Roubo a veículo,Boa Viagem,médio,8,2023,Noite (18h-00h),0,0,-8.095328,-34.952739
+591,Lesão corporal,Casa Amarela,médio,2,2023,Noite (18h-00h),2,0,-8.138243,-34.925257
+592,Furto,Torre,médio,9,2023,Noite (18h-00h),2,0,-8.103893,-34.93857
+593,Furto,Aflitos,baixo,9,2022,Manhã (6h-12h),1,0,-8.005826,-34.832267
+594,Furto,Graças,baixo,8,2022,Tarde (12h-18h),2,0,-8.022367,-34.881714
+595,Perturbação da ordem,Madalena,baixo,9,2022,Tarde (12h-18h),3,1,-8.068593,-34.885135
+596,Furto,Jordão,alto,11,2022,Madrugada (00h-6h),0,1,-8.164462,-34.810946
+597,Homicídio,Jordão,alto,6,2022,Madrugada (00h-6h),3,1,-8.068151,-34.882446
+598,Tráfico de drogas,Dois Unidos,alto,4,2023,Tarde (12h-18h),3,0,-8.133564,-34.950035
+599,Roubo a veículo,Graças,baixo,8,2023,Noite (18h-00h),2,0,-8.081881,-35.004622
+600,Perturbação da ordem,Torre,médio,10,2022,Madrugada (00h-6h),2,0,-8.053481,-34.899934
+601,Lesão corporal,Recife Antigo,médio,11,2022,Noite (18h-00h),1,1,-8.001346,-34.964197
+602,Tráfico de drogas,Graças,baixo,1,2023,Noite (18h-00h),1,0,-8.051819,-34.847692
+603,Furto,Dois Unidos,alto,3,2023,Tarde (12h-18h),1,0,-8.127752,-34.905795
+604,Furto,Imbiribeira,médio,5,2023,Noite (18h-00h),1,0,-8.161291,-35.014324
+605,Perturbação da ordem,Casa Forte,baixo,5,2022,Noite (18h-00h),1,1,-7.960092,-34.824781
+606,Roubo a veículo,Jordão,alto,6,2022,Manhã (6h-12h),1,1,-7.950382,-35.005549
+607,Roubo a veículo,Casa Forte,baixo,6,2022,Noite (18h-00h),1,0,-7.939876,-34.892211
+608,Furto,Casa Forte,baixo,5,2022,Noite (18h-00h),1,0,-7.978277,-34.830938
+609,Roubo a veículo,Imbiribeira,médio,3,2022,Tarde (12h-18h),1,0,-7.973814,-34.817452
+610,Arrombamento,Casa Forte,baixo,7,2023,Manhã (6h-12h),1,0,-8.075794,-34.849742
+611,Roubo a veículo,Recife Antigo,médio,1,2022,Madrugada (00h-6h),1,0,-8.095104,-35.019292
+612,Lesão corporal,Beberibe,alto,5,2023,Noite (18h-00h),2,1,-8.086968,-34.955751
+613,Roubo a veículo,Aflitos,baixo,2,2023,Noite (18h-00h),1,0,-8.123608,-35.016656
+614,Furto,Aflitos,baixo,1,2022,Manhã (6h-12h),1,0,-8.022237,-34.887542
+615,Furto,Recife Antigo,médio,5,2023,Noite (18h-00h),1,0,-7.965728,-34.792957
+616,Lesão corporal,Imbiribeira,médio,6,2023,Tarde (12h-18h),2,0,-8.044883,-34.89561
+617,Furto,Madalena,baixo,7,2023,Noite (18h-00h),1,0,-8.090678,-34.940755
+618,Roubo a veículo,Espinheiro,baixo,12,2023,Madrugada (00h-6h),1,1,-8.015199,-35.007825
+619,Furto,Casa Forte,baixo,12,2023,Manhã (6h-12h),0,1,-8.125599,-34.932235
+620,Furto,Boa Viagem,médio,4,2022,Noite (18h-00h),1,0,-7.951615,-35.001287
+621,Furto,Madalena,baixo,11,2022,Manhã (6h-12h),0,0,-8.0257,-34.988976
+622,Roubo a veículo,Casa Amarela,médio,6,2023,Tarde (12h-18h),1,1,-8.034037,-35.015385
+623,Roubo a pedestre,Jordão,alto,2,2023,Manhã (6h-12h),1,0,-8.045469,-34.960849
+624,Roubo a pedestre,Jordão,alto,7,2023,Noite (18h-00h),2,0,-8.028761,-34.88965
+625,Furto,Madalena,baixo,3,2022,Manhã (6h-12h),0,1,-7.961387,-34.865158
+626,Furto,Graças,baixo,7,2023,Manhã (6h-12h),0,1,-8.004296,-34.90344
+627,Lesão corporal,Dois Unidos,alto,6,2023,Noite (18h-00h),0,0,-7.996326,-34.875522
+628,Roubo a veículo,Graças,baixo,5,2022,Madrugada (00h-6h),1,0,-8.108157,-34.974064
+629,Roubo a pedestre,Casa Forte,baixo,6,2023,Noite (18h-00h),3,0,-8.043778,-34.918022
+630,Tráfico de drogas,Beberibe,alto,6,2022,Madrugada (00h-6h),1,0,-8.126234,-34.806276
+631,Tráfico de drogas,Recife Antigo,médio,11,2023,Madrugada (00h-6h),1,1,-8.157007,-34.992501
+632,Roubo a pedestre,Jordão,alto,12,2022,Tarde (12h-18h),3,0,-8.08502,-34.803853
+633,Lesão corporal,Jordão,alto,4,2022,Manhã (6h-12h),1,0,-8.156861,-34.843424
+634,Lesão corporal,Boa Viagem,médio,10,2022,Noite (18h-00h),0,1,-7.966829,-34.969949
+635,Furto,Espinheiro,baixo,5,2022,Noite (18h-00h),2,0,-8.138493,-35.019591
+636,Arrombamento,Madalena,baixo,4,2023,Tarde (12h-18h),0,0,-7.939517,-34.962377
+637,Tráfico de drogas,Recife Antigo,médio,9,2023,Tarde (12h-18h),2,0,-8.093853,-35.012116
+638,Tráfico de drogas,Beberibe,alto,3,2022,Noite (18h-00h),1,1,-7.964544,-34.99345
+639,Perturbação da ordem,Imbiribeira,médio,1,2022,Tarde (12h-18h),2,0,-8.118762,-34.918796
+640,Roubo a veículo,Torre,médio,8,2023,Noite (18h-00h),0,1,-8.093733,-34.868445
+641,Arrombamento,Recife Antigo,médio,10,2022,Noite (18h-00h),1,1,-7.970693,-34.994514
+642,Furto,Madalena,baixo,7,2022,Tarde (12h-18h),1,0,-7.999022,-34.895908
+643,Tráfico de drogas,Jordão,alto,5,2022,Tarde (12h-18h),1,0,-7.960813,-34.845117
+644,Furto,Água Fria,alto,5,2022,Madrugada (00h-6h),0,1,-8.040051,-34.838386
+645,Furto,Casa Forte,baixo,11,2023,Tarde (12h-18h),0,1,-7.944715,-34.951508
+646,Lesão corporal,Boa Viagem,médio,10,2023,Madrugada (00h-6h),0,0,-8.127153,-34.908673
+647,Roubo a pedestre,Aflitos,baixo,6,2023,Tarde (12h-18h),0,1,-7.989881,-34.990014
+648,Furto,Água Fria,alto,4,2022,Tarde (12h-18h),0,0,-8.140889,-34.902911
+649,Furto,Aflitos,baixo,7,2023,Noite (18h-00h),1,1,-8.015249,-34.78919
+650,Lesão corporal,Casa Forte,baixo,2,2023,Noite (18h-00h),1,0,-8.125453,-34.815754
+651,Roubo a pedestre,Casa Amarela,médio,1,2022,Madrugada (00h-6h),1,0,-8.01291,-34.869213
+652,Furto,Aflitos,baixo,12,2023,Manhã (6h-12h),1,0,-8.097757,-34.8273
+653,Roubo a pedestre,Imbiribeira,médio,3,2022,Noite (18h-00h),1,0,-8.058081,-34.963476
+654,Roubo a pedestre,Casa Amarela,médio,1,2023,Tarde (12h-18h),0,0,-8.035416,-34.847463
+655,Tráfico de drogas,Beberibe,alto,8,2022,Tarde (12h-18h),1,0,-8.081776,-34.9201
+656,Furto,Dois Unidos,alto,6,2023,Tarde (12h-18h),0,1,-8.103434,-34.87869
+657,Furto,Torre,médio,1,2022,Noite (18h-00h),1,1,-7.998312,-34.81656
+658,Roubo a pedestre,Dois Unidos,alto,3,2023,Manhã (6h-12h),1,0,-8.006726,-34.86502
+659,Roubo a pedestre,Boa Viagem,médio,3,2022,Tarde (12h-18h),1,0,-7.963281,-34.963313
+660,Furto,Dois Unidos,alto,9,2022,Tarde (12h-18h),1,0,-8.078662,-34.997137
+661,Roubo a pedestre,Casa Forte,baixo,2,2023,Manhã (6h-12h),2,0,-7.935908,-34.923496
+662,Furto,Graças,baixo,3,2022,Tarde (12h-18h),1,0,-8.110901,-34.86344
+663,Roubo a veículo,Torre,médio,4,2022,Noite (18h-00h),1,1,-8.15913,-34.902762
+664,Lesão corporal,Água Fria,alto,9,2023,Madrugada (00h-6h),0,0,-8.141878,-34.800339
+665,Roubo a veículo,Boa Viagem,médio,1,2022,Madrugada (00h-6h),1,0,-7.971819,-34.833208
+666,Furto,Jordão,alto,8,2022,Madrugada (00h-6h),0,0,-8.045299,-34.86407
+667,Furto,Água Fria,alto,1,2022,Tarde (12h-18h),1,0,-7.971215,-34.912441
+668,Homicídio,Beberibe,alto,8,2023,Manhã (6h-12h),1,0,-8.115962,-34.890839
+669,Roubo a pedestre,Água Fria,alto,2,2023,Noite (18h-00h),1,0,-8.132247,-34.978134
+670,Furto,Casa Amarela,médio,5,2023,Manhã (6h-12h),2,1,-8.124033,-35.018998
+671,Furto,Casa Amarela,médio,12,2023,Manhã (6h-12h),0,1,-8.102343,-34.792361
+672,Roubo a pedestre,Imbiribeira,médio,10,2022,Noite (18h-00h),1,0,-8.133412,-34.825639
+673,Furto,Recife Antigo,médio,2,2022,Noite (18h-00h),2,0,-7.954256,-34.962226
+674,Roubo a veículo,Boa Viagem,médio,1,2023,Noite (18h-00h),0,0,-8.000495,-34.829773
+675,Roubo a veículo,Dois Unidos,alto,1,2023,Noite (18h-00h),1,0,-8.112151,-34.811782
+676,Furto,Água Fria,alto,4,2022,Madrugada (00h-6h),2,0,-8.035238,-34.824206
+677,Furto,Recife Antigo,médio,4,2022,Manhã (6h-12h),0,1,-8.040568,-34.880651
+678,Furto,Torre,médio,5,2022,Noite (18h-00h),1,0,-8.077038,-34.914407
+679,Furto,Boa Viagem,médio,6,2022,Noite (18h-00h),2,0,-7.992467,-34.985063
+680,Lesão corporal,Casa Amarela,médio,5,2022,Madrugada (00h-6h),2,0,-7.93595,-34.823203
+681,Arrombamento,Espinheiro,baixo,12,2023,Manhã (6h-12h),2,0,-8.140845,-34.80182
+682,Roubo a veículo,Água Fria,alto,1,2023,Noite (18h-00h),1,0,-8.138606,-34.984356
+683,Arrombamento,Boa Viagem,médio,6,2022,Manhã (6h-12h),1,0,-8.069496,-34.828214
+684,Roubo a veículo,Jordão,alto,6,2022,Tarde (12h-18h),3,0,-8.039896,-34.871842
+685,Perturbação da ordem,Madalena,baixo,2,2022,Manhã (6h-12h),3,0,-8.089243,-34.832813
+686,Lesão corporal,Graças,baixo,7,2022,Noite (18h-00h),1,1,-7.979494,-34.955603
+687,Lesão corporal,Dois Unidos,alto,9,2023,Manhã (6h-12h),0,0,-8.155376,-34.988368
+688,Roubo a veículo,Ibura,alto,8,2023,Tarde (12h-18h),1,0,-8.129856,-34.828551
+689,Roubo a veículo,Espinheiro,baixo,9,2023,Noite (18h-00h),1,0,-7.994588,-34.885878
+690,Furto,Espinheiro,baixo,3,2023,Tarde (12h-18h),1,0,-7.939152,-34.969788
+691,Roubo a veículo,Madalena,baixo,4,2022,Noite (18h-00h),2,1,-7.966243,-34.797816
+692,Roubo a pedestre,Torre,médio,4,2023,Manhã (6h-12h),1,0,-8.000791,-34.791402
+693,Lesão corporal,Imbiribeira,médio,3,2023,Noite (18h-00h),0,0,-8.097901,-34.896239
+694,Homicídio,Boa Viagem,médio,6,2022,Tarde (12h-18h),0,0,-8.027273,-34.940387
+695,Roubo a pedestre,Água Fria,alto,8,2022,Manhã (6h-12h),1,1,-8.141173,-34.934369
+696,Tráfico de drogas,Água Fria,alto,5,2022,Noite (18h-00h),0,0,-8.074978,-34.949822
+697,Roubo a pedestre,Jordão,alto,3,2022,Noite (18h-00h),1,1,-8.015764,-34.914728
+698,Furto,Madalena,baixo,9,2022,Madrugada (00h-6h),2,0,-8.11675,-34.926761
+699,Tráfico de drogas,Madalena,baixo,2,2023,Tarde (12h-18h),0,1,-8.056591,-34.97351
+700,Furto,Espinheiro,baixo,10,2023,Noite (18h-00h),1,0,-8.032612,-34.947252
+701,Tráfico de drogas,Jordão,alto,3,2023,Tarde (12h-18h),1,0,-7.989261,-34.956845
+702,Lesão corporal,Casa Amarela,médio,8,2023,Noite (18h-00h),1,0,-8.126799,-34.897854
+703,Roubo a veículo,Graças,baixo,3,2022,Manhã (6h-12h),1,1,-8.135102,-34.912573
+704,Tráfico de drogas,Dois Unidos,alto,9,2023,Madrugada (00h-6h),1,0,-8.109799,-34.810903
+705,Furto,Imbiribeira,médio,3,2023,Tarde (12h-18h),1,0,-8.150066,-34.96925
+706,Roubo a pedestre,Casa Forte,baixo,2,2023,Noite (18h-00h),1,0,-8.121555,-34.900433
+707,Roubo a veículo,Casa Amarela,médio,12,2023,Noite (18h-00h),1,0,-7.961131,-34.91481
+708,Roubo a veículo,Recife Antigo,médio,3,2022,Tarde (12h-18h),1,1,-8.004283,-34.944089
+709,Roubo a pedestre,Graças,baixo,12,2022,Madrugada (00h-6h),1,1,-8.078584,-34.931507
+710,Tráfico de drogas,Casa Amarela,médio,7,2023,Tarde (12h-18h),0,0,-8.097487,-34.979639
+711,Furto,Madalena,baixo,12,2022,Noite (18h-00h),0,0,-7.989617,-34.888613
+712,Perturbação da ordem,Casa Forte,baixo,4,2023,Madrugada (00h-6h),1,1,-8.141038,-34.869853
+713,Arrombamento,Beberibe,alto,9,2023,Manhã (6h-12h),3,0,-7.958794,-34.866378
+714,Tráfico de drogas,Água Fria,alto,3,2022,Noite (18h-00h),1,1,-8.130638,-34.877956
+715,Tráfico de drogas,Madalena,baixo,8,2022,Manhã (6h-12h),1,0,-8.140778,-34.901012
+716,Roubo a veículo,Madalena,baixo,7,2022,Madrugada (00h-6h),1,0,-8.128912,-34.847995
+717,Furto,Recife Antigo,médio,11,2022,Noite (18h-00h),0,0,-8.145773,-34.878345
+718,Furto,Casa Forte,baixo,8,2023,Madrugada (00h-6h),0,0,-7.953924,-34.8343
+719,Lesão corporal,Graças,baixo,12,2023,Tarde (12h-18h),1,0,-7.930023,-34.954128
+720,Perturbação da ordem,Casa Forte,baixo,2,2022,Noite (18h-00h),0,1,-8.096827,-34.880154
+721,Roubo a pedestre,Madalena,baixo,9,2022,Manhã (6h-12h),0,0,-7.982655,-34.936636
+722,Roubo a veículo,Ibura,alto,3,2023,Tarde (12h-18h),1,0,-8.134004,-34.928834
+723,Lesão corporal,Boa Viagem,médio,4,2022,Madrugada (00h-6h),1,1,-8.128278,-34.896695
+724,Furto,Imbiribeira,médio,12,2022,Madrugada (00h-6h),1,0,-8.000645,-34.795224
+725,Roubo a veículo,Beberibe,alto,4,2022,Noite (18h-00h),1,0,-8.02587,-34.868217
+726,Furto,Aflitos,baixo,4,2022,Noite (18h-00h),2,0,-8.161869,-35.005505
+727,Arrombamento,Madalena,baixo,11,2022,Manhã (6h-12h),0,0,-8.150928,-34.861853
+728,Arrombamento,Boa Viagem,médio,1,2022,Tarde (12h-18h),0,0,-8.022095,-34.916243
+729,Roubo a pedestre,Água Fria,alto,1,2022,Tarde (12h-18h),1,0,-8.141617,-34.939764
+730,Lesão corporal,Dois Unidos,alto,3,2022,Madrugada (00h-6h),0,1,-8.155908,-34.945255
+731,Arrombamento,Dois Unidos,alto,10,2022,Madrugada (00h-6h),2,1,-8.111568,-34.836015
+732,Lesão corporal,Água Fria,alto,6,2023,Madrugada (00h-6h),1,0,-8.03801,-34.928243
+733,Roubo a pedestre,Ibura,alto,5,2023,Noite (18h-00h),1,0,-7.96542,-34.967121
+734,Roubo a veículo,Recife Antigo,médio,4,2022,Noite (18h-00h),0,0,-8.016263,-34.862921
+735,Roubo a veículo,Ibura,alto,11,2023,Tarde (12h-18h),1,0,-7.956613,-34.964112
+736,Perturbação da ordem,Imbiribeira,médio,12,2022,Tarde (12h-18h),0,1,-8.115527,-34.798291
+737,Furto,Beberibe,alto,7,2023,Noite (18h-00h),1,1,-8.059469,-35.015579
+738,Furto,Aflitos,baixo,11,2023,Noite (18h-00h),1,0,-8.079879,-34.887113
+739,Furto,Água Fria,alto,7,2023,Tarde (12h-18h),1,1,-8.149053,-34.822689
+740,Furto,Ibura,alto,7,2022,Madrugada (00h-6h),0,0,-7.94259,-34.856445
+741,Furto,Madalena,baixo,5,2023,Manhã (6h-12h),1,0,-7.930607,-34.888638
+742,Furto,Espinheiro,baixo,7,2023,Manhã (6h-12h),0,0,-8.013879,-34.875246
+743,Arrombamento,Jordão,alto,1,2023,Noite (18h-00h),1,0,-8.030385,-34.960688
+744,Roubo a veículo,Torre,médio,7,2022,Manhã (6h-12h),0,1,-8.055156,-34.886312
+745,Tráfico de drogas,Recife Antigo,médio,5,2022,Manhã (6h-12h),0,0,-8.08605,-34.912362
+746,Roubo a veículo,Casa Amarela,médio,10,2022,Tarde (12h-18h),0,0,-8.148266,-34.969826
+747,Roubo a pedestre,Dois Unidos,alto,2,2022,Madrugada (00h-6h),1,1,-8.105043,-34.886565
+748,Furto,Aflitos,baixo,10,2023,Tarde (12h-18h),0,0,-8.051107,-34.80785
+749,Furto,Jordão,alto,5,2022,Manhã (6h-12h),0,1,-8.055758,-34.800904
+750,Lesão corporal,Jordão,alto,3,2022,Tarde (12h-18h),0,1,-8.092857,-34.987746
+751,Tráfico de drogas,Dois Unidos,alto,9,2023,Madrugada (00h-6h),0,1,-8.00406,-34.854678
+752,Furto,Espinheiro,baixo,7,2023,Noite (18h-00h),1,0,-8.162954,-34.961779
+753,Roubo a veículo,Torre,médio,2,2023,Manhã (6h-12h),1,1,-7.972279,-34.792696
+754,Furto,Graças,baixo,6,2023,Madrugada (00h-6h),1,0,-8.023442,-34.819194
+755,Furto,Imbiribeira,médio,4,2022,Tarde (12h-18h),1,0,-8.056678,-34.827699
+756,Furto,Graças,baixo,7,2022,Noite (18h-00h),1,0,-8.03123,-34.818826
+757,Lesão corporal,Casa Forte,baixo,9,2023,Madrugada (00h-6h),1,0,-8.03845,-34.784883
+758,Furto,Boa Viagem,médio,1,2022,Manhã (6h-12h),0,1,-8.066428,-34.844344
+759,Lesão corporal,Ibura,alto,6,2023,Noite (18h-00h),1,0,-8.080201,-34.850558
+760,Tráfico de drogas,Recife Antigo,médio,5,2023,Madrugada (00h-6h),1,0,-7.955948,-34.842479
+761,Tráfico de drogas,Beberibe,alto,5,2022,Madrugada (00h-6h),1,1,-8.024519,-34.980733
+762,Lesão corporal,Espinheiro,baixo,3,2022,Madrugada (00h-6h),2,0,-8.148492,-34.809476
+763,Roubo a veículo,Dois Unidos,alto,1,2023,Tarde (12h-18h),0,0,-7.976884,-34.813602
+764,Furto,Casa Forte,baixo,7,2022,Manhã (6h-12h),1,1,-8.042533,-34.933502
+765,Perturbação da ordem,Espinheiro,baixo,12,2022,Madrugada (00h-6h),1,1,-8.049814,-34.921472
+766,Roubo a pedestre,Madalena,baixo,5,2023,Manhã (6h-12h),1,0,-7.959976,-34.945847
+767,Tráfico de drogas,Jordão,alto,8,2022,Manhã (6h-12h),1,0,-7.950141,-34.933799
+768,Roubo a pedestre,Casa Amarela,médio,3,2023,Manhã (6h-12h),2,0,-7.932985,-34.973809
+769,Furto,Graças,baixo,2,2022,Madrugada (00h-6h),1,0,-8.11755,-34.900277
+770,Roubo a veículo,Imbiribeira,médio,10,2022,Madrugada (00h-6h),2,1,-8.070303,-34.809327
+771,Lesão corporal,Madalena,baixo,3,2023,Tarde (12h-18h),1,0,-8.149587,-34.848835
+772,Furto,Boa Viagem,médio,7,2023,Manhã (6h-12h),1,0,-8.146906,-34.895539
+773,Tráfico de drogas,Graças,baixo,10,2022,Manhã (6h-12h),1,0,-8.115725,-34.915083
+774,Arrombamento,Graças,baixo,1,2022,Tarde (12h-18h),0,1,-7.958118,-34.999109
+775,Perturbação da ordem,Casa Amarela,médio,3,2023,Manhã (6h-12h),1,1,-8.026289,-34.78055
+776,Roubo a veículo,Madalena,baixo,8,2023,Madrugada (00h-6h),0,0,-8.060488,-34.978469
+777,Homicídio,Água Fria,alto,11,2023,Madrugada (00h-6h),0,0,-7.976514,-34.97668
+778,Furto,Água Fria,alto,10,2023,Noite (18h-00h),1,1,-8.152019,-34.972201
+779,Roubo a veículo,Jordão,alto,6,2023,Madrugada (00h-6h),1,0,-7.931642,-34.83138
+780,Furto,Recife Antigo,médio,12,2023,Noite (18h-00h),1,0,-8.024398,-34.988265
+781,Roubo a veículo,Recife Antigo,médio,9,2023,Madrugada (00h-6h),1,0,-7.986819,-34.931516
+782,Furto,Casa Forte,baixo,8,2022,Madrugada (00h-6h),2,0,-7.959734,-34.91987
+783,Tráfico de drogas,Casa Amarela,médio,2,2022,Tarde (12h-18h),1,0,-8.11397,-34.7923
+784,Roubo a veículo,Jordão,alto,1,2022,Noite (18h-00h),1,1,-7.991,-34.988258
+785,Lesão corporal,Ibura,alto,7,2023,Noite (18h-00h),0,0,-7.996406,-35.003181
+786,Tráfico de drogas,Boa Viagem,médio,3,2023,Noite (18h-00h),1,1,-8.08756,-34.888253
+787,Lesão corporal,Casa Forte,baixo,12,2023,Tarde (12h-18h),1,0,-8.021564,-34.907524
+788,Furto,Espinheiro,baixo,7,2022,Tarde (12h-18h),0,0,-7.956174,-34.885246
+789,Furto,Espinheiro,baixo,12,2023,Manhã (6h-12h),2,0,-7.953915,-34.908618
+790,Lesão corporal,Casa Forte,baixo,5,2023,Noite (18h-00h),1,1,-8.027027,-34.87412
+791,Arrombamento,Madalena,baixo,11,2022,Madrugada (00h-6h),1,1,-8.090508,-34.997271
+792,Lesão corporal,Torre,médio,1,2023,Noite (18h-00h),2,0,-8.123926,-34.880384
+793,Roubo a veículo,Recife Antigo,médio,9,2023,Manhã (6h-12h),0,0,-7.994294,-34.949242
+794,Roubo a veículo,Jordão,alto,3,2023,Tarde (12h-18h),2,1,-8.021268,-34.887423
+795,Roubo a veículo,Espinheiro,baixo,8,2022,Noite (18h-00h),1,0,-8.158896,-35.015761
+796,Lesão corporal,Graças,baixo,12,2023,Tarde (12h-18h),0,0,-7.97302,-34.842819
+797,Furto,Dois Unidos,alto,4,2023,Noite (18h-00h),0,0,-8.020547,-34.791444
+798,Furto,Casa Amarela,médio,11,2023,Manhã (6h-12h),0,1,-8.160242,-34.851677
+799,Furto,Ibura,alto,12,2023,Madrugada (00h-6h),2,0,-7.997749,-34.812918
+800,Roubo a veículo,Água Fria,alto,1,2023,Manhã (6h-12h),0,1,-8.113019,-34.901075
+801,Furto,Recife Antigo,médio,7,2022,Noite (18h-00h),2,1,-7.982746,-34.955546
+802,Roubo a pedestre,Água Fria,alto,3,2022,Tarde (12h-18h),1,0,-8.139435,-35.002937
+803,Tráfico de drogas,Dois Unidos,alto,7,2022,Noite (18h-00h),3,1,-7.965342,-34.872655
+804,Lesão corporal,Dois Unidos,alto,12,2023,Madrugada (00h-6h),0,1,-8.132597,-34.877438
+805,Roubo a veículo,Dois Unidos,alto,6,2022,Noite (18h-00h),1,0,-8.098303,-34.998491
+806,Lesão corporal,Dois Unidos,alto,1,2022,Tarde (12h-18h),1,1,-8.01022,-35.001987
+807,Furto,Dois Unidos,alto,8,2022,Noite (18h-00h),1,0,-8.074878,-34.913406
+808,Furto,Beberibe,alto,9,2022,Tarde (12h-18h),1,0,-8.064503,-34.948681
+809,Furto,Ibura,alto,2,2022,Tarde (12h-18h),1,0,-7.998781,-34.960413
+810,Furto,Espinheiro,baixo,4,2023,Madrugada (00h-6h),1,1,-8.085872,-34.781248
+811,Furto,Madalena,baixo,3,2023,Tarde (12h-18h),0,0,-8.123793,-34.795129
+812,Perturbação da ordem,Recife Antigo,médio,6,2022,Noite (18h-00h),1,0,-8.038238,-34.832701
+813,Arrombamento,Torre,médio,4,2023,Noite (18h-00h),2,0,-7.963703,-34.881929
+814,Roubo a veículo,Beberibe,alto,10,2023,Manhã (6h-12h),1,0,-7.934558,-34.981205
+815,Furto,Dois Unidos,alto,3,2023,Madrugada (00h-6h),1,1,-7.958206,-34.954977
+816,Furto,Torre,médio,9,2023,Noite (18h-00h),0,1,-8.085295,-34.869339
+817,Furto,Jordão,alto,10,2023,Noite (18h-00h),0,0,-8.144136,-34.826309
+818,Roubo a veículo,Boa Viagem,médio,8,2022,Madrugada (00h-6h),0,0,-8.003243,-34.786374
+819,Furto,Água Fria,alto,11,2023,Madrugada (00h-6h),2,0,-8.043533,-34.799984
+820,Lesão corporal,Ibura,alto,11,2022,Noite (18h-00h),1,1,-8.142701,-34.846768
+821,Roubo a veículo,Jordão,alto,11,2023,Manhã (6h-12h),1,0,-8.080296,-34.841878
+822,Perturbação da ordem,Torre,médio,5,2022,Noite (18h-00h),1,0,-7.999968,-34.873432
+823,Furto,Madalena,baixo,6,2023,Manhã (6h-12h),0,0,-8.12549,-34.814159
+824,Roubo a pedestre,Beberibe,alto,8,2023,Noite (18h-00h),2,0,-7.980678,-34.924066
+825,Arrombamento,Recife Antigo,médio,11,2023,Manhã (6h-12h),1,1,-8.154818,-34.822806
+826,Arrombamento,Boa Viagem,médio,11,2022,Manhã (6h-12h),1,1,-7.942636,-34.867845
+827,Roubo a veículo,Casa Amarela,médio,5,2023,Noite (18h-00h),2,0,-7.971568,-34.890011
+828,Furto,Torre,médio,6,2023,Noite (18h-00h),0,1,-8.066509,-34.968748
+829,Furto,Graças,baixo,6,2022,Tarde (12h-18h),0,0,-8.0371,-34.869866
+830,Roubo a veículo,Beberibe,alto,3,2022,Tarde (12h-18h),2,0,-8.008329,-34.817454
+831,Furto,Graças,baixo,5,2023,Manhã (6h-12h),0,0,-8.095649,-34.823368
+832,Arrombamento,Ibura,alto,9,2022,Tarde (12h-18h),1,0,-8.001857,-34.832422
+833,Lesão corporal,Imbiribeira,médio,8,2023,Noite (18h-00h),1,0,-8.151575,-35.010779
+834,Roubo a pedestre,Boa Viagem,médio,7,2023,Madrugada (00h-6h),3,0,-7.979079,-34.794088
+835,Roubo a pedestre,Jordão,alto,3,2022,Noite (18h-00h),1,0,-7.990282,-34.919229
+836,Tráfico de drogas,Casa Amarela,médio,4,2023,Noite (18h-00h),0,0,-8.023613,-34.861726
+837,Furto,Recife Antigo,médio,8,2023,Noite (18h-00h),1,0,-8.151873,-34.856076
+838,Furto,Torre,médio,4,2022,Madrugada (00h-6h),0,0,-8.016945,-34.969673
+839,Furto,Imbiribeira,médio,6,2023,Manhã (6h-12h),0,0,-8.146713,-34.936894
+840,Furto,Torre,médio,9,2022,Manhã (6h-12h),1,0,-8.116193,-34.905243
+841,Tráfico de drogas,Recife Antigo,médio,5,2023,Noite (18h-00h),3,0,-8.055696,-34.806838
+842,Roubo a pedestre,Boa Viagem,médio,5,2023,Madrugada (00h-6h),0,1,-8.081149,-34.908673
+843,Lesão corporal,Madalena,baixo,10,2023,Noite (18h-00h),1,0,-8.063161,-34.931767
+844,Roubo a veículo,Casa Forte,baixo,11,2023,Madrugada (00h-6h),0,0,-8.119512,-34.876838
+845,Tráfico de drogas,Jordão,alto,10,2023,Manhã (6h-12h),0,1,-8.053833,-34.78319
+846,Furto,Beberibe,alto,8,2022,Tarde (12h-18h),0,0,-8.091713,-34.859559
+847,Lesão corporal,Espinheiro,baixo,3,2022,Noite (18h-00h),1,0,-8.028228,-34.872867
+848,Furto,Dois Unidos,alto,4,2023,Noite (18h-00h),1,0,-8.048734,-34.945695
+849,Arrombamento,Casa Amarela,médio,7,2022,Noite (18h-00h),1,1,-8.007868,-34.945072
+850,Lesão corporal,Torre,médio,7,2022,Tarde (12h-18h),0,0,-8.096288,-34.957968
+851,Furto,Espinheiro,baixo,8,2023,Tarde (12h-18h),1,0,-7.985645,-34.897315
+852,Furto,Espinheiro,baixo,11,2022,Noite (18h-00h),1,0,-8.146034,-34.930812
+853,Furto,Boa Viagem,médio,1,2023,Noite (18h-00h),2,1,-8.07061,-34.957007
+854,Furto,Imbiribeira,médio,4,2022,Madrugada (00h-6h),1,1,-8.133806,-34.890415
+855,Lesão corporal,Casa Amarela,médio,8,2022,Tarde (12h-18h),1,0,-7.994793,-34.784563
+856,Lesão corporal,Ibura,alto,11,2023,Madrugada (00h-6h),0,1,-8.028421,-34.931768
+857,Furto,Casa Amarela,médio,12,2023,Tarde (12h-18h),1,0,-8.125708,-34.91237
+858,Roubo a veículo,Água Fria,alto,11,2023,Tarde (12h-18h),1,0,-8.150169,-34.882512
+859,Lesão corporal,Torre,médio,12,2023,Madrugada (00h-6h),0,0,-8.004914,-34.997095
+860,Furto,Torre,médio,6,2023,Noite (18h-00h),3,0,-8.091583,-34.875585
+861,Furto,Aflitos,baixo,2,2023,Manhã (6h-12h),2,1,-7.995337,-34.990588
+862,Furto,Aflitos,baixo,9,2022,Noite (18h-00h),1,0,-8.100026,-34.9295
+863,Lesão corporal,Graças,baixo,6,2022,Noite (18h-00h),2,1,-7.942793,-34.784722
+864,Lesão corporal,Imbiribeira,médio,10,2022,Noite (18h-00h),1,1,-8.147358,-34.92175
+865,Roubo a veículo,Água Fria,alto,11,2023,Madrugada (00h-6h),0,0,-8.135884,-35.005449
+866,Roubo a pedestre,Beberibe,alto,8,2023,Noite (18h-00h),0,0,-7.970334,-35.019933
+867,Furto,Casa Forte,baixo,1,2023,Manhã (6h-12h),2,0,-8.159584,-35.004382
+868,Lesão corporal,Ibura,alto,3,2022,Manhã (6h-12h),1,0,-8.107792,-34.880495
+869,Roubo a pedestre,Aflitos,baixo,5,2022,Tarde (12h-18h),0,0,-8.065398,-34.862053
+870,Roubo a veículo,Graças,baixo,5,2022,Noite (18h-00h),1,0,-8.023029,-35.005372
+871,Furto,Casa Forte,baixo,3,2023,Noite (18h-00h),3,0,-8.128105,-34.861908
+872,Roubo a pedestre,Aflitos,baixo,11,2022,Tarde (12h-18h),2,0,-8.134707,-34.791602
+873,Roubo a pedestre,Boa Viagem,médio,3,2023,Madrugada (00h-6h),2,0,-7.989194,-34.798315
+874,Roubo a pedestre,Casa Forte,baixo,12,2023,Tarde (12h-18h),1,0,-8.138277,-34.887914
+875,Roubo a pedestre,Beberibe,alto,10,2023,Noite (18h-00h),1,0,-7.974027,-34.788521
+876,Lesão corporal,Dois Unidos,alto,10,2023,Madrugada (00h-6h),1,0,-7.944214,-34.934916
+877,Furto,Ibura,alto,12,2023,Noite (18h-00h),1,0,-8.131902,-34.849025
+878,Furto,Ibura,alto,7,2022,Noite (18h-00h),1,0,-8.05511,-34.851664
+879,Furto,Jordão,alto,6,2022,Noite (18h-00h),1,0,-7.949194,-34.920028
+880,Roubo a pedestre,Dois Unidos,alto,8,2023,Manhã (6h-12h),1,0,-8.021851,-35.004515
+881,Furto,Graças,baixo,5,2023,Manhã (6h-12h),0,1,-8.004342,-34.966676
+882,Roubo a veículo,Madalena,baixo,12,2022,Madrugada (00h-6h),0,1,-8.148661,-34.932135
+883,Furto,Boa Viagem,médio,6,2022,Tarde (12h-18h),1,1,-7.980083,-34.84836
+884,Roubo a veículo,Dois Unidos,alto,9,2023,Manhã (6h-12h),1,1,-8.045721,-34.780689
+885,Tráfico de drogas,Dois Unidos,alto,9,2022,Madrugada (00h-6h),3,1,-8.003046,-34.937411
+886,Roubo a pedestre,Graças,baixo,11,2023,Noite (18h-00h),1,0,-7.989853,-34.861032
+887,Furto,Casa Amarela,médio,3,2022,Noite (18h-00h),0,0,-7.981292,-35.007534
+888,Roubo a veículo,Água Fria,alto,9,2023,Noite (18h-00h),1,0,-7.956538,-34.925707
+889,Roubo a pedestre,Casa Forte,baixo,3,2023,Madrugada (00h-6h),0,1,-8.129892,-34.927377
+890,Roubo a pedestre,Dois Unidos,alto,12,2022,Tarde (12h-18h),0,0,-7.951363,-34.938839
+891,Roubo a pedestre,Imbiribeira,médio,11,2022,Tarde (12h-18h),1,0,-7.937024,-35.009744
+892,Roubo a pedestre,Casa Forte,baixo,10,2022,Manhã (6h-12h),1,1,-7.961894,-34.999625
+893,Tráfico de drogas,Casa Amarela,médio,5,2022,Madrugada (00h-6h),0,1,-8.023166,-34.980413
+894,Tráfico de drogas,Ibura,alto,12,2022,Tarde (12h-18h),0,0,-8.032167,-34.931145
+895,Roubo a pedestre,Ibura,alto,7,2023,Noite (18h-00h),2,0,-7.943105,-34.803875
+896,Arrombamento,Ibura,alto,9,2023,Manhã (6h-12h),1,1,-8.021607,-34.983819
+897,Roubo a pedestre,Dois Unidos,alto,6,2023,Tarde (12h-18h),2,0,-7.934761,-34.788979
+898,Furto,Água Fria,alto,10,2023,Tarde (12h-18h),2,0,-8.096686,-34.826011
+899,Roubo a pedestre,Recife Antigo,médio,5,2022,Tarde (12h-18h),3,1,-7.955328,-34.829698
+900,Arrombamento,Espinheiro,baixo,3,2022,Madrugada (00h-6h),0,1,-8.119718,-34.894781
+901,Tráfico de drogas,Beberibe,alto,12,2022,Madrugada (00h-6h),0,0,-7.987537,-34.799842
+902,Furto,Graças,baixo,11,2023,Noite (18h-00h),2,1,-7.93935,-34.868654
+903,Roubo a pedestre,Casa Amarela,médio,1,2022,Madrugada (00h-6h),2,1,-8.067741,-34.872943
+904,Homicídio,Recife Antigo,médio,12,2023,Manhã (6h-12h),0,1,-8.12244,-34.915959
+905,Roubo a pedestre,Dois Unidos,alto,9,2022,Tarde (12h-18h),2,0,-8.13879,-34.784394
+906,Arrombamento,Casa Forte,baixo,4,2023,Noite (18h-00h),1,1,-7.972893,-34.798517
+907,Furto,Boa Viagem,médio,3,2022,Noite (18h-00h),1,1,-8.076122,-34.859755
+908,Tráfico de drogas,Beberibe,alto,4,2023,Madrugada (00h-6h),0,1,-7.941126,-34.901744
+909,Roubo a pedestre,Graças,baixo,12,2022,Tarde (12h-18h),1,0,-8.083065,-34.810342
+910,Lesão corporal,Madalena,baixo,10,2022,Manhã (6h-12h),1,0,-8.130108,-34.938535
+911,Furto,Boa Viagem,médio,6,2023,Madrugada (00h-6h),1,0,-8.158345,-34.898127
+912,Roubo a pedestre,Torre,médio,10,2023,Manhã (6h-12h),0,0,-8.048411,-34.931349
+913,Roubo a veículo,Casa Amarela,médio,11,2022,Madrugada (00h-6h),1,0,-7.955047,-34.899093
+914,Furto,Ibura,alto,7,2023,Tarde (12h-18h),0,0,-8.162011,-34.906505
+915,Roubo a pedestre,Casa Amarela,médio,6,2022,Tarde (12h-18h),0,0,-8.094254,-35.011079
+916,Furto,Boa Viagem,médio,6,2023,Noite (18h-00h),2,0,-8.01093,-34.951031
+917,Furto,Ibura,alto,5,2022,Manhã (6h-12h),1,0,-8.066373,-34.905348
+918,Furto,Aflitos,baixo,7,2023,Madrugada (00h-6h),1,0,-8.142579,-34.870405
+919,Tráfico de drogas,Água Fria,alto,7,2022,Noite (18h-00h),1,0,-8.121812,-34.832261
+920,Homicídio,Água Fria,alto,5,2023,Madrugada (00h-6h),0,1,-8.16419,-35.000602
+921,Furto,Casa Forte,baixo,5,2022,Madrugada (00h-6h),0,0,-8.089842,-34.842508
+922,Furto,Dois Unidos,alto,6,2022,Noite (18h-00h),1,0,-8.041631,-35.009711
+923,Tráfico de drogas,Casa Amarela,médio,4,2023,Manhã (6h-12h),3,1,-7.97106,-34.948786
+924,Roubo a pedestre,Boa Viagem,médio,1,2022,Noite (18h-00h),1,0,-7.961204,-34.917482
+925,Furto,Beberibe,alto,11,2022,Noite (18h-00h),1,0,-8.043063,-34.973428
+926,Furto,Espinheiro,baixo,6,2023,Tarde (12h-18h),1,0,-8.097659,-34.875416
+927,Furto,Casa Amarela,médio,12,2023,Noite (18h-00h),1,0,-8.117637,-34.885056
+928,Arrombamento,Beberibe,alto,5,2022,Noite (18h-00h),1,1,-8.146476,-34.819437
+929,Perturbação da ordem,Graças,baixo,9,2023,Tarde (12h-18h),1,0,-8.004195,-34.971425
+930,Roubo a pedestre,Madalena,baixo,7,2022,Noite (18h-00h),0,0,-8.065897,-34.794193
+931,Roubo a pedestre,Ibura,alto,5,2023,Manhã (6h-12h),1,0,-8.14575,-34.886946
+932,Tráfico de drogas,Recife Antigo,médio,9,2023,Noite (18h-00h),1,0,-8.045546,-34.805997
+933,Furto,Ibura,alto,5,2023,Noite (18h-00h),1,0,-8.101623,-34.876169
+934,Lesão corporal,Casa Amarela,médio,6,2022,Madrugada (00h-6h),1,0,-8.100597,-34.819069
+935,Perturbação da ordem,Espinheiro,baixo,8,2022,Noite (18h-00h),2,0,-7.956135,-34.878863
+936,Lesão corporal,Imbiribeira,médio,2,2022,Tarde (12h-18h),1,0,-8.089806,-35.00769
+937,Roubo a pedestre,Casa Forte,baixo,6,2023,Tarde (12h-18h),0,0,-8.001523,-34.917167
+938,Furto,Jordão,alto,12,2022,Noite (18h-00h),2,0,-8.168459,-34.916124
+939,Tráfico de drogas,Ibura,alto,9,2022,Tarde (12h-18h),1,1,-8.118481,-34.901153
+940,Arrombamento,Casa Forte,baixo,10,2023,Madrugada (00h-6h),0,0,-7.940077,-34.892487
+941,Tráfico de drogas,Recife Antigo,médio,8,2022,Manhã (6h-12h),1,0,-7.945449,-34.888274
+942,Furto,Aflitos,baixo,10,2023,Tarde (12h-18h),0,0,-7.941063,-34.888181
+943,Furto,Ibura,alto,6,2023,Tarde (12h-18h),2,0,-8.054178,-34.836642
+944,Roubo a pedestre,Torre,médio,10,2022,Madrugada (00h-6h),0,1,-8.134178,-34.841311
+945,Roubo a pedestre,Jordão,alto,6,2022,Noite (18h-00h),1,0,-7.965273,-34.817687
+946,Roubo a veículo,Madalena,baixo,7,2022,Noite (18h-00h),1,0,-7.938858,-34.905912
+947,Roubo a veículo,Espinheiro,baixo,11,2023,Noite (18h-00h),1,0,-7.958798,-34.864482
+948,Furto,Boa Viagem,médio,7,2022,Noite (18h-00h),1,0,-7.938879,-34.967694
+949,Roubo a veículo,Espinheiro,baixo,4,2022,Noite (18h-00h),3,0,-8.101729,-34.851949
+950,Roubo a pedestre,Ibura,alto,7,2022,Madrugada (00h-6h),1,0,-7.987527,-34.85882
+951,Roubo a veículo,Espinheiro,baixo,12,2023,Tarde (12h-18h),1,1,-8.109818,-34.859546
+952,Lesão corporal,Madalena,baixo,2,2022,Noite (18h-00h),0,0,-8.094377,-34.780859
+953,Roubo a veículo,Boa Viagem,médio,2,2022,Madrugada (00h-6h),2,0,-8.120624,-34.886091
+954,Lesão corporal,Espinheiro,baixo,12,2022,Tarde (12h-18h),0,0,-8.111618,-34.860844
+955,Tráfico de drogas,Madalena,baixo,9,2022,Noite (18h-00h),1,0,-8.020549,-34.812343
+956,Homicídio,Beberibe,alto,10,2022,Noite (18h-00h),1,1,-8.080682,-34.956608
+957,Furto,Água Fria,alto,11,2023,Noite (18h-00h),1,0,-8.048119,-34.847358
+958,Roubo a veículo,Torre,médio,10,2023,Manhã (6h-12h),0,0,-8.098405,-34.991942
+959,Lesão corporal,Ibura,alto,4,2023,Noite (18h-00h),1,0,-8.013721,-34.859104
+960,Furto,Casa Amarela,médio,8,2023,Manhã (6h-12h),2,1,-8.011506,-34.955098
+961,Furto,Espinheiro,baixo,9,2023,Noite (18h-00h),1,0,-8.05656,-34.967195
+962,Lesão corporal,Ibura,alto,5,2022,Madrugada (00h-6h),0,1,-8.152848,-34.93123
+963,Furto,Recife Antigo,médio,7,2022,Noite (18h-00h),2,1,-7.979605,-35.012784
+964,Roubo a pedestre,Água Fria,alto,10,2022,Noite (18h-00h),0,1,-8.083175,-34.840051
+965,Roubo a veículo,Água Fria,alto,1,2022,Noite (18h-00h),1,0,-8.076139,-34.84098
+966,Roubo a pedestre,Madalena,baixo,9,2023,Tarde (12h-18h),1,0,-8.136039,-34.924164
+967,Arrombamento,Aflitos,baixo,6,2023,Madrugada (00h-6h),0,1,-8.014603,-34.964144
+968,Furto,Casa Forte,baixo,1,2022,Madrugada (00h-6h),0,1,-8.098882,-34.843421
+969,Roubo a veículo,Dois Unidos,alto,4,2023,Noite (18h-00h),0,1,-7.931389,-34.904428
+970,Roubo a pedestre,Aflitos,baixo,5,2023,Tarde (12h-18h),2,0,-8.005956,-34.908982
+971,Furto,Casa Forte,baixo,12,2023,Tarde (12h-18h),2,1,-7.942075,-34.957376
+972,Lesão corporal,Dois Unidos,alto,2,2023,Noite (18h-00h),2,0,-8.118146,-34.901676
+973,Furto,Madalena,baixo,6,2023,Manhã (6h-12h),0,1,-7.946142,-34.863463
+974,Perturbação da ordem,Casa Forte,baixo,4,2022,Tarde (12h-18h),1,0,-8.051702,-34.964162
+975,Roubo a veículo,Ibura,alto,2,2023,Tarde (12h-18h),1,0,-8.031983,-34.906544
+976,Roubo a veículo,Madalena,baixo,1,2022,Madrugada (00h-6h),1,1,-8.064868,-34.966052
+977,Tráfico de drogas,Ibura,alto,7,2022,Tarde (12h-18h),1,0,-8.132534,-34.790194
+978,Perturbação da ordem,Água Fria,alto,3,2023,Madrugada (00h-6h),2,1,-7.99255,-34.927515
+979,Roubo a veículo,Boa Viagem,médio,6,2023,Madrugada (00h-6h),2,0,-7.999751,-34.982377
+980,Roubo a pedestre,Casa Amarela,médio,12,2022,Madrugada (00h-6h),1,0,-8.082067,-34.891833
+981,Furto,Casa Forte,baixo,3,2022,Noite (18h-00h),0,0,-8.122126,-34.937279
+982,Roubo a pedestre,Recife Antigo,médio,10,2022,Noite (18h-00h),2,0,-8.121277,-34.991582
+983,Tráfico de drogas,Ibura,alto,9,2023,Noite (18h-00h),1,0,-8.06525,-34.92496
+984,Arrombamento,Boa Viagem,médio,4,2023,Noite (18h-00h),0,1,-8.140348,-34.838594
+985,Arrombamento,Ibura,alto,1,2022,Manhã (6h-12h),0,0,-8.109622,-34.79248
+986,Furto,Espinheiro,baixo,11,2023,Madrugada (00h-6h),1,0,-8.059686,-34.784883
+987,Roubo a pedestre,Boa Viagem,médio,8,2023,Noite (18h-00h),0,0,-8.06616,-34.815566
+988,Tráfico de drogas,Imbiribeira,médio,6,2022,Tarde (12h-18h),1,0,-8.008197,-34.839154
+989,Furto,Torre,médio,11,2022,Tarde (12h-18h),2,0,-7.949071,-34.886247
+990,Roubo a pedestre,Torre,médio,10,2023,Noite (18h-00h),1,0,-8.097452,-34.899168
+991,Perturbação da ordem,Espinheiro,baixo,1,2023,Manhã (6h-12h),0,0,-7.95775,-34.973037
+992,Homicídio,Dois Unidos,alto,11,2023,Madrugada (00h-6h),0,0,-7.962801,-34.83179
+993,Roubo a pedestre,Água Fria,alto,8,2022,Tarde (12h-18h),2,0,-8.084579,-34.906007
+994,Roubo a pedestre,Casa Forte,baixo,5,2023,Tarde (12h-18h),0,0,-8.092454,-34.977892
+995,Tráfico de drogas,Casa Amarela,médio,12,2023,Manhã (6h-12h),1,0,-8.109768,-34.880394
+996,Lesão corporal,Dois Unidos,alto,5,2023,Manhã (6h-12h),2,0,-8.053033,-34.809825
+997,Roubo a veículo,Casa Forte,baixo,5,2023,Noite (18h-00h),1,0,-8.040378,-34.852484
+998,Tráfico de drogas,Dois Unidos,alto,2,2023,Manhã (6h-12h),1,1,-7.940581,-34.978717
+999,Roubo a veículo,Beberibe,alto,5,2022,Noite (18h-00h),2,0,-8.034077,-34.800874
+1000,Furto,Beberibe,alto,5,2023,Manhã (6h-12h),1,0,-8.074039,-34.920739

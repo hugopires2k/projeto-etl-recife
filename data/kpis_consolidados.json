@@ -1,0 +1,52 @@
+{
+  "limpeza": {
+    "total_ocorrencias": 500,
+    "taxa_resolucao_pct": 77.0,
+    "tempo_medio_atendimento_horas": 37.41,
+    "total_coletado_toneladas": 509.2
+  },
+  "obras": {
+    "total_obras": 300,
+    "concluidas": 71,
+    "paralisadas": 91,
+    "obras_atrasadas": 229,
+    "investimento_total_R$": 733333224.18,
+    "investimento_medio_R$": 2444444.08
+  },
+  "arborizacao": {
+    "total_arvores": 800,
+    "pct_condicao_boa": 43.75,
+    "pct_condicao_critica": 9.25,
+    "necessitam_poda": 286,
+    "risco_queda": 117,
+    "co2_absorvido_toneladas_ano": 347.73,
+    "area_copa_total_m2": 20235.47,
+    "total_areas_verdes": 10,
+    "area_verde_total_ha": 488.6
+  },
+  "seguranca": {
+    "total_ocorrencias": 1000,
+    "total_vitimas": 955,
+    "total_prisoes": 305,
+    "taxa_prisao_pct": 30.5,
+    "crime_mais_frequente": "Furto",
+    "turno_mais_perigoso": "Noite (18h-00h)"
+  },
+  "saude": {
+    "total_ubs": 14,
+    "atendimentos_mes_total": 5889,
+    "ubs_superlotadas": 5,
+    "tempo_espera_medio_min": 111.9,
+    "satisfacao_media_usuarios": 6.11,
+    "tempo_resposta_samu_min": 24.2,
+    "obitos_samu_registrados": 25
+  },
+  "educacao": {
+    "total_escolas_municipais": 120,
+    "total_matriculas": 55513,
+    "ideb_medio": 5.26,
+    "taxa_aprovacao_media_pct": 75.56,
+    "taxa_abandono_media_pct": 6.41,
+    "pct_escolas_com_internet": 61.7
+  }
+}

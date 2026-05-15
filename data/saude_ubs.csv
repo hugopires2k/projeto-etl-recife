@@ -1,0 +1,15 @@
+id,nome_ubs,bairro,capacidade_mensal,atendimentos_mes,taxa_ocupacao_pct,medicos,enfermeiros,dentistas,medicamentos_em_falta,tempo_espera_medio_min,satisfacao_usuario_0_10
+1,UBS Boa Viagem,Boa Viagem,292,348,119.2,3,5,3,2,67,5.7
+2,UBS Ibura,Ibura,560,648,115.7,8,10,4,12,148,6.2
+3,UBS Jordão,Jordão,639,763,119.4,8,3,3,1,79,6.8
+4,UBS Casa Amarela,Casa Amarela,214,210,98.1,8,6,1,12,79,4.5
+5,UBS Dois Unidos,Dois Unidos,638,508,79.6,8,6,4,5,98,5.8
+6,UBS Beberibe,Beberibe,208,156,75.0,5,7,3,11,178,5.1
+7,UBS Imbiribeira,Imbiribeira,679,534,78.6,3,6,3,5,132,5.2
+8,UBS Afogados,Afogados,333,370,111.1,7,9,4,3,122,8.5
+9,UBS Madalena,Madalena,280,231,82.5,8,7,3,10,89,4.7
+10,UBS Cordeiro,Cordeiro,624,683,109.5,5,10,1,15,87,7.0
+11,UBS Arruda,Arruda,327,274,83.8,5,11,4,15,171,5.0
+12,UBS Bomba do Hemetério,Bomba do Hemetério,483,351,72.7,3,8,4,10,110,7.1
+13,UBS Campina do Barreto,Campina do Barreto,203,145,71.4,7,6,4,10,140,6.9
+14,UBS Brejo da Guabiraba,Brejo da Guabiraba,741,668,90.1,7,10,2,7,67,7.0

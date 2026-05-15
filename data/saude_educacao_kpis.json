@@ -1,0 +1,15 @@
+{
+  "total_ubs": 14,
+  "atendimentos_mes_total": 5889,
+  "ubs_superlotadas": 5,
+  "tempo_espera_medio_min": 111.9,
+  "satisfacao_media_usuarios": 6.11,
+  "tempo_resposta_samu_min": 24.2,
+  "obitos_samu_registrados": 25,
+  "total_escolas_municipais": 120,
+  "total_matriculas": 55513,
+  "ideb_medio": 5.26,
+  "taxa_aprovacao_media_pct": 75.56,
+  "taxa_abandono_media_pct": 6.41,
+  "pct_escolas_com_internet": 61.7
+}

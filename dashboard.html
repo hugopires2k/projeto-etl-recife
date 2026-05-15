@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard ETL — Recife Dados</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap');
+
+  :root {
+    --bg: #0b0f1a;
+    --surface: #111827;
+    --surface2: #1a2235;
+    --border: #1e2d45;
+    --accent: #00d4ff;
+    --accent2: #ff6b35;
+    --accent3: #39d98a;
+    --accent4: #f5a623;
+    --accent5: #a855f7;
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --danger: #ef4444;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* HEADER */
+  header {
+    background: linear-gradient(135deg, #0b0f1a 0%, #111827 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky; top: 0; z-index: 100;
+  }
+  .logo { display:flex; align-items:center; gap:12px; }
+  .logo-dot {
+    width:10px; height:10px; border-radius:50%;
+    background: var(--accent);
+    box-shadow: 0 0 10px var(--accent);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%,100% { opacity:1; transform:scale(1); }
+    50%      { opacity:.5; transform:scale(1.3); }
+  }
+  .logo h1 { font-family:'Syne',sans-serif; font-size:1.2rem; font-weight:800; letter-spacing:1px; }
+  .logo span { color: var(--accent); }
+  .header-meta { font-size:.75rem; color:var(--muted); text-align:right; line-height:1.6; }
+
+  /* TABS */
+  nav {
+    display:flex; gap:4px;
+    padding: 12px 32px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+  }
+  .tab {
+    padding: 8px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: .82rem;
+    font-weight: 500;
+    color: var(--muted);
+    border: 1px solid transparent;
+    white-space: nowrap;
+    transition: all .2s;
+  }
+  .tab:hover { color: var(--text); background: var(--surface2); }
+  .tab.active { background: var(--accent); color: #000; border-color: var(--accent); font-weight:700; }
+  .tab[data-tema="obras"].active    { background: var(--accent2); border-color:var(--accent2); }
+  .tab[data-tema="arborizacao"].active { background: var(--accent3); border-color:var(--accent3); color:#000; }
+  .tab[data-tema="seguranca"].active { background: var(--danger); border-color:var(--danger); }
+  .tab[data-tema="saude"].active { background: var(--accent4); border-color:var(--accent4); color:#000; }
+  .tab[data-tema="educacao"].active { background: var(--accent5); border-color:var(--accent5); }
+
+  /* MAIN */
+  main { padding: 28px 32px; max-width: 1400px; margin: 0 auto; }
+
+  /* SECTION */
+  .section { display:none; }
+  .section.active { display:block; }
+
+  .section-title {
+    font-family:'Syne',sans-serif;
+    font-size:1.5rem; font-weight:800;
+    margin-bottom: 6px;
+  }
+  .section-sub { color:var(--muted); font-size:.85rem; margin-bottom:24px; }
+
+  /* KPI GRID */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .kpi {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform .15s;
+  }
+  .kpi:hover { transform: translateY(-2px); }
+  .kpi::before {
+    content:'';
+    position:absolute; top:0; left:0; right:0; height:3px;
+    background: var(--kpi-color, var(--accent));
+  }
+  .kpi-value {
+    font-family:'Syne',sans-serif;
+    font-size:1.7rem; font-weight:800;
+    color: var(--kpi-color, var(--accent));
+    line-height:1;
+  }
+  .kpi-label { font-size:.73rem; color:var(--muted); margin-top:6px; line-height:1.3; }
+
+  /* CHARTS GRID */
+  .charts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 20px;
+  }
+  .chart-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .chart-card h3 {
+    font-family:'Syne',sans-serif;
+    font-size:.9rem; font-weight:700;
+    margin-bottom:16px; color:var(--text);
+    letter-spacing:.5px;
+  }
+  .chart-card canvas { max-height: 260px; }
+
+  /* INSIGHT BOX */
+  .insights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 14px;
+    margin-top: 24px;
+  }
+  .insight {
+    background: var(--surface2);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size:.82rem; line-height:1.6;
+  }
+  .insight strong { color: var(--accent); display:block; margin-bottom:4px; }
+
+  /* TABLE */
+  .table-wrap { overflow-x:auto; margin-top:20px; }
+  table { width:100%; border-collapse:collapse; font-size:.8rem; }
+  th {
+    background: var(--surface2);
+    color:var(--muted); text-align:left;
+    padding:10px 14px; font-weight:600;
+    border-bottom:1px solid var(--border);
+  }
+  td { padding:9px 14px; border-bottom:1px solid var(--border); }
+  tr:hover td { background: rgba(255,255,255,.02); }
+  .badge {
+    display:inline-block; padding:2px 8px; border-radius:4px;
+    font-size:.7rem; font-weight:600;
+  }
+  .badge-green  { background:rgba(57,217,138,.15); color:#39d98a; }
+  .badge-yellow { background:rgba(245,166,35,.15);  color:#f5a623; }
+  .badge-red    { background:rgba(239,68,68,.15);   color:#ef4444; }
+  .badge-blue   { background:rgba(0,212,255,.15);   color:#00d4ff; }
+
+  /* OVERVIEW TAB */
+  .overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+  .overview-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all .2s;
+    text-align:center;
+  }
+  .overview-card:hover { border-color: var(--card-color, var(--accent)); transform:translateY(-3px); }
+  .overview-card .icon { font-size:2rem; margin-bottom:10px; }
+  .overview-card .nome { font-family:'Syne',sans-serif; font-size:.9rem; font-weight:700; margin-bottom:6px; }
+  .overview-card .meta { font-size:.75rem; color:var(--muted); }
+
+  .pipeline-steps {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 20px;
+  }
+  .pipeline-steps h3 {
+    font-family:'Syne',sans-serif; font-size:.95rem; font-weight:700;
+    margin-bottom:16px;
+  }
+  .step-row {
+    display:flex; align-items:center; gap:14px;
+    padding: 10px 0; border-bottom:1px solid var(--border);
+  }
+  .step-row:last-child { border-bottom:none; }
+  .step-num {
+    width:28px; height:28px; border-radius:50%;
+    background: var(--accent); color:#000;
+    font-weight:800; font-size:.8rem;
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0;
+  }
+  .step-text { font-size:.82rem; line-height:1.4; }
+  .step-text strong { color:var(--text); }
+  .step-text span { color:var(--muted); }
+
+  footer {
+    margin-top:40px; padding:20px 32px;
+    border-top:1px solid var(--border);
+    text-align:center; font-size:.75rem; color:var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-dot"></div>
+    <h1>RECIFE <span>DADOS</span> · ETL Dashboard</h1>
+  </div>
+  <div class="header-meta">
+    SENAC Pernambuco · Data Science<br>
+    Prof. Heuryk Wylk · Atividade Prática 04
+  </div>
+</header>
+
+<nav>
+  <div class="tab active" data-tema="overview">🏙️ Visão Geral</div>
+  <div class="tab" data-tema="limpeza">🗑️ ETL 01 · Limpeza Urbana</div>
+  <div class="tab" data-tema="obras">🏗️ ETL 02 · Obras Públicas</div>
+  <div class="tab" data-tema="arborizacao">🌳 ETL 03 · Arborização</div>
+  <div class="tab" data-tema="seguranca">🔒 ETL 04 · Segurança</div>
+  <div class="tab" data-tema="saude">🏥 ETL 05 · Saúde & Educação</div>
+</nav>
+
+<main>
+
+<!-- ═══════════════════════════════════════════════════════ OVERVIEW ══ -->
+<div class="section active" id="sec-overview">
+  <div class="section-title">Análise Integrada de Serviços Públicos e Infraestrutura Urbana</div>
+  <div class="section-sub">Pipeline ETL com 5 temas · Portal Recife Dados · API CKAN · Dados Abertos</div>
+
+  <div class="overview-grid">
+    <div class="overview-card" style="--card-color:#00d4ff" onclick="switchTab('limpeza')">
+      <div class="icon">🗑️</div>
+      <div class="nome">Limpeza Urbana</div>
+      <div class="meta">500 ocorrências · 77% resolvidas</div>
+    </div>
+    <div class="overview-card" style="--card-color:#ff6b35" onclick="switchTab('obras')">
+      <div class="icon">🏗️</div>
+      <div class="nome">Obras Públicas</div>
+      <div class="meta">300 obras · R$ 733 mi investidos</div>
+    </div>
+    <div class="overview-card" style="--card-color:#39d98a" onclick="switchTab('arborizacao')">
+      <div class="icon">🌳</div>
+      <div class="nome">Arborização</div>
+      <div class="meta">800 árvores · 347t CO₂/ano</div>
+    </div>
+    <div class="overview-card" style="--card-color:#ef4444" onclick="switchTab('seguranca')">
+      <div class="icon">🔒</div>
+      <div class="nome">Segurança Pública</div>
+      <div class="meta">1.000 ocorrências · 30.5% prisões</div>
+    </div>
+    <div class="overview-card" style="--card-color:#a855f7" onclick="switchTab('saude')">
+      <div class="icon">🏥</div>
+      <div class="nome">Saúde & Educação</div>
+      <div class="meta">14 UBS · 120 escolas · 55k alunos</div>
+    </div>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <h3>DISTRIBUIÇÃO DE REGISTROS POR TEMA</h3>
+      <canvas id="chartOverviewPizza"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>KPIs DE EFICIÊNCIA POR SERVIÇO (%)</h3>
+      <canvas id="chartOverviewRadar"></canvas>
+    </div>
+  </div>
+
+  <div class="pipeline-steps">
+    <h3>⚙️ ARQUITETURA DO PIPELINE ETL</h3>
+    <div class="step-row"><div class="step-num">1</div><div class="step-text"><strong>Extração</strong> <span>· Consulta às APIs CKAN do portal dados.recife.pe.gov.br, API SINESP, Fogo Cruzado e portais das Secretarias</span></div></div>
+    <div class="step-row"><div class="step-num">2</div><div class="step-text"><strong>Transformação</strong> <span>· Limpeza, normalização, cálculo de KPIs, agregações por bairro/tipo/período com pandas</span></div></div>
+    <div class="step-row"><div class="step-num">3</div><div class="step-text"><strong>Validação</strong> <span>· Verificação de tipos, tratamento de nulos, fallback para dados simulados quando API indisponível</span></div></div>
+    <div class="step-row"><div class="step-num">4</div><div class="step-text"><strong>Carga</strong> <span>· Exportação em CSV por tema + KPIs consolidados em JSON para consumo do dashboard</span></div></div>
+    <div class="step-row"><div class="step-num">5</div><div class="step-text"><strong>Visualização</strong> <span>· Dashboard interativo HTML/CSS/JS com Chart.js, navegação por abas, gráficos e tabelas</span></div></div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════ ETL 01 LIMPEZA ══ -->
+<div class="section" id="sec-limpeza">
+  <div class="section-title" style="color:var(--accent)">🗑️ ETL 01 — Limpeza Urbana e Coleta de Resíduos</div>
+  <div class="section-sub">Fonte: EMLURB · Portal Recife Dados · API CKAN</div>
+
+  <div class="kpi-grid">
+    <div class="kpi" style="--kpi-color:#00d4ff"><div class="kpi-value">500</div><div class="kpi-label">Total de Ocorrências Registradas</div></div>
+    <div class="kpi" style="--kpi-color:#39d98a"><div class="kpi-value">77%</div><div class="kpi-label">Taxa de Resolução das Ocorrências</div></div>
+    <div class="kpi" style="--kpi-color:#f5a623"><div class="kpi-value">37.4h</div><div class="kpi-label">Tempo Médio de Atendimento</div></div>
+    <div class="kpi" style="--kpi-color:#a855f7"><div class="kpi-value">509t</div><div class="kpi-label">Total de Resíduos Coletados</div></div>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <h3>TIPOS DE OCORRÊNCIA MAIS FREQUENTES</h3>
+      <canvas id="chartLimpezaTipo"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>OCORRÊNCIAS POR MÊS</h3>
+      <canvas id="chartLimpezaMes"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>TOP 10 BAIRROS COM MAIS OCORRÊNCIAS</h3>
+      <canvas id="chartLimpezaBairro"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>TAXA DE RESOLUÇÃO POR STATUS</h3>
+      <canvas id="chartLimpezaStatus"></canvas>
+    </div>
+  </div>
+
+  <div class="insights">
+    <div class="insight" style="border-color:var(--accent)"><strong>✅ Taxa de resolução acima da média</strong>77% das ocorrências foram resolvidas, indicando boa eficiência operacional da EMLURB. Bairros do sul da cidade concentram mais chamados.</div>
+    <div class="insight" style="border-color:var(--accent2)"><strong>⏱️ Tempo de atendimento elevado</strong>Média de 37,4 horas para atendimento é acima do ideal. Recomenda-se revisão das rotas de coleta e reforço de equipes nos picos sazonais.</div>
+    <div class="insight" style="border-color:var(--accent3)"><strong>♻️ Descarte irregular é o principal problema</strong>Pontos viciados de descarte representam foco de intervenção. Campanhas de conscientização e instalação de ecopontos são recomendadas.</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ ETL 02 OBRAS ══ -->
+<div class="section" id="sec-obras">
+  <div class="section-title" style="color:var(--accent2)">🏗️ ETL 02 — Obras Públicas e Licenciamento Urbanístico</div>
+  <div class="section-sub">Fonte: Portal Recife Dados · Secretaria de Infraestrutura · API CKAN</div>
+
+  <div class="kpi-grid">
+    <div class="kpi" style="--kpi-color:#ff6b35"><div class="kpi-value">300</div><div class="kpi-label">Total de Obras / Licenças</div></div>
+    <div class="kpi" style="--kpi-color:#39d98a"><div class="kpi-value">71</div><div class="kpi-label">Obras Concluídas</div></div>
+    <div class="kpi" style="--kpi-color:#ef4444"><div class="kpi-value">91</div><div class="kpi-label">Obras Paralisadas</div></div>
+    <div class="kpi" style="--kpi-color:#f5a623"><div class="kpi-value">229</div><div class="kpi-label">Obras com Atraso</div></div>
+    <div class="kpi" style="--kpi-color:#a855f7"><div class="kpi-value">R$ 733M</div><div class="kpi-label">Investimento Total</div></div>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <h3>OBRAS POR STATUS</h3>
+      <canvas id="chartObrasStatus"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>OBRAS POR TIPO</h3>
+      <canvas id="chartObrasTipo"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>INVESTIMENTO POR BAIRRO (TOP 8)</h3>
+      <canvas id="chartObrasBairro"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>OBRAS POR SECRETARIA</h3>
+      <canvas id="chartObrasSecretaria"></canvas>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Bairro</th><th>Qtd. Obras</th><th>Status Majoritário</th><th>Situação</th></tr></thead>
+      <tbody>
+        <tr><td>Boa Viagem</td><td>28</td><td>Em andamento</td><td><span class="badge badge-blue">Normal</span></td></tr>
+        <tr><td>Imbiribeira</td><td>24</td><td>Paralisada</td><td><span class="badge badge-red">Crítico</span></td></tr>
+        <tr><td>Pina</td><td>21</td><td>Em andamento</td><td><span class="badge badge-yellow">Atenção</span></td></tr>
+        <tr><td>Torre</td><td>19</td><td>Concluída</td><td><span class="badge badge-green">OK</span></td></tr>
+        <tr><td>Casa Forte</td><td>18</td><td>Licitação</td><td><span class="badge badge-yellow">Atenção</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="insights">
+    <div class="insight" style="border-color:var(--accent2)"><strong>⚠️ Alto índice de obras atrasadas</strong>76% das obras estão com atraso em relação ao prazo previsto. Recomenda-se auditoria dos contratos e revisão do cronograma de execução.</div>
+    <div class="insight" style="border-color:var(--danger)"><strong>🚧 Obras paralisadas representam risco</strong>91 obras paralisadas (30%) representam risco de desperdício de investimento público. Intervenção prioritária recomendada.</div>
+    <div class="insight" style="border-color:var(--accent3)"><strong>💰 Pavimentação concentra maior investimento</strong>Obras viárias e de drenagem respondem pela maior fatia do orçamento, refletindo demandas estruturais da cidade.</div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════ ETL 03 ARBORIZAÇÃO ══ -->
+<div class="section" id="sec-arborizacao">
+  <div class="section-title" style="color:var(--accent3)">🌳 ETL 03 — Arborização Urbana e Impacto Ambiental</div>
+  <div class="section-sub">Fonte: Portal Recife Dados · Secretaria de Meio Ambiente · Áreas Verdes</div>
+
+  <div class="kpi-grid">
+    <div class="kpi" style="--kpi-color:#39d98a"><div class="kpi-value">800</div><div class="kpi-label">Árvores Inventariadas</div></div>
+    <div class="kpi" style="--kpi-color:#00d4ff"><div class="kpi-value">43.75%</div><div class="kpi-label">Em Boa Condição</div></div>
+    <div class="kpi" style="--kpi-color:#f5a623"><div class="kpi-value">286</div><div class="kpi-label">Necessitam Poda</div></div>
+    <div class="kpi" style="--kpi-color:#ef4444"><div class="kpi-value">117</div><div class="kpi-label">Risco de Queda</div></div>
+    <div class="kpi" style="--kpi-color:#a855f7"><div class="kpi-value">347t</div><div class="kpi-label">CO₂ Absorvido / Ano</div></div>
+    <div class="kpi" style="--kpi-color:#39d98a"><div class="kpi-value">488ha</div><div class="kpi-label">Áreas Verdes Totais</div></div>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <h3>CONDIÇÃO DAS ÁRVORES</h3>
+      <canvas id="chartArbCondicao"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>TOP 8 ESPÉCIES MAIS FREQUENTES</h3>
+      <canvas id="chartArbEspecie"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>ÁRVORES POR BAIRRO (TOP 8)</h3>
+      <canvas id="chartArbBairro"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>ÁREAS VERDES — EXTENSÃO (ha)</h3>
+      <canvas id="chartArbAreas"></canvas>
+    </div>
+  </div>
+
+  <div class="insights">
+    <div class="insight" style="border-color:var(--accent3)"><strong>🌿 Parque Dois Irmãos domina a cobertura verde</strong>Com 384ha, o Parque Estadual representa mais de 78% da área verde total catalogada, concentrando um importante ecossistema urbano.</div>
+    <div class="insight" style="border-color:var(--accent4)"><strong>⚠️ 9.25% das árvores em estado crítico</strong>74 árvores necessitam intervenção urgente. O risco de queda representa perigo à segurança pública, especialmente em vias movimentadas.</div>
+    <div class="insight" style="border-color:var(--accent)"><strong>🌡️ CO₂: contribuição ambiental significativa</strong>O conjunto arbóreo absorve ~347 toneladas de CO₂ por ano, equivalente a retirar ~75 carros de circulação, reforçando a importância da arborização.</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ ETL 04 SEGURANÇA ══ -->
+<div class="section" id="sec-seguranca">
+  <div class="section-title" style="color:var(--danger)">🔒 ETL 04 — Segurança Pública por Região</div>
+  <div class="section-sub">Fonte: Guarda Municipal do Recife · SINESP · Fogo Cruzado · Ministério da Justiça</div>
+
+  <div class="kpi-grid">
+    <div class="kpi" style="--kpi-color:#ef4444"><div class="kpi-value">1.000</div><div class="kpi-label">Ocorrências Registradas</div></div>
+    <div class="kpi" style="--kpi-color:#f5a623"><div class="kpi-value">955</div><div class="kpi-label">Vítimas Registradas</div></div>
+    <div class="kpi" style="--kpi-color:#39d98a"><div class="kpi-value">305</div><div class="kpi-label">Prisões Efetuadas</div></div>
+    <div class="kpi" style="--kpi-color:#00d4ff"><div class="kpi-value">30.5%</div><div class="kpi-label">Taxa de Prisão</div></div>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <h3>TIPOS DE CRIME MAIS FREQUENTES</h3>
+      <canvas id="chartSegTipo"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>OCORRÊNCIAS POR TURNO</h3>
+      <canvas id="chartSegTurno"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>TOP 10 BAIRROS COM MAIS OCORRÊNCIAS</h3>
+      <canvas id="chartSegBairro"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>NÍVEL DE RISCO POR REGIÃO</h3>
+      <canvas id="chartSegRisco"></canvas>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Bairro</th><th>Nível de Risco</th><th>Ocorrências</th><th>Situação</th></tr></thead>
+      <tbody>
+        <tr><td>Ibura</td><td>Alto</td><td>~95</td><td><span class="badge badge-red">Crítico</span></td></tr>
+        <tr><td>Jordão</td><td>Alto</td><td>~88</td><td><span class="badge badge-red">Crítico</span></td></tr>
+        <tr><td>Beberibe</td><td>Alto</td><td>~82</td><td><span class="badge badge-red">Crítico</span></td></tr>
+        <tr><td>Boa Viagem</td><td>Médio</td><td>~65</td><td><span class="badge badge-yellow">Atenção</span></td></tr>
+        <tr><td>Casa Forte</td><td>Baixo</td><td>~30</td><td><span class="badge badge-green">Controlado</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="insights">
+    <div class="insight" style="border-color:var(--danger)"><strong>🌙 Noite é o período mais perigoso</strong>35% das ocorrências acontecem entre 18h e meia-noite. Reforço do policiamento noturno nas zonas de risco alto pode reduzir significativamente os índices.</div>
+    <div class="insight" style="border-color:var(--accent4)"><strong>👜 Furto lidera os tipos de crime</strong>O furto representa ~30% das ocorrências. Ações preventivas como câmeras de monitoramento e rondas estratégicas podem reduzir essa categoria.</div>
+    <div class="insight" style="border-color:var(--accent3)"><strong>📍 Concentração geográfica identificada</strong>Bairros periféricos (Ibura, Jordão, Beberibe) concentram o maior volume de ocorrências. Políticas de segurança devem ser territorialmente orientadas.</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ ETL 05 SAÚDE & EDUCAÇÃO ══ -->
+<div class="section" id="sec-saude">
+  <div class="section-title" style="color:var(--accent5)">🏥 ETL 05 — Saúde & Educação Pública</div>
+  <div class="section-sub">Fonte: Secretaria de Saúde · Secretaria de Educação · SAMU · Portal Recife Dados</div>
+
+  <div class="kpi-grid">
+    <div class="kpi" style="--kpi-color:#f5a623"><div class="kpi-value">14</div><div class="kpi-label">UBS Ativas</div></div>
+    <div class="kpi" style="--kpi-color:#ef4444"><div class="kpi-value">5</div><div class="kpi-label">UBS Superlotadas</div></div>
+    <div class="kpi" style="--kpi-color:#00d4ff"><div class="kpi-value">111.9min</div><div class="kpi-label">Espera Média UBS</div></div>
+    <div class="kpi" style="--kpi-color:#39d98a"><div class="kpi-value">24.2min</div><div class="kpi-label">Resposta SAMU</div></div>
+    <div class="kpi" style="--kpi-color:#a855f7"><div class="kpi-value">120</div><div class="kpi-label">Escolas Municipais</div></div>
+    <div class="kpi" style="--kpi-color:#f5a623"><div class="kpi-value">55.513</div><div class="kpi-label">Matrículas Ativas</div></div>
+    <div class="kpi" style="--kpi-color:#00d4ff"><div class="kpi-value">5.26</div><div class="kpi-label">IDEB Médio</div></div>
+    <div class="kpi" style="--kpi-color:#39d98a"><div class="kpi-value">75.6%</div><div class="kpi-label">Taxa de Aprovação</div></div>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-card">
+      <h3>SATISFAÇÃO DOS USUÁRIOS NAS UBS (0-10)</h3>
+      <canvas id="chartSaudeUBS"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>TIPOS DE ATENDIMENTO SAMU</h3>
+      <canvas id="chartSaudeSAMU"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>DISTRIBUIÇÃO DE ESCOLAS POR NÍVEL</h3>
+      <canvas id="chartEduNivel"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>IDEB POR BAIRRO (TOP 8)</h3>
+      <canvas id="chartEduIdeb"></canvas>
+    </div>
+  </div>
+
+  <div class="insights">
+    <div class="insight" style="border-color:var(--accent5)"><strong>⏳ Tempo de espera nas UBS é crítico</strong>Média de quase 2 horas de espera nas UBS indica necessidade urgente de ampliação da capacidade de atendimento e abertura de novas unidades.</div>
+    <div class="insight" style="border-color:var(--accent4)"><strong>🚑 SAMU com tempo de resposta adequado</strong>24 minutos de resposta média do SAMU está dentro dos parâmetros nacionais. Expansão da frota pode melhorar ainda mais esse indicador.</div>
+    <div class="insight" style="border-color:var(--accent)"><strong>📚 IDEB abaixo da meta nacional</strong>IDEB médio de 5.26 está abaixo da meta 6.0 estabelecida pelo MEC. Reforço pedagógico e melhoria de infraestrutura são ações prioritárias.</div>
+    <div class="insight" style="border-color:var(--danger)"><strong>📡 38.3% das escolas sem internet</strong>Quase 40% das escolas municipais não têm acesso à banda larga, agravando a desigualdade digital. Investimento em conectividade é urgente.</div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  Atividade 04 · SENAC Pernambuco · Disciplina: Data Science · Prof. Heuryk Wylk<br>
+  Pipeline ETL · Dados Abertos do Recife · Alunos 1, 2, 3, 4
+</footer>
+
+<script>
+// ─── NAVEGAÇÃO ────────────────────────────────────────────────────────────────
+const tabs = document.querySelectorAll('.tab');
+const sections = document.querySelectorAll('.section');
+
+function switchTab(tema) {
+  tabs.forEach(t => t.classList.toggle('active', t.dataset.tema === tema));
+  sections.forEach(s => s.classList.toggle('active', s.id === `sec-${tema}`));
+}
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => switchTab(tab.dataset.tema));
+});
+
+// ─── PALETA ───────────────────────────────────────────────────────────────────
+const C = {
+  blue:   '#00d4ff', orange: '#ff6b35', green:  '#39d98a',
+  yellow: '#f5a623', purple: '#a855f7', red:    '#ef4444',
+  muted:  '#334155',
+};
+
+const MULTI = [C.blue,C.orange,C.green,C.yellow,C.purple,C.red,'#06b6d4','#f43f5e','#84cc16','#fb923c'];
+
+const defaults = {
+  plugins: { legend: { labels: { color:'#94a3b8', font:{size:11} } } },
+  scales: {
+    x: { ticks:{color:'#64748b'}, grid:{color:'#1e2d45'} },
+    y: { ticks:{color:'#64748b'}, grid:{color:'#1e2d45'} },
+  },
+};
+
+function mkChart(id, type, labels, datasets, extra={}) {
+  const ctx = document.getElementById(id);
+  if (!ctx) return;
+  new Chart(ctx, {
+    type,
+    data: { labels, datasets },
+    options: {
+      responsive:true, maintainAspectRatio:true,
+      ...defaults, ...extra,
+      plugins: { ...defaults.plugins, ...(extra.plugins||{}) },
+    }
+  });
+}
+
+// ── OVERVIEW ──────────────────────────────────────────────────────────────────
+mkChart('chartOverviewPizza','doughnut',
+  ['Limpeza','Obras','Arborização','Segurança','UBS/SAMU','Escolas'],
+  [{data:[500,300,800,1000,514,120], backgroundColor:MULTI, borderWidth:0}],
+  { plugins:{ legend:{position:'right', labels:{color:'#94a3b8'}} }, scales:{x:{display:false},y:{display:false}} }
+);
+
+mkChart('chartOverviewRadar','radar',
+  ['Taxa Resolução\nLimpeza','Obras\nConcluídas','Árvores\nem Boa Condição','Taxa\nPrisão','Aprovação\nEscolar','Satisfação\nUBS'],
+  [{
+    label:'Eficiência (%)',
+    data:[77, 23.7, 43.75, 30.5, 75.56, 61.1],
+    borderColor:C.blue, backgroundColor:'rgba(0,212,255,.1)',
+    pointBackgroundColor:C.blue,
+  }],
+  {
+    plugins:{ legend:{labels:{color:'#94a3b8'}} },
+    scales:{ r:{ ticks:{color:'#64748b', backdropColor:'transparent'}, grid:{color:'#1e2d45'}, pointLabels:{color:'#94a3b8',font:{size:10}} } }
+  }
+);
+
+// ── ETL 01 LIMPEZA ────────────────────────────────────────────────────────────
+mkChart('chartLimpezaTipo','bar',
+  ['Acúmulo\nem via','Ponto\nviciado','Lixeira\ndanificada','Falta\nde coleta','Entulho','Descarte\nirregular'],
+  [{label:'Ocorrências', data:[98,87,81,79,77,78], backgroundColor:C.blue, borderRadius:5}],
+);
+
+mkChart('chartLimpezaMes','line',
+  ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],
+  [{label:'Ocorrências', data:[38,32,45,41,47,39,44,36,43,42,46,47],
+    borderColor:C.blue, backgroundColor:'rgba(0,212,255,.08)', fill:true, tension:.4, pointRadius:3}]
+);
+
+mkChart('chartLimpezaBairro','bar',
+  ['Boa Viagem','Ibura','Jordão','Imbiribeira','Beberibe','Dois Unidos','Torre','Pina','Madalena','Caxangá'],
+  [{label:'Ocorrências', data:[42,38,36,34,32,30,28,27,25,23], backgroundColor:C.blue, borderRadius:5}],
+  { indexAxis:'y' }
+);
+
+mkChart('chartLimpezaStatus','doughnut',
+  ['Resolvidas','Não resolvidas'],
+  [{data:[77,23], backgroundColor:[C.green,C.red], borderWidth:0}],
+  { plugins:{legend:{position:'right',labels:{color:'#94a3b8'}}}, scales:{x:{display:false},y:{display:false}} }
+);
+
+// ── ETL 02 OBRAS ──────────────────────────────────────────────────────────────
+mkChart('chartObrasStatus','doughnut',
+  ['Em andamento','Paralisada','Concluída','Licitação'],
+  [{data:[100,91,71,38], backgroundColor:[C.blue,C.red,C.green,C.yellow], borderWidth:0}],
+  { plugins:{legend:{position:'right',labels:{color:'#94a3b8'}}}, scales:{x:{display:false},y:{display:false}} }
+);
+
+mkChart('chartObrasTipo','bar',
+  ['Pavimentação','Drenagem','Calçamento','Escola','UBS','Ciclovia','Praça','Iluminação','Ponte','Esgoto'],
+  [{label:'Obras', data:[48,38,32,28,26,22,19,18,16,13], backgroundColor:C.orange, borderRadius:5}],
+  { indexAxis:'y' }
+);
+
+mkChart('chartObrasBairro','bar',
+  ['Boa Viagem','Imbiribeira','Pina','Torre','Casa Forte','Madalena','Encruzilhada','Afogados'],
+  [{label:'Investimento (R$ mi)', data:[88,72,65,58,52,47,42,38], backgroundColor:C.orange, borderRadius:5}]
+);
+
+mkChart('chartObrasSecretaria','doughnut',
+  ['SEINFRA','EMLURB','Educação','Saúde','CTTU'],
+  [{data:[95,68,52,48,37], backgroundColor:MULTI, borderWidth:0}],
+  { plugins:{legend:{position:'right',labels:{color:'#94a3b8'}}}, scales:{x:{display:false},y:{display:false}} }
+);
+
+// ── ETL 03 ARBORIZAÇÃO ────────────────────────────────────────────────────────
+mkChart('chartArbCondicao','doughnut',
+  ['Boa','Regular','Ruim','Crítica'],
+  [{data:[350,240,136,74], backgroundColor:[C.green,C.yellow,C.orange,C.red], borderWidth:0}],
+  { plugins:{legend:{position:'right',labels:{color:'#94a3b8'}}}, scales:{x:{display:false},y:{display:false}} }
+);
+
+mkChart('chartArbEspecie','bar',
+  ['Oiti','Ficus','Mangueira','Sibipiruna','Amendoeira','Flamboyant','Cajueiro','Castanhola'],
+  [{label:'Árvores', data:[118,105,98,88,82,75,65,58], backgroundColor:C.green, borderRadius:5}],
+  { indexAxis:'y' }
+);
+
+mkChart('chartArbBairro','bar',
+  ['Casa Forte','Espinheiro','Apipucos','Graças','Boa Viagem','Ibura','Beberibe','Jordão'],
+  [{label:'Árvores', data:[82,76,71,68,65,58,54,48], backgroundColor:C.green, borderRadius:5}]
+);
+
+mkChart('chartArbAreas','bar',
+  ['P. Dois Irmãos','P. Manguezais','Jardim Botânico','Mangue Capibaribe','P. Jaqueira','Bosque Apipucos','P. 13 de Maio','P. Santana'],
+  [{label:'Área (ha)', data:[384,40,13.2,25,8.7,6.1,4,2.5], backgroundColor:C.green, borderRadius:5}],
+  { indexAxis:'y' }
+);
+
+// ── ETL 04 SEGURANÇA ──────────────────────────────────────────────────────────
+mkChart('chartSegTipo','bar',
+  ['Furto','Roubo\npedestre','Roubo\nveículo','Tráfico','Lesão\ncorporal','Arrombamento','Perturbação','Homicídio'],
+  [{label:'Ocorrências', data:[300,200,150,120,100,50,50,30], backgroundColor:C.red, borderRadius:5}],
+  { indexAxis:'y' }
+);
+
+mkChart('chartSegTurno','doughnut',
+  ['Noite 18h-00h','Tarde 12h-18h','Madrugada 00h-6h','Manhã 6h-12h'],
+  [{data:[350,250,200,200], backgroundColor:[C.red,C.orange,C.purple,C.yellow], borderWidth:0}],
+  { plugins:{legend:{position:'right',labels:{color:'#94a3b8'}}}, scales:{x:{display:false},y:{display:false}} }
+);
+
+mkChart('chartSegBairro','bar',
+  ['Ibura','Jordão','Beberibe','Dois Unidos','Água Fria','Boa Viagem','Imbiribeira','Torre','Casa Amarela','Rec. Antigo'],
+  [{label:'Ocorrências', data:[95,88,82,78,72,65,58,52,48,45], backgroundColor:C.red, borderRadius:5}],
+  { indexAxis:'y' }
+);
+
+mkChart('chartSegRisco','doughnut',
+  ['Alto Risco','Médio Risco','Baixo Risco'],
+  [{data:[453,350,197], backgroundColor:[C.red,C.yellow,C.green], borderWidth:0}],
+  { plugins:{legend:{position:'right',labels:{color:'#94a3b8'}}}, scales:{x:{display:false},y:{display:false}} }
+);
+
+// ── ETL 05 SAÚDE & EDUCAÇÃO ───────────────────────────────────────────────────
+mkChart('chartSaudeUBS','bar',
+  ['UBS Boa Viagem','UBS Ibura','UBS Jordão','UBS Casa Amarela','UBS Dois Unidos','UBS Beberibe','UBS Imbiribeira','UBS Afogados'],
+  [{label:'Satisfação (0-10)', data:[7.8,4.2,4.8,5.5,5.1,6.2,6.8,7.1], backgroundColor:C.yellow, borderRadius:5}]
+);
+
+mkChart('chartSaudeSAMU','doughnut',
+  ['Trauma/Acidente','Cardiopatia','AVC','Intoxicação','Parto','Queda','Queimadura','Outros'],
+  [{data:[100,75,65,55,40,65,50,50], backgroundColor:MULTI, borderWidth:0}],
+  { plugins:{legend:{position:'right',labels:{color:'#94a3b8',font:{size:10}}}}, scales:{x:{display:false},y:{display:false}} }
+);
+
+mkChart('chartEduNivel','doughnut',
+  ['Ens. Fundamental I','Ens. Fundamental II','Ed. Infantil','EJA'],
+  [{data:[42,38,25,15], backgroundColor:[C.purple,C.blue,C.green,C.yellow], borderWidth:0}],
+  { plugins:{legend:{position:'right',labels:{color:'#94a3b8'}}}, scales:{x:{display:false},y:{display:false}} }
+);
+
+mkChart('chartEduIdeb','bar',
+  ['Apipucos','Madalena','Boa Viagem','Cordeiro','Casa Amarela','Ibura','Jordão','Beberibe'],
+  [{label:'IDEB', data:[6.8,6.4,6.1,5.8,5.2,4.5,4.2,3.9], backgroundColor:C.purple, borderRadius:5}]
+);
+</script>
+</body>
+</html>

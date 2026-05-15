@@ -1,0 +1,301 @@
+id,tipo_obra,bairro,secretaria,status,data_inicio,prazo_previsto,valor_contrato_r$,percentual_executado,empresa_contratada,numero_licenca,area_construcao_m2,atraso
+1,Ciclovia,Boa Vista,SEINFRA,Em andamento,2021-06-05,2022-10-12,408559.62,42.3,Construtora A Ltda,LIC-2021-10000,4557.5,1310
+2,Ponte/viaduto,Torre,SEINFRA,Licitação,2021-04-02,2021-09-27,2119952.15,9.6,Construtora B Ltda,LIC-2022-10001,4151.6,1690
+3,Construção de escola,Boa Viagem,CTTU,Em andamento,2021-02-08,2022-12-26,2906659.6,31.3,Construtora C Ltda,LIC-2023-10002,4306.5,1235
+4,Calçamento,Derby,CTTU,Em andamento,2021-05-14,2022-01-06,2876022.76,44.3,Construtora D Ltda,LIC-2024-10003,2898.9,1589
+5,Iluminação pública,Cordeiro,CTTU,Em andamento,2021-04-12,2021-10-18,2843623.05,48.9,Construtora E Ltda,LIC-2021-10004,2195.2,1669
+6,Calçamento,Encruzilhada,EMLURB,Licitação,2021-06-15,2023-05-05,1839832.66,9.9,Construtora F Ltda,LIC-2022-10005,501.1,1105
+7,Drenagem pluvial,Derby,CTTU,Paralisada,2021-05-17,2023-01-03,3660754.18,11.5,Construtora G Ltda,LIC-2023-10006,2148.8,1227
+8,Ponte/viaduto,Boa Vista,Secretaria de Educação,Licitação,2021-06-05,2023-01-16,244075.92,26.7,Construtora H Ltda,LIC-2024-10007,1766.6,1214
+9,Reforma de UBS,Madalena,SEINFRA,Licitação,2021-06-20,2023-02-08,390376.6,3.7,Construtora I Ltda,LIC-2021-10008,397.3,1191
+10,Ciclovia,Boa Viagem,Secretaria de Saúde,Licitação,2021-12-10,2023-10-22,1458747.88,15.4,Construtora J Ltda,LIC-2022-10009,1841.8,935
+11,Construção de escola,Torre,Secretaria de Saúde,Em andamento,2021-10-04,2023-05-22,1130128.49,22.7,Construtora K Ltda,LIC-2023-10010,4592.4,1088
+12,Calçamento,Monteiro,Secretaria de Saúde,Licitação,2021-08-03,2022-04-20,2038139.07,11.1,Construtora L Ltda,LIC-2024-10011,4333.5,1485
+13,Construção de escola,Santo Amaro,SEINFRA,Paralisada,2021-05-23,2022-10-20,3429479.14,15.2,Construtora M Ltda,LIC-2021-10012,963.5,1302
+14,Reforma de UBS,Pina,SEINFRA,Em andamento,2021-04-22,2022-03-16,2450565.52,46.5,Construtora N Ltda,LIC-2022-10013,813.8,1520
+15,Ponte/viaduto,Boa Vista,SEINFRA,Paralisada,2021-09-12,2023-08-27,4767834.73,27.6,Construtora O Ltda,LIC-2023-10014,2337.6,991
+16,Iluminação pública,Cordeiro,Secretaria de Saúde,Licitação,2021-11-26,2023-09-19,2020444.67,15.8,Construtora P Ltda,LIC-2024-10015,405.0,968
+17,Drenagem pluvial,Boa Viagem,CTTU,Concluída,2021-02-07,2022-08-02,594145.11,92.0,Construtora Q Ltda,LIC-2021-10016,841.2,0
+18,Praça pública,Santo Amaro,Secretaria de Educação,Em andamento,2021-02-12,2023-01-31,398062.1,16.4,Construtora R Ltda,LIC-2022-10017,4781.8,1199
+19,Iluminação pública,Madalena,Secretaria de Saúde,Em andamento,2021-10-12,2023-05-10,620999.9,38.6,Construtora S Ltda,LIC-2023-10018,1628.1,1100
+20,Ponte/viaduto,Boa Viagem,EMLURB,Paralisada,2021-03-04,2022-05-18,2419178.62,27.7,Construtora T Ltda,LIC-2024-10019,4759.8,1457
+21,Drenagem pluvial,Encruzilhada,Secretaria de Educação,Em andamento,2021-09-12,2022-05-10,3802807.65,23.5,Construtora A Ltda,LIC-2021-10020,2640.1,1465
+22,Construção de escola,Casa Forte,EMLURB,Paralisada,2021-03-12,2022-01-24,3200387.53,24.5,Construtora B Ltda,LIC-2022-10021,4109.8,1571
+23,Pavimentação,Boa Viagem,Secretaria de Educação,Concluída,2021-12-26,2022-11-13,2612311.69,87.1,Construtora C Ltda,LIC-2023-10022,2414.0,0
+24,Ciclovia,Imbiribeira,SEINFRA,Paralisada,2021-04-23,2023-04-02,2263777.0,37.5,Construtora D Ltda,LIC-2024-10023,1180.3,1138
+25,Esgotamento sanitário,Monteiro,SEINFRA,Paralisada,2021-04-16,2022-02-01,1061648.15,25.0,Construtora E Ltda,LIC-2021-10024,2449.4,1563
+26,Construção de escola,Madalena,EMLURB,Em andamento,2021-11-12,2022-05-07,4553396.83,61.8,Construtora F Ltda,LIC-2022-10025,2226.2,1468
+27,Drenagem pluvial,Encruzilhada,EMLURB,Licitação,2021-11-11,2022-05-08,2342644.67,29.7,Construtora G Ltda,LIC-2023-10026,933.0,1467
+28,Esgotamento sanitário,Madalena,Secretaria de Educação,Licitação,2021-03-01,2021-10-31,4042184.81,5.8,Construtora H Ltda,LIC-2024-10027,864.0,1656
+29,Drenagem pluvial,Recife Antigo,EMLURB,Em andamento,2021-09-05,2021-12-25,4006817.21,57.4,Construtora I Ltda,LIC-2021-10028,2225.7,1601
+30,Construção de escola,Casa Forte,CTTU,Em andamento,2021-04-27,2022-02-27,1296582.32,23.1,Construtora J Ltda,LIC-2022-10029,1697.3,1537
+31,Iluminação pública,Cordeiro,CTTU,Em andamento,2021-09-14,2022-04-26,4554584.43,27.9,Construtora K Ltda,LIC-2023-10030,4093.7,1479
+32,Pavimentação,Monteiro,Secretaria de Saúde,Concluída,2021-09-14,2023-05-10,2682533.56,90.5,Construtora L Ltda,LIC-2024-10031,3904.9,0
+33,Drenagem pluvial,Recife Antigo,SEINFRA,Concluída,2021-10-01,2022-06-01,750716.91,92.4,Construtora M Ltda,LIC-2021-10032,1697.3,0
+34,Ponte/viaduto,Boa Viagem,EMLURB,Licitação,2021-09-17,2023-07-07,3932148.75,4.2,Construtora N Ltda,LIC-2022-10033,1037.4,1042
+35,Drenagem pluvial,Madalena,Secretaria de Educação,Licitação,2021-01-25,2021-08-03,2830560.46,30.4,Construtora O Ltda,LIC-2023-10034,3101.4,1745
+36,Ponte/viaduto,Casa Forte,Secretaria de Saúde,Concluída,2021-09-20,2023-05-27,3479018.46,89.0,Construtora P Ltda,LIC-2024-10035,2588.0,0
+37,Construção de escola,Monteiro,Secretaria de Saúde,Paralisada,2021-04-23,2023-01-08,4617781.86,35.7,Construtora Q Ltda,LIC-2021-10036,772.0,1222
+38,Drenagem pluvial,Afogados,Secretaria de Educação,Paralisada,2021-02-13,2022-08-09,409103.19,9.6,Construtora R Ltda,LIC-2022-10037,3941.3,1374
+39,Iluminação pública,Afogados,SEINFRA,Concluída,2021-03-23,2022-06-30,1302883.8,82.7,Construtora S Ltda,LIC-2023-10038,2051.5,0
+40,Praça pública,Imbiribeira,Secretaria de Saúde,Concluída,2021-08-06,2022-06-21,3546301.58,99.9,Construtora T Ltda,LIC-2024-10039,1059.1,0
+41,Pavimentação,Torre,Secretaria de Educação,Em andamento,2021-06-03,2022-09-10,1722999.45,36.2,Construtora A Ltda,LIC-2021-10040,2635.4,1342
+42,Drenagem pluvial,Derby,Secretaria de Educação,Em andamento,2021-05-17,2021-10-19,4926162.06,62.3,Construtora B Ltda,LIC-2022-10041,1432.4,1668
+43,Reforma de UBS,Torre,EMLURB,Licitação,2021-03-09,2021-10-17,4255459.74,27.0,Construtora C Ltda,LIC-2023-10042,2729.3,1670
+44,Calçamento,Torre,SEINFRA,Paralisada,2021-09-19,2023-05-08,492837.93,2.3,Construtora D Ltda,LIC-2024-10043,1417.7,1102
+45,Drenagem pluvial,Pina,SEINFRA,Paralisada,2021-01-21,2021-07-20,464525.5,34.2,Construtora E Ltda,LIC-2021-10044,2323.5,1759
+46,Construção de escola,Derby,EMLURB,Paralisada,2021-06-18,2022-11-17,3127432.1,1.7,Construtora F Ltda,LIC-2022-10045,1383.3,1274
+47,Iluminação pública,Recife Antigo,EMLURB,Paralisada,2021-03-07,2022-04-20,2678874.91,8.2,Construtora G Ltda,LIC-2023-10046,1425.6,1485
+48,Construção de escola,Recife Antigo,Secretaria de Saúde,Em andamento,2021-01-09,2021-05-16,141247.79,39.9,Construtora H Ltda,LIC-2024-10047,1303.8,1824
+49,Ponte/viaduto,Pina,EMLURB,Licitação,2021-08-04,2023-01-18,2752235.95,35.5,Construtora I Ltda,LIC-2021-10048,4914.0,1212
+50,Calçamento,Boa Viagem,SEINFRA,Licitação,2021-06-07,2022-01-26,4947718.43,39.3,Construtora J Ltda,LIC-2022-10049,3164.7,1569
+51,Ponte/viaduto,Cordeiro,Secretaria de Educação,Em andamento,2021-05-14,2022-01-26,468200.12,66.5,Construtora K Ltda,LIC-2023-10050,3034.0,1569
+52,Pavimentação,Pina,Secretaria de Educação,Licitação,2021-12-10,2022-04-25,967492.54,10.8,Construtora L Ltda,LIC-2024-10051,4812.8,1480
+53,Ciclovia,Santo Amaro,SEINFRA,Em andamento,2021-09-11,2022-08-17,4830050.51,24.5,Construtora M Ltda,LIC-2021-10052,1743.1,1366
+54,Drenagem pluvial,Pina,SEINFRA,Concluída,2021-02-16,2022-02-26,1278488.0,95.5,Construtora N Ltda,LIC-2022-10053,804.9,0
+55,Drenagem pluvial,Boa Vista,CTTU,Em andamento,2021-10-02,2023-02-07,1533247.99,49.7,Construtora O Ltda,LIC-2023-10054,4280.9,1192
+56,Iluminação pública,Santo Amaro,Secretaria de Educação,Licitação,2021-03-22,2023-02-20,3833341.16,28.8,Construtora P Ltda,LIC-2024-10055,3648.4,1179
+57,Calçamento,Apipucos,CTTU,Licitação,2021-11-05,2022-03-19,3682568.01,32.5,Construtora Q Ltda,LIC-2021-10056,3789.0,1517
+58,Ciclovia,Derby,Secretaria de Saúde,Concluída,2021-10-27,2022-02-10,471203.93,80.8,Construtora R Ltda,LIC-2022-10057,4195.5,0
+59,Drenagem pluvial,Encruzilhada,CTTU,Concluída,2021-09-02,2021-12-20,2472006.86,80.1,Construtora S Ltda,LIC-2023-10058,4499.5,0
+60,Drenagem pluvial,Monteiro,Secretaria de Educação,Em andamento,2021-02-22,2022-11-12,3741353.15,37.4,Construtora T Ltda,LIC-2024-10059,1250.4,1279
+61,Reforma de UBS,Casa Forte,SEINFRA,Licitação,2021-04-08,2022-10-21,4235379.69,3.1,Construtora A Ltda,LIC-2021-10060,3123.2,1301
+62,Reforma de UBS,Boa Vista,CTTU,Concluída,2021-11-07,2022-04-25,1692276.05,93.0,Construtora B Ltda,LIC-2022-10061,753.9,0
+63,Construção de escola,Cordeiro,Secretaria de Saúde,Paralisada,2021-08-02,2023-03-12,4863919.6,4.0,Construtora C Ltda,LIC-2023-10062,1525.2,1159
+64,Ponte/viaduto,Afogados,Secretaria de Educação,Licitação,2021-09-10,2023-03-29,2358378.81,4.7,Construtora D Ltda,LIC-2024-10063,4892.8,1142
+65,Iluminação pública,Pina,Secretaria de Saúde,Licitação,2021-08-01,2022-08-22,428498.0,20.3,Construtora E Ltda,LIC-2021-10064,1128.2,1361
+66,Ciclovia,Santo Amaro,CTTU,Em andamento,2021-04-03,2023-02-17,751616.36,41.4,Construtora F Ltda,LIC-2022-10065,4119.1,1182
+67,Iluminação pública,Torre,SEINFRA,Paralisada,2021-09-09,2022-04-02,1195348.84,35.9,Construtora G Ltda,LIC-2023-10066,879.4,1503
+68,Ciclovia,Torre,Secretaria de Educação,Licitação,2021-08-22,2023-02-24,1544657.65,5.6,Construtora H Ltda,LIC-2024-10067,692.5,1175
+69,Construção de escola,Encruzilhada,SEINFRA,Paralisada,2021-06-01,2022-07-28,4203598.43,4.8,Construtora I Ltda,LIC-2021-10068,4517.7,1386
+70,Esgotamento sanitário,Derby,Secretaria de Educação,Em andamento,2021-05-09,2022-08-23,1994851.94,78.9,Construtora J Ltda,LIC-2022-10069,4634.5,1360
+71,Reforma de UBS,Cordeiro,EMLURB,Paralisada,2021-05-28,2021-10-14,553463.8,33.4,Construtora K Ltda,LIC-2023-10070,1321.7,1673
+72,Praça pública,Apipucos,SEINFRA,Paralisada,2021-05-14,2023-01-17,989752.78,14.9,Construtora L Ltda,LIC-2024-10071,4078.6,1213
+73,Praça pública,Madalena,CTTU,Concluída,2021-11-13,2023-09-01,3611884.28,81.0,Construtora M Ltda,LIC-2021-10072,3788.1,0
+74,Calçamento,Santo Amaro,Secretaria de Saúde,Licitação,2021-11-28,2022-12-16,292435.68,37.1,Construtora N Ltda,LIC-2022-10073,2132.8,1245
+75,Iluminação pública,Recife Antigo,Secretaria de Saúde,Paralisada,2021-05-10,2022-04-26,2060735.86,9.5,Construtora O Ltda,LIC-2023-10074,686.7,1479
+76,Ponte/viaduto,Afogados,Secretaria de Saúde,Concluída,2021-11-06,2022-04-21,2527993.72,96.2,Construtora P Ltda,LIC-2024-10075,4540.7,0
+77,Ponte/viaduto,Derby,Secretaria de Educação,Concluída,2021-08-14,2022-04-03,1258223.88,83.5,Construtora Q Ltda,LIC-2021-10076,1271.7,0
+78,Praça pública,Torre,Secretaria de Saúde,Concluída,2021-05-26,2023-03-30,4441894.72,95.0,Construtora R Ltda,LIC-2022-10077,3754.6,0
+79,Esgotamento sanitário,Imbiribeira,EMLURB,Paralisada,2021-04-13,2022-04-14,3772949.47,19.9,Construtora S Ltda,LIC-2023-10078,3465.1,1491
+80,Praça pública,Cordeiro,Secretaria de Saúde,Em andamento,2021-09-21,2022-07-29,1391553.36,19.6,Construtora T Ltda,LIC-2024-10079,2216.0,1385
+81,Iluminação pública,Boa Vista,Secretaria de Saúde,Concluída,2021-05-28,2021-09-17,209605.29,94.2,Construtora A Ltda,LIC-2021-10080,100.9,0
+82,Drenagem pluvial,Afogados,EMLURB,Licitação,2021-07-27,2023-04-18,4862593.55,9.9,Construtora B Ltda,LIC-2022-10081,845.1,1122
+83,Calçamento,Afogados,CTTU,Em andamento,2021-11-04,2023-05-16,2779929.53,3.1,Construtora C Ltda,LIC-2023-10082,4607.6,1094
+84,Praça pública,Encruzilhada,SEINFRA,Concluída,2021-11-23,2022-12-29,3151040.04,90.6,Construtora D Ltda,LIC-2024-10083,587.3,0
+85,Esgotamento sanitário,Boa Viagem,SEINFRA,Concluída,2021-05-17,2023-04-03,1971005.64,84.5,Construtora E Ltda,LIC-2021-10084,2733.6,0
+86,Construção de escola,Boa Viagem,Secretaria de Saúde,Concluída,2021-08-09,2022-09-26,2402755.89,84.7,Construtora F Ltda,LIC-2022-10085,3552.8,0
+87,Praça pública,Derby,Secretaria de Educação,Concluída,2021-05-02,2021-08-22,2516635.71,93.5,Construtora G Ltda,LIC-2023-10086,1216.4,0
+88,Praça pública,Imbiribeira,Secretaria de Saúde,Licitação,2021-07-12,2022-05-30,218782.25,13.5,Construtora H Ltda,LIC-2024-10087,1070.6,1445
+89,Reforma de UBS,Casa Forte,EMLURB,Em andamento,2021-05-24,2023-01-20,1065832.01,76.6,Construtora I Ltda,LIC-2021-10088,1231.0,1210
+90,Calçamento,Apipucos,EMLURB,Em andamento,2021-04-09,2022-05-06,4762038.08,39.2,Construtora J Ltda,LIC-2022-10089,2476.8,1469
+91,Pavimentação,Boa Vista,EMLURB,Concluída,2021-11-02,2023-10-02,4613521.54,81.1,Construtora K Ltda,LIC-2023-10090,2135.4,0
+92,Ciclovia,Encruzilhada,SEINFRA,Licitação,2021-12-02,2022-09-06,2275727.72,28.5,Construtora L Ltda,LIC-2024-10091,4987.9,1346
+93,Iluminação pública,Boa Viagem,Secretaria de Educação,Concluída,2021-03-11,2021-12-21,3279717.83,90.5,Construtora M Ltda,LIC-2021-10092,3355.7,0
+94,Drenagem pluvial,Pina,SEINFRA,Paralisada,2021-07-27,2022-11-11,2240053.98,4.4,Construtora N Ltda,LIC-2022-10093,1822.2,1280
+95,Praça pública,Derby,SEINFRA,Licitação,2021-02-18,2021-12-17,1815314.64,32.9,Construtora O Ltda,LIC-2023-10094,3555.8,1609
+96,Iluminação pública,Boa Viagem,Secretaria de Saúde,Licitação,2021-04-12,2023-01-16,1005479.63,14.6,Construtora P Ltda,LIC-2024-10095,1315.3,1214
+97,Pavimentação,Pina,EMLURB,Em andamento,2021-11-25,2023-04-13,1909059.92,36.7,Construtora Q Ltda,LIC-2021-10096,3761.7,1127
+98,Pavimentação,Pina,Secretaria de Educação,Paralisada,2021-10-11,2023-01-15,1708106.02,38.2,Construtora R Ltda,LIC-2022-10097,4628.7,1215
+99,Iluminação pública,Encruzilhada,Secretaria de Saúde,Em andamento,2021-05-01,2023-03-31,170070.69,18.5,Construtora S Ltda,LIC-2023-10098,4774.2,1140
+100,Iluminação pública,Santo Amaro,SEINFRA,Licitação,2021-07-26,2022-07-08,4083261.24,5.3,Construtora T Ltda,LIC-2024-10099,4032.6,1406
+101,Ciclovia,Casa Forte,CTTU,Concluída,2021-12-10,2022-08-11,1672609.06,86.4,Construtora A Ltda,LIC-2021-10100,487.2,0
+102,Iluminação pública,Recife Antigo,CTTU,Concluída,2021-04-13,2021-12-22,2068396.0,93.0,Construtora B Ltda,LIC-2022-10101,1696.2,0
+103,Praça pública,Madalena,Secretaria de Saúde,Paralisada,2021-07-04,2021-12-14,3141777.79,8.3,Construtora C Ltda,LIC-2023-10102,948.6,1612
+104,Drenagem pluvial,Casa Forte,Secretaria de Educação,Concluída,2021-03-14,2022-09-26,3752486.37,96.9,Construtora D Ltda,LIC-2024-10103,1539.5,0
+105,Construção de escola,Santo Amaro,EMLURB,Paralisada,2021-10-09,2023-01-23,3703433.77,8.0,Construtora E Ltda,LIC-2021-10104,1254.0,1207
+106,Construção de escola,Recife Antigo,CTTU,Paralisada,2021-05-19,2022-02-25,370780.27,10.1,Construtora F Ltda,LIC-2022-10105,1233.8,1539
+107,Construção de escola,Monteiro,Secretaria de Saúde,Em andamento,2021-02-21,2022-09-09,556545.48,37.5,Construtora G Ltda,LIC-2023-10106,4580.4,1343
+108,Esgotamento sanitário,Afogados,SEINFRA,Em andamento,2021-01-10,2021-12-04,299436.25,47.4,Construtora H Ltda,LIC-2024-10107,1924.0,1622
+109,Pavimentação,Derby,CTTU,Paralisada,2021-03-15,2023-02-20,3886241.13,26.6,Construtora I Ltda,LIC-2021-10108,3577.6,1179
+110,Reforma de UBS,Boa Viagem,CTTU,Paralisada,2021-06-07,2021-10-13,1733081.97,1.8,Construtora J Ltda,LIC-2022-10109,3687.9,1674
+111,Esgotamento sanitário,Pina,SEINFRA,Paralisada,2021-04-27,2021-08-06,2074524.73,14.9,Construtora K Ltda,LIC-2023-10110,1096.7,1742
+112,Ponte/viaduto,Santo Amaro,CTTU,Em andamento,2021-08-18,2023-03-26,2070441.72,62.9,Construtora L Ltda,LIC-2024-10111,546.6,1145
+113,Praça pública,Boa Viagem,Secretaria de Educação,Licitação,2021-03-13,2022-03-15,4941781.76,26.7,Construtora M Ltda,LIC-2021-10112,3752.2,1521
+114,Ciclovia,Cordeiro,EMLURB,Em andamento,2021-06-14,2022-11-12,4328019.55,78.7,Construtora N Ltda,LIC-2022-10113,2014.6,1279
+115,Drenagem pluvial,Torre,CTTU,Licitação,2021-07-07,2021-10-11,4513071.38,17.0,Construtora O Ltda,LIC-2023-10114,4425.9,1676
+116,Praça pública,Derby,CTTU,Concluída,2021-08-25,2022-05-08,123430.15,91.0,Construtora P Ltda,LIC-2024-10115,3148.8,0
+117,Ponte/viaduto,Santo Amaro,SEINFRA,Concluída,2021-06-24,2023-02-20,772139.79,85.7,Construtora Q Ltda,LIC-2021-10116,633.1,0
+118,Iluminação pública,Imbiribeira,SEINFRA,Paralisada,2021-08-25,2022-06-13,676919.25,37.7,Construtora R Ltda,LIC-2022-10117,3077.5,1431
+119,Esgotamento sanitário,Torre,CTTU,Concluída,2021-11-13,2022-05-10,3219605.91,97.1,Construtora S Ltda,LIC-2023-10118,4247.1,0
+120,Calçamento,Torre,Secretaria de Educação,Concluída,2021-08-06,2023-06-05,256477.26,98.8,Construtora T Ltda,LIC-2024-10119,703.0,0
+121,Pavimentação,Cordeiro,Secretaria de Educação,Em andamento,2021-04-24,2022-02-05,4425119.45,66.6,Construtora A Ltda,LIC-2021-10120,676.9,1559
+122,Construção de escola,Torre,Secretaria de Saúde,Paralisada,2021-10-15,2023-07-30,3262687.89,12.3,Construtora B Ltda,LIC-2022-10121,3328.3,1019
+123,Iluminação pública,Madalena,EMLURB,Concluída,2021-08-17,2023-02-06,165707.64,92.4,Construtora C Ltda,LIC-2023-10122,2289.4,0
+124,Drenagem pluvial,Santo Amaro,Secretaria de Educação,Concluída,2021-10-25,2023-05-07,4062120.31,88.0,Construtora D Ltda,LIC-2024-10123,2209.9,0
+125,Ciclovia,Casa Forte,CTTU,Em andamento,2021-02-26,2022-08-22,251225.58,10.3,Construtora E Ltda,LIC-2021-10124,491.8,1361
+126,Drenagem pluvial,Afogados,EMLURB,Em andamento,2021-09-13,2022-04-30,4292497.05,78.7,Construtora F Ltda,LIC-2022-10125,4910.5,1475
+127,Reforma de UBS,Santo Amaro,Secretaria de Educação,Concluída,2021-08-10,2022-04-26,374305.24,87.0,Construtora G Ltda,LIC-2023-10126,4493.0,0
+128,Iluminação pública,Afogados,CTTU,Concluída,2021-05-27,2022-12-05,1308098.92,99.3,Construtora H Ltda,LIC-2024-10127,1388.1,0
+129,Calçamento,Cordeiro,Secretaria de Educação,Paralisada,2021-09-08,2022-10-29,232323.63,7.3,Construtora I Ltda,LIC-2021-10128,3430.4,1293
+130,Ciclovia,Monteiro,Secretaria de Saúde,Em andamento,2021-07-06,2022-07-01,3852915.35,3.8,Construtora J Ltda,LIC-2022-10129,2820.4,1413
+131,Praça pública,Encruzilhada,Secretaria de Educação,Paralisada,2021-10-23,2022-05-08,4965125.31,25.2,Construtora K Ltda,LIC-2023-10130,1397.3,1467
+132,Construção de escola,Santo Amaro,CTTU,Paralisada,2021-06-19,2022-02-13,1687602.81,3.3,Construtora L Ltda,LIC-2024-10131,3743.6,1551
+133,Esgotamento sanitário,Apipucos,Secretaria de Educação,Paralisada,2021-01-10,2022-09-20,1584858.59,38.6,Construtora M Ltda,LIC-2021-10132,3691.9,1332
+134,Praça pública,Recife Antigo,Secretaria de Educação,Concluída,2021-12-02,2022-10-14,1490309.51,92.5,Construtora N Ltda,LIC-2022-10133,4488.2,0
+135,Ciclovia,Pina,SEINFRA,Em andamento,2021-03-16,2022-02-01,160333.14,0.2,Construtora O Ltda,LIC-2023-10134,2663.1,1563
+136,Esgotamento sanitário,Monteiro,Secretaria de Saúde,Paralisada,2021-09-08,2023-02-03,2966003.46,8.2,Construtora P Ltda,LIC-2024-10135,877.3,1196
+137,Calçamento,Monteiro,Secretaria de Educação,Concluída,2021-01-26,2021-12-31,2281722.86,81.3,Construtora Q Ltda,LIC-2021-10136,2069.6,0
+138,Esgotamento sanitário,Apipucos,CTTU,Paralisada,2021-05-01,2021-09-25,2993885.11,23.1,Construtora R Ltda,LIC-2022-10137,3694.3,1692
+139,Calçamento,Afogados,EMLURB,Em andamento,2021-04-06,2021-07-05,354566.15,2.0,Construtora S Ltda,LIC-2023-10138,386.1,1774
+140,Esgotamento sanitário,Cordeiro,CTTU,Concluída,2021-02-01,2023-01-19,754219.4,84.0,Construtora T Ltda,LIC-2024-10139,3273.2,0
+141,Pavimentação,Apipucos,Secretaria de Saúde,Concluída,2021-07-27,2023-07-14,2567451.28,81.3,Construtora A Ltda,LIC-2021-10140,3605.5,0
+142,Calçamento,Afogados,SEINFRA,Licitação,2021-01-13,2022-07-04,448368.84,26.2,Construtora B Ltda,LIC-2022-10141,1381.0,1410
+143,Reforma de UBS,Encruzilhada,SEINFRA,Paralisada,2021-11-02,2022-06-06,4461805.95,37.0,Construtora C Ltda,LIC-2023-10142,1403.3,1438
+144,Construção de escola,Derby,CTTU,Paralisada,2021-09-22,2023-03-12,1513304.1,37.1,Construtora D Ltda,LIC-2024-10143,174.6,1159
+145,Praça pública,Imbiribeira,CTTU,Concluída,2021-05-08,2022-03-01,3743449.18,86.5,Construtora E Ltda,LIC-2021-10144,1271.9,0
+146,Pavimentação,Monteiro,SEINFRA,Licitação,2021-11-23,2023-08-24,2387095.57,21.2,Construtora F Ltda,LIC-2022-10145,2242.3,994
+147,Esgotamento sanitário,Derby,CTTU,Paralisada,2021-12-08,2023-10-13,3956551.85,15.7,Construtora G Ltda,LIC-2023-10146,4562.9,944
+148,Ciclovia,Santo Amaro,SEINFRA,Em andamento,2021-03-02,2021-06-27,578057.97,73.4,Construtora H Ltda,LIC-2024-10147,251.3,1782
+149,Esgotamento sanitário,Casa Forte,Secretaria de Educação,Em andamento,2021-03-23,2021-08-03,3697087.05,5.2,Construtora I Ltda,LIC-2021-10148,1076.6,1745
+150,Drenagem pluvial,Boa Viagem,SEINFRA,Licitação,2021-09-22,2022-02-26,580223.65,8.2,Construtora J Ltda,LIC-2022-10149,4751.3,1538
+151,Construção de escola,Pina,Secretaria de Educação,Licitação,2021-11-03,2022-11-22,544391.6,3.9,Construtora K Ltda,LIC-2023-10150,1748.9,1269
+152,Ciclovia,Apipucos,Secretaria de Educação,Paralisada,2021-05-01,2022-07-24,4653982.37,1.9,Construtora L Ltda,LIC-2024-10151,3869.3,1390
+153,Praça pública,Boa Viagem,Secretaria de Saúde,Paralisada,2021-10-17,2023-05-17,3110465.49,1.2,Construtora M Ltda,LIC-2021-10152,2641.2,1093
+154,Drenagem pluvial,Boa Vista,Secretaria de Educação,Em andamento,2021-02-12,2022-09-05,2712508.69,17.1,Construtora N Ltda,LIC-2022-10153,934.8,1347
+155,Pavimentação,Imbiribeira,Secretaria de Saúde,Paralisada,2021-01-17,2021-11-09,3822796.05,39.1,Construtora O Ltda,LIC-2023-10154,568.9,1647
+156,Ponte/viaduto,Pina,CTTU,Licitação,2021-12-26,2022-09-30,2983146.46,38.3,Construtora P Ltda,LIC-2024-10155,4725.0,1322
+157,Drenagem pluvial,Madalena,CTTU,Concluída,2021-05-27,2022-04-01,2516662.24,82.2,Construtora Q Ltda,LIC-2021-10156,3956.0,0
+158,Drenagem pluvial,Torre,SEINFRA,Em andamento,2021-11-11,2023-02-08,2036289.31,31.2,Construtora R Ltda,LIC-2022-10157,1922.6,1191
+159,Construção de escola,Madalena,EMLURB,Concluída,2021-05-09,2022-10-19,1927560.48,97.7,Construtora S Ltda,LIC-2023-10158,2704.6,0
+160,Calçamento,Monteiro,Secretaria de Saúde,Em andamento,2021-12-25,2023-12-04,1775002.95,25.8,Construtora T Ltda,LIC-2024-10159,3344.3,892
+161,Esgotamento sanitário,Afogados,EMLURB,Licitação,2021-12-11,2022-08-31,2222050.25,30.9,Construtora A Ltda,LIC-2021-10160,1736.9,1352
+162,Esgotamento sanitário,Santo Amaro,EMLURB,Concluída,2021-11-23,2022-10-22,1374039.77,95.1,Construtora B Ltda,LIC-2022-10161,4876.4,0
+163,Construção de escola,Pina,SEINFRA,Paralisada,2021-12-11,2023-11-18,846575.55,13.1,Construtora C Ltda,LIC-2023-10162,906.5,908
+164,Reforma de UBS,Encruzilhada,Secretaria de Educação,Licitação,2021-11-04,2022-08-21,797252.47,5.9,Construtora D Ltda,LIC-2024-10163,2231.1,1362
+165,Pavimentação,Boa Viagem,Secretaria de Saúde,Paralisada,2021-04-04,2021-10-20,1071897.62,15.5,Construtora E Ltda,LIC-2021-10164,4286.2,1667
+166,Esgotamento sanitário,Encruzilhada,Secretaria de Saúde,Paralisada,2021-07-23,2022-06-05,2343232.27,5.7,Construtora F Ltda,LIC-2022-10165,127.0,1439
+167,Esgotamento sanitário,Monteiro,EMLURB,Licitação,2021-04-28,2022-10-10,4237668.07,26.7,Construtora G Ltda,LIC-2023-10166,3430.0,1312
+168,Drenagem pluvial,Apipucos,Secretaria de Saúde,Licitação,2021-11-04,2023-05-12,1599420.68,25.1,Construtora H Ltda,LIC-2024-10167,1287.7,1098
+169,Pavimentação,Boa Vista,Secretaria de Saúde,Paralisada,2021-07-23,2022-03-30,4254735.21,19.3,Construtora I Ltda,LIC-2021-10168,2639.4,1506
+170,Iluminação pública,Apipucos,SEINFRA,Paralisada,2021-11-28,2022-09-01,3901988.14,15.5,Construtora J Ltda,LIC-2022-10169,286.9,1351
+171,Esgotamento sanitário,Madalena,CTTU,Concluída,2021-09-07,2022-05-19,2620138.88,82.0,Construtora K Ltda,LIC-2023-10170,1104.4,0
+172,Iluminação pública,Afogados,EMLURB,Paralisada,2021-08-17,2021-12-01,2632356.94,16.4,Construtora L Ltda,LIC-2024-10171,2023.2,1625
+173,Praça pública,Torre,SEINFRA,Paralisada,2021-02-24,2023-02-12,3205965.61,10.1,Construtora M Ltda,LIC-2021-10172,165.2,1187
+174,Praça pública,Recife Antigo,EMLURB,Paralisada,2021-07-14,2022-10-07,590829.45,12.1,Construtora N Ltda,LIC-2022-10173,4971.7,1315
+175,Construção de escola,Madalena,CTTU,Concluída,2021-07-15,2022-05-18,690030.97,95.5,Construtora O Ltda,LIC-2023-10174,3631.5,0
+176,Calçamento,Casa Forte,Secretaria de Saúde,Licitação,2021-03-12,2022-08-07,4980886.72,30.4,Construtora P Ltda,LIC-2024-10175,1838.3,1376
+177,Iluminação pública,Boa Viagem,Secretaria de Educação,Paralisada,2021-04-09,2022-07-28,4915310.76,27.2,Construtora Q Ltda,LIC-2021-10176,1854.1,1386
+178,Drenagem pluvial,Cordeiro,Secretaria de Educação,Licitação,2021-11-10,2023-01-02,2450350.08,24.9,Construtora R Ltda,LIC-2022-10177,848.5,1228
+179,Ciclovia,Casa Forte,EMLURB,Em andamento,2021-05-28,2022-09-24,472135.67,44.6,Construtora S Ltda,LIC-2023-10178,2700.2,1328
+180,Drenagem pluvial,Cordeiro,Secretaria de Educação,Em andamento,2021-06-21,2023-05-08,3303650.95,16.6,Construtora T Ltda,LIC-2024-10179,1325.1,1102
+181,Calçamento,Afogados,Secretaria de Saúde,Concluída,2021-02-19,2021-10-13,969034.2,89.0,Construtora A Ltda,LIC-2021-10180,3979.2,0
+182,Reforma de UBS,Afogados,Secretaria de Saúde,Em andamento,2021-03-20,2023-03-02,3358866.73,70.6,Construtora B Ltda,LIC-2022-10181,3494.7,1169
+183,Construção de escola,Monteiro,EMLURB,Em andamento,2021-09-03,2023-02-24,2797565.77,20.9,Construtora C Ltda,LIC-2023-10182,2418.9,1175
+184,Construção de escola,Madalena,EMLURB,Licitação,2021-09-02,2023-04-10,4532043.53,28.0,Construtora D Ltda,LIC-2024-10183,2743.8,1130
+185,Reforma de UBS,Monteiro,Secretaria de Saúde,Paralisada,2021-12-01,2022-08-12,2366404.02,22.5,Construtora E Ltda,LIC-2021-10184,1937.3,1371
+186,Pavimentação,Boa Viagem,CTTU,Concluída,2021-07-22,2022-01-05,3203352.53,92.7,Construtora F Ltda,LIC-2022-10185,324.8,0
+187,Pavimentação,Afogados,Secretaria de Saúde,Licitação,2021-12-11,2022-06-15,2449144.0,35.9,Construtora G Ltda,LIC-2023-10186,3163.9,1429
+188,Construção de escola,Pina,Secretaria de Saúde,Paralisada,2021-06-04,2022-09-11,2398940.96,21.0,Construtora H Ltda,LIC-2024-10187,1775.6,1341
+189,Praça pública,Imbiribeira,CTTU,Paralisada,2021-05-18,2021-10-08,1499769.98,33.1,Construtora I Ltda,LIC-2021-10188,4923.0,1679
+190,Ciclovia,Encruzilhada,Secretaria de Educação,Licitação,2021-09-12,2022-07-07,3970158.12,13.2,Construtora J Ltda,LIC-2022-10189,725.1,1407
+191,Ponte/viaduto,Boa Vista,SEINFRA,Licitação,2021-11-03,2022-03-14,3627248.85,35.4,Construtora K Ltda,LIC-2023-10190,2052.6,1522
+192,Pavimentação,Casa Forte,CTTU,Concluída,2021-02-01,2021-06-18,4118708.06,89.5,Construtora L Ltda,LIC-2024-10191,4558.1,0
+193,Esgotamento sanitário,Apipucos,SEINFRA,Concluída,2021-10-13,2023-10-04,3152730.62,93.9,Construtora M Ltda,LIC-2021-10192,1141.3,0
+194,Pavimentação,Torre,SEINFRA,Concluída,2021-11-21,2023-06-02,551740.07,83.6,Construtora N Ltda,LIC-2022-10193,4579.0,0
+195,Reforma de UBS,Monteiro,Secretaria de Educação,Concluída,2021-11-01,2023-02-11,3943373.24,91.2,Construtora O Ltda,LIC-2023-10194,1005.4,0
+196,Pavimentação,Madalena,CTTU,Licitação,2021-01-11,2021-05-01,2853346.69,23.1,Construtora P Ltda,LIC-2024-10195,2658.6,1839
+197,Praça pública,Boa Vista,CTTU,Licitação,2021-02-25,2022-07-31,2260034.87,0.6,Construtora Q Ltda,LIC-2021-10196,4966.3,1383
+198,Iluminação pública,Afogados,EMLURB,Licitação,2021-11-05,2023-06-04,2766586.15,3.3,Construtora R Ltda,LIC-2022-10197,3171.8,1075
+199,Construção de escola,Monteiro,SEINFRA,Em andamento,2021-07-01,2021-10-08,4933908.71,67.8,Construtora S Ltda,LIC-2023-10198,731.9,1679
+200,Pavimentação,Imbiribeira,EMLURB,Concluída,2021-01-09,2022-11-12,2281344.56,94.9,Construtora T Ltda,LIC-2024-10199,3675.6,0
+201,Reforma de UBS,Apipucos,SEINFRA,Licitação,2021-02-10,2022-12-02,2329869.62,37.3,Construtora A Ltda,LIC-2021-10200,3614.3,1259
+202,Esgotamento sanitário,Santo Amaro,Secretaria de Saúde,Em andamento,2021-01-02,2021-04-17,1975296.01,24.7,Construtora B Ltda,LIC-2022-10201,3083.8,1853
+203,Drenagem pluvial,Imbiribeira,EMLURB,Licitação,2021-06-12,2023-04-21,2375520.11,6.7,Construtora C Ltda,LIC-2023-10202,3185.6,1119
+204,Esgotamento sanitário,Imbiribeira,Secretaria de Educação,Licitação,2021-07-16,2022-11-12,4727363.62,31.4,Construtora D Ltda,LIC-2024-10203,1471.5,1279
+205,Pavimentação,Monteiro,EMLURB,Paralisada,2021-10-21,2023-09-25,4354313.15,29.0,Construtora E Ltda,LIC-2021-10204,3045.6,962
+206,Esgotamento sanitário,Casa Forte,EMLURB,Concluída,2021-05-19,2022-10-29,1914550.42,93.7,Construtora F Ltda,LIC-2022-10205,4056.7,0
+207,Esgotamento sanitário,Apipucos,SEINFRA,Paralisada,2021-05-23,2021-08-22,1352070.54,16.9,Construtora G Ltda,LIC-2023-10206,1513.8,1726
+208,Ponte/viaduto,Cordeiro,Secretaria de Saúde,Concluída,2021-03-26,2023-01-30,1405550.98,97.0,Construtora H Ltda,LIC-2024-10207,1799.6,0
+209,Construção de escola,Pina,CTTU,Licitação,2021-02-18,2022-12-06,3997073.47,8.0,Construtora I Ltda,LIC-2021-10208,382.0,1255
+210,Praça pública,Madalena,CTTU,Paralisada,2021-07-15,2022-05-12,2952622.28,0.4,Construtora J Ltda,LIC-2022-10209,529.7,1463
+211,Reforma de UBS,Apipucos,CTTU,Concluída,2021-06-25,2021-11-26,2021023.4,90.4,Construtora K Ltda,LIC-2023-10210,1672.9,0
+212,Reforma de UBS,Imbiribeira,CTTU,Concluída,2021-09-19,2022-07-12,1102833.56,81.8,Construtora L Ltda,LIC-2024-10211,2865.7,0
+213,Iluminação pública,Imbiribeira,SEINFRA,Concluída,2021-07-25,2023-04-05,1269208.96,98.5,Construtora M Ltda,LIC-2021-10212,1921.2,0
+214,Reforma de UBS,Recife Antigo,CTTU,Concluída,2021-08-26,2022-02-15,1613157.85,80.6,Construtora N Ltda,LIC-2022-10213,200.8,0
+215,Reforma de UBS,Torre,SEINFRA,Licitação,2021-01-07,2022-11-07,2954219.27,8.5,Construtora O Ltda,LIC-2023-10214,4737.8,1284
+216,Construção de escola,Santo Amaro,Secretaria de Saúde,Concluída,2021-10-27,2023-10-10,1307277.91,80.8,Construtora P Ltda,LIC-2024-10215,509.9,0
+217,Drenagem pluvial,Monteiro,CTTU,Paralisada,2021-01-02,2022-10-24,4359801.25,18.3,Construtora Q Ltda,LIC-2021-10216,3235.2,1298
+218,Drenagem pluvial,Apipucos,CTTU,Paralisada,2021-02-23,2021-08-24,1627617.39,9.3,Construtora R Ltda,LIC-2022-10217,2026.3,1724
+219,Construção de escola,Santo Amaro,SEINFRA,Paralisada,2021-08-28,2022-05-08,4830554.02,39.7,Construtora S Ltda,LIC-2023-10218,4714.4,1467
+220,Ponte/viaduto,Encruzilhada,Secretaria de Saúde,Em andamento,2021-06-02,2023-03-20,4194228.62,3.7,Construtora T Ltda,LIC-2024-10219,373.3,1151
+221,Esgotamento sanitário,Madalena,SEINFRA,Concluída,2021-03-11,2021-06-14,3400601.4,86.0,Construtora A Ltda,LIC-2021-10220,2406.6,0
+222,Iluminação pública,Afogados,EMLURB,Em andamento,2021-06-09,2022-10-11,1906166.59,30.0,Construtora B Ltda,LIC-2022-10221,4580.1,1311
+223,Drenagem pluvial,Apipucos,CTTU,Em andamento,2021-01-15,2021-10-31,826933.06,65.8,Construtora C Ltda,LIC-2023-10222,4347.1,1656
+224,Pavimentação,Cordeiro,SEINFRA,Em andamento,2021-12-05,2023-06-05,4633402.44,30.4,Construtora D Ltda,LIC-2024-10223,2316.4,1074
+225,Ciclovia,Afogados,SEINFRA,Licitação,2021-06-11,2022-05-06,622271.42,14.6,Construtora E Ltda,LIC-2021-10224,983.2,1469
+226,Praça pública,Afogados,EMLURB,Licitação,2021-08-18,2022-04-13,4360079.56,10.7,Construtora F Ltda,LIC-2022-10225,224.6,1492
+227,Drenagem pluvial,Imbiribeira,Secretaria de Saúde,Paralisada,2021-10-27,2022-11-24,4030514.92,10.4,Construtora G Ltda,LIC-2023-10226,4525.5,1267
+228,Construção de escola,Recife Antigo,Secretaria de Saúde,Em andamento,2021-02-05,2022-10-13,3173453.74,62.2,Construtora H Ltda,LIC-2024-10227,4192.9,1309
+229,Construção de escola,Apipucos,EMLURB,Paralisada,2021-02-09,2021-12-02,2188694.47,10.5,Construtora I Ltda,LIC-2021-10228,578.1,1624
+230,Calçamento,Cordeiro,SEINFRA,Em andamento,2021-05-14,2022-01-25,4169999.8,77.3,Construtora J Ltda,LIC-2022-10229,2266.3,1570
+231,Ponte/viaduto,Pina,EMLURB,Concluída,2021-09-11,2023-05-17,2242890.77,95.8,Construtora K Ltda,LIC-2023-10230,1864.5,0
+232,Calçamento,Recife Antigo,EMLURB,Paralisada,2021-01-14,2021-11-23,2878132.24,5.5,Construtora L Ltda,LIC-2024-10231,3586.9,1633
+233,Reforma de UBS,Santo Amaro,EMLURB,Em andamento,2021-04-20,2021-10-08,4452160.29,57.7,Construtora M Ltda,LIC-2021-10232,771.5,1679
+234,Ponte/viaduto,Torre,SEINFRA,Paralisada,2021-11-23,2022-09-05,1051339.66,2.6,Construtora N Ltda,LIC-2022-10233,2640.5,1347
+235,Iluminação pública,Santo Amaro,Secretaria de Educação,Licitação,2021-06-11,2022-06-24,497133.45,16.4,Construtora O Ltda,LIC-2023-10234,1316.9,1420
+236,Esgotamento sanitário,Monteiro,SEINFRA,Em andamento,2021-10-27,2023-02-04,859266.0,29.3,Construtora P Ltda,LIC-2024-10235,1845.2,1195
+237,Ciclovia,Casa Forte,Secretaria de Saúde,Em andamento,2021-08-17,2022-01-27,1815755.25,19.3,Construtora Q Ltda,LIC-2021-10236,2923.9,1568
+238,Ponte/viaduto,Santo Amaro,SEINFRA,Licitação,2021-01-10,2021-07-29,2259872.4,1.0,Construtora R Ltda,LIC-2022-10237,1293.3,1750
+239,Ponte/viaduto,Monteiro,SEINFRA,Concluída,2021-02-08,2023-02-01,881008.14,86.2,Construtora S Ltda,LIC-2023-10238,195.3,0
+240,Esgotamento sanitário,Madalena,CTTU,Paralisada,2021-12-24,2022-10-09,137552.38,24.0,Construtora T Ltda,LIC-2024-10239,1268.0,1313
+241,Drenagem pluvial,Madalena,Secretaria de Saúde,Em andamento,2021-08-04,2022-10-27,3599635.8,3.6,Construtora A Ltda,LIC-2021-10240,2970.9,1295
+242,Esgotamento sanitário,Afogados,EMLURB,Em andamento,2021-05-04,2021-12-04,2057970.06,10.8,Construtora B Ltda,LIC-2022-10241,821.4,1622
+243,Praça pública,Encruzilhada,Secretaria de Saúde,Concluída,2021-10-15,2023-02-23,4743562.27,80.4,Construtora C Ltda,LIC-2023-10242,3025.5,0
+244,Ciclovia,Imbiribeira,Secretaria de Saúde,Licitação,2021-10-17,2022-02-21,4853934.39,2.1,Construtora D Ltda,LIC-2024-10243,1277.8,1543
+245,Pavimentação,Imbiribeira,CTTU,Paralisada,2021-06-23,2022-12-11,4084463.84,33.9,Construtora E Ltda,LIC-2021-10244,818.5,1250
+246,Drenagem pluvial,Recife Antigo,EMLURB,Licitação,2021-11-12,2022-10-23,3332436.03,0.5,Construtora F Ltda,LIC-2022-10245,439.4,1299
+247,Praça pública,Casa Forte,Secretaria de Saúde,Em andamento,2021-07-07,2023-03-05,1166118.32,33.2,Construtora G Ltda,LIC-2023-10246,3202.7,1166
+248,Ponte/viaduto,Casa Forte,SEINFRA,Paralisada,2021-01-02,2022-12-28,4593750.17,24.9,Construtora H Ltda,LIC-2024-10247,3144.2,1233
+249,Reforma de UBS,Derby,Secretaria de Educação,Em andamento,2021-05-04,2023-01-16,2196771.8,75.1,Construtora I Ltda,LIC-2021-10248,1803.0,1214
+250,Calçamento,Madalena,SEINFRA,Paralisada,2021-03-04,2021-08-02,468146.6,23.6,Construtora J Ltda,LIC-2022-10249,2607.0,1746
+251,Ponte/viaduto,Pina,Secretaria de Saúde,Paralisada,2021-05-14,2023-03-26,1406854.45,29.4,Construtora K Ltda,LIC-2023-10250,3088.8,1145
+252,Ponte/viaduto,Pina,CTTU,Concluída,2021-10-08,2023-02-05,2765441.92,87.3,Construtora L Ltda,LIC-2024-10251,2441.5,0
+253,Praça pública,Boa Vista,Secretaria de Saúde,Paralisada,2021-05-01,2022-04-04,1146823.95,20.5,Construtora M Ltda,LIC-2021-10252,158.2,1501
+254,Reforma de UBS,Apipucos,EMLURB,Paralisada,2021-06-06,2022-05-06,2805433.32,19.7,Construtora N Ltda,LIC-2022-10253,1548.0,1469
+255,Pavimentação,Recife Antigo,Secretaria de Saúde,Em andamento,2021-01-06,2022-10-22,3049325.06,27.5,Construtora O Ltda,LIC-2023-10254,4188.2,1300
+256,Calçamento,Torre,Secretaria de Educação,Concluída,2021-06-24,2022-01-11,4947068.22,93.6,Construtora P Ltda,LIC-2024-10255,3374.4,0
+257,Iluminação pública,Pina,EMLURB,Paralisada,2021-03-22,2022-01-13,4114908.53,20.7,Construtora Q Ltda,LIC-2021-10256,2123.9,1582
+258,Esgotamento sanitário,Santo Amaro,Secretaria de Saúde,Em andamento,2021-02-01,2022-06-26,2514521.78,76.1,Construtora R Ltda,LIC-2022-10257,4264.7,1418
+259,Iluminação pública,Pina,Secretaria de Educação,Em andamento,2021-05-28,2023-05-24,1928833.51,35.7,Construtora S Ltda,LIC-2023-10258,1535.3,1086
+260,Iluminação pública,Torre,Secretaria de Saúde,Licitação,2021-07-17,2023-05-06,3258595.87,0.3,Construtora T Ltda,LIC-2024-10259,1570.1,1104
+261,Drenagem pluvial,Monteiro,Secretaria de Educação,Licitação,2021-09-10,2022-05-06,2898392.37,23.3,Construtora A Ltda,LIC-2021-10260,1686.9,1469
+262,Pavimentação,Boa Viagem,SEINFRA,Paralisada,2021-10-27,2022-09-30,1061332.18,17.1,Construtora B Ltda,LIC-2022-10261,1357.1,1322
+263,Ponte/viaduto,Monteiro,CTTU,Paralisada,2021-08-10,2023-05-11,2715573.05,39.9,Construtora C Ltda,LIC-2023-10262,3662.9,1099
+264,Iluminação pública,Boa Viagem,SEINFRA,Paralisada,2021-07-13,2023-01-29,251524.05,27.0,Construtora D Ltda,LIC-2024-10263,2673.7,1201
+265,Calçamento,Apipucos,EMLURB,Licitação,2021-02-14,2022-06-02,3260254.86,37.1,Construtora E Ltda,LIC-2021-10264,4825.9,1442
+266,Drenagem pluvial,Santo Amaro,Secretaria de Educação,Paralisada,2021-08-13,2023-02-04,3473311.75,29.9,Construtora F Ltda,LIC-2022-10265,1658.6,1195
+267,Ciclovia,Monteiro,CTTU,Concluída,2021-02-27,2022-04-11,597033.08,97.9,Construtora G Ltda,LIC-2023-10266,4451.9,0
+268,Construção de escola,Torre,EMLURB,Paralisada,2021-07-21,2022-03-28,4090005.41,8.3,Construtora H Ltda,LIC-2024-10267,394.8,1508
+269,Pavimentação,Encruzilhada,Secretaria de Saúde,Paralisada,2021-10-20,2022-05-07,2870841.54,25.3,Construtora I Ltda,LIC-2021-10268,152.6,1468
+270,Drenagem pluvial,Boa Vista,SEINFRA,Em andamento,2021-01-10,2022-10-28,4589308.91,31.4,Construtora J Ltda,LIC-2022-10269,3373.7,1294
+271,Ponte/viaduto,Santo Amaro,CTTU,Paralisada,2021-04-06,2022-11-26,4362134.41,35.8,Construtora K Ltda,LIC-2023-10270,1072.9,1265
+272,Pavimentação,Derby,SEINFRA,Concluída,2021-10-04,2022-05-30,2616198.0,90.2,Construtora L Ltda,LIC-2024-10271,935.6,0
+273,Pavimentação,Cordeiro,CTTU,Licitação,2021-09-16,2023-04-07,4042670.35,2.5,Construtora M Ltda,LIC-2021-10272,1681.8,1133
+274,Drenagem pluvial,Monteiro,CTTU,Paralisada,2021-12-08,2023-03-05,888602.39,10.7,Construtora N Ltda,LIC-2022-10273,408.8,1166
+275,Praça pública,Boa Vista,SEINFRA,Licitação,2021-04-15,2023-04-13,146764.29,8.8,Construtora O Ltda,LIC-2023-10274,2254.2,1127
+276,Calçamento,Imbiribeira,SEINFRA,Concluída,2021-10-08,2022-09-18,267694.86,98.6,Construtora P Ltda,LIC-2024-10275,4504.5,0
+277,Drenagem pluvial,Afogados,Secretaria de Saúde,Paralisada,2021-08-10,2023-01-10,4802143.5,19.8,Construtora Q Ltda,LIC-2021-10276,3407.1,1220
+278,Pavimentação,Casa Forte,EMLURB,Paralisada,2021-10-08,2023-03-05,2023059.8,28.5,Construtora R Ltda,LIC-2022-10277,528.6,1166
+279,Praça pública,Recife Antigo,Secretaria de Educação,Concluída,2021-03-12,2022-07-03,87776.57,97.6,Construtora S Ltda,LIC-2023-10278,662.9,0
+280,Drenagem pluvial,Torre,Secretaria de Educação,Paralisada,2021-09-28,2023-01-25,2045820.55,2.6,Construtora T Ltda,LIC-2024-10279,2813.8,1205
+281,Reforma de UBS,Cordeiro,SEINFRA,Paralisada,2021-07-07,2023-01-26,1755171.29,17.4,Construtora A Ltda,LIC-2021-10280,1773.0,1204
+282,Calçamento,Recife Antigo,Secretaria de Saúde,Em andamento,2021-03-08,2021-10-16,1021666.46,43.0,Construtora B Ltda,LIC-2022-10281,2388.6,1671
+283,Esgotamento sanitário,Afogados,Secretaria de Educação,Paralisada,2021-04-06,2022-07-16,1121557.01,16.2,Construtora C Ltda,LIC-2023-10282,4759.6,1398
+284,Reforma de UBS,Boa Vista,Secretaria de Saúde,Licitação,2021-09-07,2022-07-26,3392747.22,37.7,Construtora D Ltda,LIC-2024-10283,2979.1,1388
+285,Drenagem pluvial,Cordeiro,CTTU,Licitação,2021-06-18,2022-05-26,3060607.94,8.5,Construtora E Ltda,LIC-2021-10284,548.2,1449
+286,Reforma de UBS,Boa Viagem,Secretaria de Saúde,Em andamento,2021-05-24,2022-09-20,3304731.27,44.8,Construtora F Ltda,LIC-2022-10285,3582.5,1332
+287,Drenagem pluvial,Recife Antigo,Secretaria de Educação,Paralisada,2021-12-06,2022-10-29,982156.42,35.7,Construtora G Ltda,LIC-2023-10286,4045.4,1293
+288,Praça pública,Pina,Secretaria de Educação,Paralisada,2021-05-07,2021-10-11,485303.64,11.5,Construtora H Ltda,LIC-2024-10287,2076.6,1676
+289,Ciclovia,Apipucos,Secretaria de Saúde,Paralisada,2021-08-25,2022-04-07,923147.5,14.7,Construtora I Ltda,LIC-2021-10288,223.8,1498
+290,Drenagem pluvial,Santo Amaro,Secretaria de Educação,Concluída,2021-12-23,2023-07-09,4999700.6,88.0,Construtora J Ltda,LIC-2022-10289,664.6,0
+291,Praça pública,Afogados,Secretaria de Educação,Em andamento,2021-10-24,2022-09-03,2053078.88,48.1,Construtora K Ltda,LIC-2023-10290,865.3,1349
+292,Esgotamento sanitário,Monteiro,EMLURB,Paralisada,2021-12-02,2023-09-18,3165805.15,37.7,Construtora L Ltda,LIC-2024-10291,2893.8,969
+293,Pavimentação,Derby,Secretaria de Educação,Licitação,2021-12-17,2022-12-02,3367161.89,23.0,Construtora M Ltda,LIC-2021-10292,4515.2,1259
+294,Ciclovia,Afogados,Secretaria de Educação,Concluída,2021-10-20,2022-03-07,3421291.78,80.7,Construtora N Ltda,LIC-2022-10293,3772.7,0
+295,Praça pública,Madalena,Secretaria de Educação,Concluída,2021-02-14,2022-06-22,1441770.18,81.8,Construtora O Ltda,LIC-2023-10294,3488.9,0
+296,Construção de escola,Torre,CTTU,Licitação,2021-12-23,2023-12-23,2567858.65,27.1,Construtora P Ltda,LIC-2024-10295,4248.2,873
+297,Ponte/viaduto,Pina,EMLURB,Em andamento,2021-03-16,2021-12-24,4763880.37,65.2,Construtora Q Ltda,LIC-2021-10296,2777.4,1602
+298,Ciclovia,Imbiribeira,Secretaria de Saúde,Paralisada,2021-11-08,2023-08-16,1285965.81,2.4,Construtora R Ltda,LIC-2022-10297,553.4,1002
+299,Iluminação pública,Afogados,EMLURB,Concluída,2021-11-10,2022-06-28,3446848.24,89.7,Construtora S Ltda,LIC-2023-10298,128.8,0
+300,Calçamento,Boa Vista,CTTU,Paralisada,2021-12-15,2022-07-29,3505346.99,5.3,Construtora T Ltda,LIC-2024-10299,1279.8,1385
