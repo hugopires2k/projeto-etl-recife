@@ -1,7 +1,3 @@
-Com certeza! Um README humanizado é aquele que não foca apenas no código, mas explica o "porquê" do projeto existir e como ele ajuda as pessoas.
-
-Abaixo, preparei um modelo pronto para você copiar e colar no seu arquivo README.md lá no GitHub. Ele está organizado, visual e muito profissional.
-
 🚀 Projeto ETL Recife: Inteligência Urbana na Palma da Mão
 Olá! Este projeto nasceu da vontade de transformar dados públicos brutos em informações que realmente façam sentido para a gestão da cidade do Recife.
 
